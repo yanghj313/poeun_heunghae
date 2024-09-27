@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../share/css/font.css" />
+        <link rel="stylesheet" href="../../share/css/reset.css" />
+        <link rel="stylesheet" href="../../share/css/style.css" />
+        <link rel="stylesheet" href="../../css/common.css" />
+        <link rel="stylesheet" href="../../css/book.css" />
+        <link rel="stylesheet" href="../../plugin/css/slick.css" />
+        <link rel="stylesheet" href="../../plugin/css/slick-theme.css" />
+        <title>구미시립산동도서관 ICT</title>
+    </head>
+
+    <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../../plugin/js/slick.min.js"></script>
+    <script type="text/javascript" src="../../plugin/js/react-d3-library.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <script type="text/javascript" src="../../plugin/js/d3-extended.js"></script>
+
+
+    <div class="div_wrap recommendedbooks_wrap">
+        <div class="div_wrap_bg"><img class="rectangle_bg_wrap" src="../../img/page/book/rectangle-577.png" /></div>
+        <div class="tit_frame">
+            <div class="header_title0">recommended books</div>
+            <div class="title_search">추천도서</div>
+        </div>
+        <div class="nav-bar">
+            <a href="#this" class="nav-bar_home button_arrow">
+                <img class="home" src="../../img/page/book/home0.svg" />
+            </a>
+            <a href="#this" class="nav-bar_sel button_arrow">
+                <img class="u-book-open" src="../../img/page/book/u-book-open0.svg" />
+                <div class="nav_text">신착도서</div>
+                <div class="nav_text_en">new arrivals books</div>
+            </a>
+            <a href="#this" class="nav-bar_sel button_arrow">
+                <img class="u-trophy" src="../../img/page/book/u-trophy0.svg" />
+                <div class="nav_text">대출베스트</div>
+                <div class="nav_text_en">best rental book</div>
+            </a>
+            <a href="#this" class="nav-bar_sel button_arrow">
+                <img class="u-book-reader" src="../../img/page/book/u-book-reader0.svg" />
+                <div class="nav_text">추천도서</div>
+                <div class="nav_text_en">Recommended books</div>
+            </a>
+
+            <a href="#this" class="nav-bar_sel button_arrow">
+                <img class="u-search" src="../../img/page/book/u-search0.svg" />
+                <div class="nav_text">도서검색</div>
+                <div class="nav_text_en">Book search</div>
+            </a>
+            <a href="#this" class="nav-bar_sel button_arrow">
+                <img class="u-bookmark" src="../../img/page/book/u-books0.svg" />
+                <div class="nav_text">나의 서재</div>
+                <div class="nav_text_en">MY LIBRARY</div>
+            </a>
+        </div>
+
+        <div class="component-15">
+            <a href="#this" class="u-turn-to-right button_arrow"></a>
+            <a href="#this" class="u-turn-to-left button_arrow"></a>
+        </div>
+        <!--탭메뉴-->
+
+        <div class="tabs">
+            <!--탭메뉴-->
+            <div class="reco_tab">
+                <a href="javascript:void(0)" data-tab="mn_tab9" class="active">키워드추천</a>
+                <a href="javascript:void(0)" data-tab="mn_tab10" class="">자료관리시스템추천</a>
+                <a href="javascript:void(0)" data-tab="mn_tab11" class="">사서추천</a>
+                <a href="javascript:void(0)" data-tab="mn_tab12" class="">빅데이터추천</a>
+
+            </div>
+            <div class="reco_tab_cont">
+                <div class="tab_content active" id="mn_tab9">
+
+                    <div class="reco_slide_01 reco_slide">
+                        <div class="reco_tit_wrap">
+                            <div class="reco_tit">회원님의 관심사는 무엇인가요?</div>
+                            <div class="reco_stit">관심 키워드 선택으로 맞춤책을 추천해드려요</div>
+                        </div>
+                        <div id="container" class="svg-container">
+
+                        </div>
+
+
+                        <div id="container_01" class="svg-container">
+
+                        </div>
+
+                        <div class="key_selec_wrap">
+                            <div class="keymenu_frame">
+                                <div class="change_word">
+                                    <a href="#this">
+                                        <div class="change_word_wrap">
+                                            <div class="system-uicons-reset">
+                                                <img class="reset_img" src="../../img/page/book/group_ch.svg" />
+                                            </div>
+                                            <div class="reset_txt">키워드 바꾸기</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="selected_word">
+                                    <div class="selected_01">
+                                        <div class="word_kind">할리우드영화</div>
+                                        <a href="#this"><img class="close00" src="../../img/page/book/close2.svg" /></a>
+                                    </div>
+                                    <div class="selected_02">
+                                        <div class="word_kind">고전명작동화</div>
+                                        <a href="#this"><img class="close00" src="../../img/page/book/close2.svg" /></a>
+                                    </div>
+                                    <div class="selected_03">
+                                        <div class="word_kind">중단편소설</div>
+                                        <a href="#this"><img class="close00" src="../../img/page/book/close2.svg" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="select_kind">
+                                <div class="reco_select">
+                                    <div class="reco_select_01">
+                                        <div class="gender_reco">성별 선택</div>
+                                        <select name="gender" class="select_reco">
+                                            <option disabled selected>성별</option>
+                                            <option value="여자">여자</option>
+                                            <option value="남자">남자</option>
+                                        </select>
+                                    </div>
+                                    <div class="reco_select_02">
+                                        <div class="age_reco">나이 선택</div>
+                                        <select name="age" class="select_age">
+                                            <option disabled selected>나이</option>
+                                            <option value="아동">아동</option>
+                                            <option value="청소년">청소년</option>
+                                            <option value="20~30대">20~30대</option>
+                                            <option value="40~50대">40~50대</option>
+                                            <option value="60대 이상">60대 이상</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="recomend_btn">
+                                    <div class="reco_btn_frame">
+                                        <div class="reco_btn_txt">관심도서 추천받기</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--탭메뉴-->
+                <div class="tab_content" id="mn_tab10">
+                    <div class="reco_slide_02 reco_slide">
+
+                    </div>
+                </div>
+
+                <!--탭메뉴-->
+                <div class="tab_content" id="mn_tab11">
+                    <div class="reco_slide_03 reco_slide">
+                        <div class="reco_tit_wrap">
+                            <div class="reco_tit">구미시립산동도서관 사서’s PICK!</div>
+                            <div class="reco_stit">우리 도서관 사서 선생님은 어떤 책을 추천했을까요?</div>
+                        </div>
+                    </div>
+                    <div class="rebooks_wrap_slide_01 re_slide">
+                        <div class="recobooks">
+                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                            <div class="recobook_authur">이시한 / 북플레저</div>
+                        </div>
+                        <div class="recobooks">
+                            <img class="recobook_img" src="../../img/page/book/rectangle-1081.png" />
+                            <div class="recobook_name">미래의 나를 만난 후 오늘이</div>
+                            <div class="recobook_authur">할 허시필드 / 비즈니스북스</div>
+                        </div>
+                        <div class="recobooks">
+                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                            <div class="recobook_name">나를 소모하지 않는 현명한</div>
+                            <div class="recobook_authur">마티아스 뇔케 / 퍼스트펭귄</div>
+                        </div>
+                        <div class="recobooks">
+                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                            <div class="recobook_name">파타</div>
+                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                        </div>
+                        <div class="recobooks">
+                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                        </div>
+                        <div class="recobooks">
+                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                            <div class="recobook_authur">이시한 / 북플레저</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab_content" id="mn_tab12">
+                    <div class="reco_tit_wrap">
+                        <div class="reco_tit">빅데이터는 어떤 책을 추천했을까요?</div>
+                        <div class="reco_stit">전국 공공도서관 연령대별 추천도서를 만나보세요</div>
+                    </div>
+                    <div class="ttabs">
+                        <!--탭메뉴-->
+                        <div class="recom_tab">
+                            <a href="javascript:void(0)" data-tab="m_tab13" class="active">아동</a>
+                            <a href="javascript:void(0)" data-tab="m_tab14" class="">청소년</a>
+                            <a href="javascript:void(0)" data-tab="m_tab15" class="">20~30대</a>
+                            <a href="javascript:void(0)" data-tab="m_tab16" class="">40~50대</a>
+                            <a href="javascript:void(0)" data-tab="m_tab17" class="">60대 이상</a>
+
+                        </div>
+                        <div class="recom_tab_cont">
+                            <div class="tab_contentt active" id="m_tab13">
+                                <div class="recom_slide">
+                                    <div class="rebooks_wrap_slide_02 rec_slide">
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1081.png" />
+                                            <div class="recobook_name">미래의 나를 만난 후 오늘이</div>
+                                            <div class="recobook_authur">할 허시필드 / 비즈니스북스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                                            <div class="recobook_name">나를 소모하지 않는 현명한</div>
+                                            <div class="recobook_authur">마티아스 뇔케 / 퍼스트펭귄</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_contentt" id="m_tab14">
+                                <div class="recom_slide">
+                                    <div class="rebooks_wrap_slide_03 rec_slide">
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1081.png" />
+                                            <div class="recobook_name">미래의 나를 만난 후 오늘이</div>
+                                            <div class="recobook_authur">할 허시필드 / 비즈니스북스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                                            <div class="recobook_name">나를 소모하지 않는 현명한</div>
+                                            <div class="recobook_authur">마티아스 뇔케 / 퍼스트펭귄</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_contentt" id="m_tab15">
+                                <div class="recom_slide">
+                                    <div class="rebooks_wrap_slide_04 rec_slide">
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1081.png" />
+                                            <div class="recobook_name">미래의 나를 만난 후 오늘이</div>
+                                            <div class="recobook_authur">할 허시필드 / 비즈니스북스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                                            <div class="recobook_name">나를 소모하지 않는 현명한</div>
+                                            <div class="recobook_authur">마티아스 뇔케 / 퍼스트펭귄</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_contentt" id="m_tab16">
+                                <div class="recom_slide">
+                                    <div class="rebooks_wrap_slide_05 rec_slide">
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1081.png" />
+                                            <div class="recobook_name">미래의 나를 만난 후 오늘이</div>
+                                            <div class="recobook_authur">할 허시필드 / 비즈니스북스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                                            <div class="recobook_name">나를 소모하지 않는 현명한</div>
+                                            <div class="recobook_authur">마티아스 뇔케 / 퍼스트펭귄</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab_contentt" id="m_tab17">
+                                <div class="recom_slide">
+                                    <div class="rebooks_wrap_slide_06 rec_slide">
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1081.png" />
+                                            <div class="recobook_name">미래의 나를 만난 후 오늘이</div>
+                                            <div class="recobook_authur">할 허시필드 / 비즈니스북스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1082.png" />
+                                            <div class="recobook_name">나를 소모하지 않는 현명한</div>
+                                            <div class="recobook_authur">마티아스 뇔케 / 퍼스트펭귄</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1083.png" />
+                                            <div class="recobook_name">파타</div>
+                                            <div class="recobook_authur">문가영 / 위즈덤하우스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1084.png" />
+                                            <div class="recobook_name">내가 천 개의 인생에서 배운</div>
+                                            <div class="recobook_authur">김도윤 / 북로망스</div>
+                                        </div>
+                                        <div class="recobooks">
+                                            <img class="recobook_img" src="../../img/page/book/rectangle-1080.png" />
+                                            <div class="recobook_name">똑똑한 사람은 어떻게 생각할까</div>
+                                            <div class="recobook_authur">이시한 / 북플레저</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="user">
+            <div class="login">
+                <div class="login_wrap">
+                    <div class="login_wrap_in">
+                        <img class="login_img" src="../../img/page/book/ellipse-110.png" />
+                        <div class="login_user">
+                            <span>
+                                <span class="login_user-span">최고관리자</span>
+                                <span class="login_user-span2"></span>
+                                <span class="login_user-span3">님</span>
+                                <span class="login_user-span4"></span>
+                            </span>
+                        </div>
+                        <div class="logout">
+                            <img class="login_user_img" src="../../img/page/book/group1.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../js/book/book.js?ver=1"></script>
+    <!--세로-->
+    <script type="text/javascript" src="../../js/book/reco.js?ver=1"></script>
+    <!--가로<script type="text/javascript" src="../../js/book/reco.js?ver=1"></script>-->
+    <script>
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../share/css/font.css" />
+        <link rel="stylesheet" href="../../share/css/reset.css" />
+        <link rel="stylesheet" href="../../share/css/style.css" />
+        <link rel="stylesheet" href="../../css/mediawall.css" />
+        <link rel="stylesheet" href="../../css/layout.css" />
+        <link rel="stylesheet" href="../../plugin/css/slick.css" />
+        <link rel="stylesheet" href="../../plugin/css/slick-theme.css" />
+        <title>구미시립산동도서관 ICT</title>
+    </head>
+    <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../../plugin/js/slick.min.js"></script>
+    <script type="text/javascript" src="../../js/mediawall/mediawall.js?ver=1"></script>
+    <div class="div_wrap welcome_wrap">
+        <img class="bg_wrap" src="../../img/page/mediawalll/mediawall_welcome.png" />
+        <div class="header_wrap">
+            <div class="header_frame">
+                <div class="header_group">
+                    <div class="ict_tit">WELCOME</div>
+                </div>
+            </div>
+        </div>
+        <div class="top-sec">
+            <div class="time-date">
+                <div id="time" class="time-txt">
+                    <div id="hours" style="--clr:#fff">00</div>
+                    <div>:</div>
+                    <div id="minutes" style="--clr:#fff">00</div>
+                </div>
+                <div id="date" class="date-txt">
+                    <span id="months"></span>월 <span id="days"></span>일 <span id="dayofweeks"></span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="div">구미시립산동도서관에 오신 것을 환영합니다.</div>
+        <div class="gumi-city-sandong-library">GUMI CITY SANDONG LIBRARY</div>
+        <div class="ticker">
+            <div class="div2 marquee animated-title">
+                <div class="track">
+                    <div class="bottom_txt">&nbsp; 도서관초대석 &lt;불편한편의점&gt; 일정이 김호연 작가의
+                        개인사정으로 인해 변경되었습니다. 이용에 참고하여 주시기 바랍니다.&nbsp;여기는 텍스트 흘러가는 티커영역 입니다. 긴급 공지용으로 사용해주세요!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+        setInterval(() => {
+            var day = new Date();
+
+            let hours = document.getElementById('hours');
+            let minutes = document.getElementById('minutes');
+            //let seconds = document.getElementById('seconds');
+            //let ampm = document.getElementById('ampm');
+
+            let h = day.getHours();
+            let m = day.getMinutes();
+            //let s = day.getSeconds();
+            //let am = h >= 12 ? "PM" : "AM";
+
+            //convert 24hr clock to 12hr clock
+            if (h > 12) {
+                //h = h - 12;
+            }
+            //add zero before single digital number
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            //s = (s < 10) ? "0" + s : s;
+
+            hours.innerHTML = h;
+            minutes.innerHTML = m;
+            //seconds.innerHTML = s;
+            //ampm.innerHTML = am;
+        });
+
+    </script>
+
+</html>

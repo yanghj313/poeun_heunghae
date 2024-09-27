@@ -1,0 +1,77 @@
+/**********************************************common**********************************************/
+.tablet_wrap,
+.tablet_wrap * { box-sizing: border-box; } 
+
+.tablet_wrap { height: 1024px; position: relative; overflow: hidden; } 
+
+.tablet_wrap .div_wrap_bg { width: 1366px; height: 1024px; position: absolute; left: 0px; top: 0px; } 
+
+/*********************************************home 1366**********************************************/
+.tablet_wrap { background: #ebe8ee; } 
+
+.tablet_wrap .div_wrap_bg { background: linear-gradient(180deg,
+ rgba(248, 242, 228, 1) 0%,
+ rgba(250, 249, 243, 1) 73.00000190734863%); } 
+
+.shape_01 { background: #fdcdb2; border-radius: 50%; width: 430px; height: 430px; position: absolute; left: 1134px; top: 330px; -webkit-filter: blur(200px); filter: blur(200px); } 
+
+.shape_02 { background: #cef4c8; border-radius: 50%; width: 360px; height: 360px; position: absolute; left: 33px; top: 108px; -webkit-filter: blur(150px); filter: blur(150px); } 
+
+.tit_tablet { display: flex; flex-direction: column; gap: 28px; align-items: center; justify-content: flex-start; position: absolute; left: 50%; transform: translateX(-50%); top: 222px; width: 1042px; } 
+
+.tit_tablet_inner { display: flex; flex-direction: row; gap: 30px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative; } 
+
+.tablet_pic { border-radius: 50%; flex-shrink: 0; width: 92px; height: 92px; position: relative; box-shadow: -15px 20px 40px 0px rgba(135, 214, 120, 0.3); -o-object-fit: cover; object-fit: cover; } 
+
+.ttxt_frame { text-align: center; font-family: "Pretendard-SemiBold", sans-serif; font-size: 80px; font-weight: 600; text-transform: uppercase; position: relative; display: flex; align-items: center; justify-content: center; } 
+
+.tit-3-span,
+.tit-3-span3 { color: var(--gray900, #191f28); font-family: "Pretendard-SemiBold", sans-serif; font-size: 80px; font-weight: 600; text-transform: uppercase; } 
+
+.tit-3-span2 { color: #2aa453; font-family: "Pretendard-SemiBold", sans-serif; font-size: 80px; font-weight: 600; text-transform: uppercase; } 
+
+.tablet_promo { color: var(--gray900, #191f28); text-align: center; font-family: "Pretendard-Medium", sans-serif; font-size: 32px; line-height: 140%; font-weight: 500; text-transform: uppercase; position: relative; /* display: flex; */
+ align-items: center; justify-content: center; } 
+
+.join_btn { background: var(--gray900, #191f28); border-radius: 100px; width: 824px; height: 120px; position: absolute; left: 50%; transform: translateX(-50%); top: calc(50% - -170px); } 
+
+.join_txt { color: var(--white, #ffffff); text-align: center; font-family: "Pretendard-SemiBold", sans-serif; font-size: 40px; font-weight: 600; line-height: 120px; height: 100%; width: 100%; } 
+.sandong_enter02 { display: block; } 
+
+.gumi-city-sandong-library { color: var(--gray600, #6b7684); text-align: center; font-family: "Pretendard-Regular", sans-serif; font-size: 20px; font-weight: 400; position: absolute; left: 50%; transform: translateX(-50%); top: 940px; display: flex; align-items: center; justify-content: center; } 
+
+@media (max-width: 1024px) {
+ /**********************************************common**********************************************/
+ .tablet_wrap { height: 1366px; } 
+
+ .tablet_wrap .div_wrap_bg { width: 1024px; height: 1366px; } 
+
+ /*********************************************home 1024**********************************************/
+ .tablet_wrap .div_wrap_bg { background: linear-gradient(180deg,
+ rgba(248, 242, 228, 1) 0%,
+ rgba(250, 249, 243, 1) 67.43924021720886%); } 
+
+ .shape_01 { background: #cef4c8; border-radius: 50%; width: 360px; height: 360px; position: absolute; left: -118px; top: 72px; -webkit-filter: blur(150px); filter: blur(150px); } 
+
+ .shape_02 { background: #fdcdb2; border-radius: 50%; width: 400px; height: 400px; position: absolute; left: 763px; top: 579px; -webkit-filter: blur(200px); filter: blur(200px); } 
+
+ .tit_tablet { gap: 24px; align-items: flex-start; justify-content: flex-start; width: 500px; position: absolute; left: 100px; top: 170px; transform: unset; } 
+
+ .tit_tablet_inner { gap: 28px; flex-direction: column; align-items: baseline; } 
+
+ .tablet_pic { box-shadow: -15px 20px 40px 0px rgba(135, 214, 120, 0.3);}
+
+ .ttxt_frame { text-align: left; width: 80%; } 
+
+ .tablet_promo { text-align: left; } 
+ 
+ .sandong_enter { display: block; } 
+
+ .tit-3-span3 { } 
+
+ .join_btn { top: calc(50% - -339px); } 
+
+
+ .gumi-city-sandong-library { top: 1282px; } 
+
+}

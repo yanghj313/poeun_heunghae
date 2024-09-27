@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="../../share/css/font.css" />
+      <link rel="stylesheet" href="../../share/css/reset.css" />
+      <link rel="stylesheet" href="../../share/css/style.css" />
+      <link rel="stylesheet" href="../../css/mediawall.css" />
+      <link rel="stylesheet" href="../../css/layout.css" />
+      <link rel="stylesheet" href="../../plugin/css/slick.css"/>
+      <link rel="stylesheet" href="../../plugin/css/slick-theme.css"/>
+      <title>구미시립산동도서관 ICT</title>
+    </head>
+    <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../../plugin/js/slick.min.js"></script>
+    <script type="text/javascript" src="../../js/mediawall/mediawall.js?ver=1"></script>
+  <div class="div_wrap infopromotion-wrap" id="fade-effect">
+    <img class="bg_wrap" src="../../img/page/mediawalll/mediawall_promotion.png" />
+   <div class="header_wrap">
+            <div class="header_frame">
+                <div class="header_group">
+          <div class="ict_tit">PROMOTION</div>
+        </div>
+      </div>
+    </div>
+    <div class="contents">
+      <div class="left-sec">
+        <div class="text small-txt">
+          SANDONG
+        </div>
+        <div class="">
+  
+          <div class="clock">
+            <div class="circle" id="sc" style="--clr:#fff"><i></i></div>
+            <div class="circle circle2" id="mn" style="--clr:#fff"><i></i></div>
+            <div class="circle circle3" id="hr" style="--clr:#fff"><i></i></div>
+          </div>
+  
+          <div id="date" class="date-txt">
+            <span id="years"></span>년 <span id="months"></span>월 <span id="days"></span>일 (<span id="dayofweeks"></span>)
+          </div>
+  
+          <div id="time" class="time-txt">
+            <div id="hours" style="--clr:#fff">00</div>
+            <div id="minutes" style="--clr:#fff">00</div>
+            <div id="seconds" style="--clr:#fff">00</div>
+          </div>
+  
+          <script>
+            let hr = document.querySelector('#hr');
+            let mn = document.querySelector('#mn');
+            let sc = document.querySelector('#sc');
+  
+            setInterval(()=>{
+              var day = new Date();
+  
+              let hh = day.getHours() * 30;
+              let mm = day.getMinutes() * 6;
+              let ss = day.getSeconds() * 6;
+              let hr = hh+(mm/12);
+              $('#hr').css('transform', 'rotateZ('+hr+'deg)');
+              $('#mn').css('transform', 'rotateZ('+mm+'deg)');
+              $('#sc').css('transform', 'rotateZ('+ss+'deg)');
+  
+              let hours = document.getElementById('hours');
+              let minutes = document.getElementById('minutes');
+              let seconds = document.getElementById('seconds');
+              //let ampm = document.getElementById('ampm');
+  
+              let h = day.getHours();
+              let m = day.getMinutes();
+              let s = day.getSeconds();
+              //let am = h >= 12 ? "PM" : "AM";
+  
+              //convert 24hr clock to 12hr clock
+              if(h > 12)
+              {
+                //h = h - 12;
+              }
+              //add zero before single digital number
+              h = (h < 10) ? "0" + h : h;
+              m = (m < 10) ? "0" + m : m;
+              s = (s < 10) ? "0" + s : s;
+  
+              hours.innerHTML = h;
+              minutes.innerHTML = m;
+              seconds.innerHTML = s;
+              //ampm.innerHTML = am;
+            });
+          </script>
+        </div>
+      </div>
+  
+      <div class="center-sec ">
+        <!-- 영상 영역 -->
+        <div id="movie-box" class="movie-box">
+          <div class="outer">
+            <div class="inner">
+              <img src="../../img/page/mediawalll/madiawall_promotion_con.png" alt="pomotion" />
+              <!-- <video id="video-box" src="https://library.daegu.go.kr/resources/common/movie/mediawall/dglib_campaign.mp4" autoplay muted loop></video> -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="right-sec">
+        <div class="weather-box">
+          <h2>TODAY’S WEATHER</h2>
+          <div class="feels_like">체감 <span class="feels_like"></span></div>
+          <div class="weather_icon"></div>
+          <div class="temp"><span class="temp"></span></div>
+          <div class="description"><span class="description"></span></div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+</body>
+</html>
+
+
+

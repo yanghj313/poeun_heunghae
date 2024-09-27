@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../share/css/font.css" />
+        <link rel="stylesheet" href="../../share/css/reset.css" />
+        <link rel="stylesheet" href="../../share/css/style.css" />
+        <link rel="stylesheet" href="../../css/info.css" />
+        <link rel="stylesheet" href="../../plugin/css/slick.css" />
+        <link rel="stylesheet" href="../../plugin/css/slick-theme.css" />
+        <title>구미시립산동도서관 ICT</title>
+    </head>
+    <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../../plugin/js/slick.min.js"></script>
+    <div class="div_wrap div_wrap_info weather_wrap">
+        <div class="div_wrap_bg"><img class="bg-1" src="../../img/page/info/info_bg1.png" /></div>
+        <!--<div class="tit_frame">
+            <div class="header_title0">WEATHER INFORMATION</div>
+            <div class="title_search">날씨정보</div>
+        </div>-->
+        <div class="weather_section">
+            <div class="top-sec">
+                <div class="time-date">
+                    <div id="time" class="time-txt">
+                        <div id="hours" style="--clr:#fff">00</div>
+                        <div>:</div>
+                        <div id="minutes" style="--clr:#fff">00</div>
+                    </div>
+                    <div id="date" class="date-txt">
+                        <span id="months"></span>월 <span id="days"></span>일 <span id="dayofweeks"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="button-go">
+                <img class="go_arrow" src="../../img/page/info/group-170.svg" />
+            </div>
+            <div class="welcome_wrap">
+                <div class="welcome_text_01">
+                    <div class="welcome">welcome</div>
+                </div>
+                <div class="welcome_text_02">
+                    <div class="gumi-city-sandong-library">GUMI CITY SANDONG LIBRARY</div>
+                </div>
+            </div>
+            <img class="weather_main" src="../../img/page/info/rectangle-2440.svg" />
+            <div class="bottom_weather">
+                <div class="bottom_temp">29˚</div>
+                <div class="bottom_frame"></div>
+                <div class="temp_ex">구름많음</div>
+                <div class="today_temp">TODAY</div>
+                <div class="week_frame">
+                    <div class="weekday_frame">
+                        <div class="weekday_inner">
+                            <div class="weekday_img">
+                                <img class="weather_img" src="../../img/page/info/_01-d-10.png" />
+                            </div>
+                            <div class="temp_num">
+                                <div class="temp_num_txt">26˚</div>
+                            </div>
+                        </div>
+                        <div class="week_inner">
+                            <div class="week_txt">월 5.27</div>
+                        </div>
+                    </div>
+                    <div class="weekday_frame">
+                        <div class="weekday_inner">
+                            <div class="weekday_img">
+                                <img class="weather_img" src="../../img/page/info/_03-n-10.png" />
+                            </div>
+                            <div class="temp_num">
+                                <div class="temp_num_txt">25˚</div>
+                            </div>
+                        </div>
+                        <div class="week_inner">
+                            <div class="week_txt">화 5.28</div>
+                        </div>
+                    </div>
+                    <div class="weekday_frame">
+                        <div class="weekday_inner">
+                            <div class="weekday_img">
+                                <img class="weather_img" src="../../img/page/info/_03-n-10.png" />
+                            </div>
+                            <div class="temp_num">
+                                <div class="temp_num_txt">9˚</div>
+                            </div>
+                        </div>
+                        <div class="week_inner">
+                            <div class="week_txt">수 5.29</div>
+                        </div>
+                    </div>
+                    <div class="weekday_frame">
+                        <div class="weekday_inner">
+                            <div class="weekday_img">
+                                <img class="weather_img" src="../../img/page/info/_01-d-10.png" />
+                            </div>
+                            <div class="temp_num">
+                                <div class="temp_num_txt">27˚</div>
+                            </div>
+                        </div>
+                        <div class="week_inner">
+                            <div class="week_txt">목 5.30</div>
+                        </div>
+                    </div>
+                    <div class="weekday_frame">
+                        <div class="weekday_inner">
+                            <div class="weekday_img">
+                                <img class="weather_img" src="../../img/page/info/_01-d-10.png" />
+                            </div>
+                            <div class="temp_num">
+                                <div class="temp_num_txt">25˚</div>
+                            </div>
+                        </div>
+                        <div class="week_inner">
+                            <div class="week_txt">금 5.31</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="real_weather_wrap">
+                    <img class="real_weather" src="../../img/page/info/_02-d-30.png" />
+                </div>
+                <div class="dust_info">
+                    <div class="dust_info_inner">
+                        <div class="dust_info_inner_wrap">
+                            <img class="dust_img" src="../../img/page/info/dust_icon.svg" />
+                            <div class="dust_text">
+                                <div class="dust_txt">미세먼지</div>
+                            </div>
+                        </div>
+                        <div class="dust_condi">
+                            <div class="dust_condi_txt">좋음</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_info">
+                    <div class="food_info_inner">
+                        <div class="food_info_inner_wrap">
+                            <img class="food_img" src="../../img/page/info/food_icon.svg" />
+                            <div class="food_text">
+                                <div class="food_txt">식중독</div>
+                            </div>
+                        </div>
+                        <div class="food_condi">
+                            <div class="food_condi_txt">주의</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../../js/info/info.js?ver=1"></script>
+    <script>
+        setInterval(() => {
+            var day = new Date();
+
+            let hours = document.getElementById('hours');
+            let minutes = document.getElementById('minutes');
+            //let seconds = document.getElementById('seconds');
+            //let ampm = document.getElementById('ampm');
+
+            let h = day.getHours();
+            let m = day.getMinutes();
+            //let s = day.getSeconds();
+            //let am = h >= 12 ? "PM" : "AM";
+
+            //convert 24hr clock to 12hr clock
+            if (h > 12) {
+                //h = h - 12;
+            }
+            //add zero before single digital number
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            //s = (s < 10) ? "0" + s : s;
+
+            hours.innerHTML = h;
+            minutes.innerHTML = m;
+            //seconds.innerHTML = s;
+            //ampm.innerHTML = am;
+        });
+
+    </script>
+</body>
+
+</html>
