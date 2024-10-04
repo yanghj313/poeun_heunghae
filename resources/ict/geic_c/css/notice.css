@@ -46,6 +46,8 @@
 }
 
 .slider .item {
+    width: 240px;
+    height: 340px;
     border-radius: 8px;
     margin-right: 100px;
     margin-bottom: 100px;
