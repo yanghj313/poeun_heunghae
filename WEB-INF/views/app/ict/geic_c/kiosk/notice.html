@@ -10,12 +10,13 @@
   <script type="text/javascript" src="../../../../../../resources/ict/geic_c/js/jquery-3.7.1.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="../../../../../../resources/ict/geic_c/js/notice/index.js"></script>
 </head>
 
 <body>
   <div class="container">
     <div class="header">
-      <div class="title">공지사항</div>
+      <h1 class="title">공지사항</h1>
       <div class="caption">LIBRARY NOTICE</div>
     </div>
 
@@ -43,7 +44,7 @@
     <ul class="navigation">
       <li>
         <img class="item" src="../../../../../../resources/ict/geic_c/img/common/active_notifications.svg" alt="notice">
-        <div class="active">공지사항</div>
+        <div class="active-menu">공지사항</div>
         <span class="active-caption">NOTICE</span>
       </li>
       <li>
@@ -73,16 +74,5 @@
       </li>
     </ul>
   </div>
-
-  <script type="text/javascript">
-      $(document).ready(function(){
-          $('.slider').slick({
-              infinite: true,
-              slidesToShow: 5,
-              slidesToScroll: 3,
-              dots: true,
-          });
-      });
-  </script>
 </body>
 </html>
