@@ -1,0 +1,61 @@
+.container {
+ background: url("../img/main/background.svg") center center no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
+
+.content {
+  padding: 259px 0 0 275px;
+}
+
+
+.time {
+ display: flex;
+ font-size: 136px;
+ font-style: normal;
+ font-weight: 300;
+ color: #FFFFFF;
+}
+
+#months {
+ display: flex;
+ font-size: 40px;
+ font-weight: 400;
+ font-style: normal;
+ color: #FFFFFF;
+ margin-bottom: 334px;
+}
+
+.description {
+ color: #191F28;
+ font-size: 160px;
+ font-weight: 500;
+ line-height: 200px;
+}
+
+.description span {
+ font-weight: 300;
+}
+
+.caption {
+ font-size: 40px;
+ margin-top: 60px;
+ color: #FFFFFF;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 120%;
+ letter-spacing: 4px;
+ text-transform: uppercase;
+}
+
+.arrow {
+ margin-top: 1036px;
+ background: url("../img/main/arrow.svg") center center no-repeat;
+ background-size: cover;
+ width: 240px;
+ height: 240px;
+}
+
+@media (max-width: 1080px) {
+
+}
