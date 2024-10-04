@@ -56,6 +56,6 @@
  height: 240px;
 }
 
-@media (max-width: 1080px) {
-
+.arrow:hover {
+ opacity: 0.7;
 }

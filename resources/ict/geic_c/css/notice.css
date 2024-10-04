@@ -31,22 +31,28 @@
 }
 
 .selected-item {
-    background: url("../img/notice/poster_1.svg") center center no-repeat;
+    background: url("../img/notice/p01.png") center center no-repeat;
     background-size: cover;
     width: 1600px;
+    border-radius: 24px;
     height: 2164px;
+    box-shadow: 40px 40px 60px 0 rgba(0, 0, 0, 0.15);
 }
 
 .slider {
-    display: flex;
     width: 100%;
     justify-content: center;
     max-width: 1600px;
     margin-top: 140px;
 }
 
-.item:hover {
-    border: 1px solid #000000;
+.slider .item {
+    border-radius: 8px;
+    box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.20);
+}
+
+.slider .item:hover {
+    border: 3px solid #000000;
 }
 
 .slick-prev,
@@ -62,7 +68,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: -30px;
+    bottom: -100px;
 }
 
 .slick-dots li {
@@ -75,4 +81,54 @@
 
 .slick-dots li.slick-active {
     background: #333D4B;
+}
+
+.navigation {
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 32px 60px;
+    background: linear-gradient(0deg, #072143 0%, #072143 100%), linear-gradient(0deg, #303B45 0%, #303B45 100%), #151A2E;
+}
+
+.navigation > li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navigation > li > img {
+    width: 96px;
+    height: 96px;
+}
+
+.navigation > li > .menu {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    color: #6B7684;
+}
+
+.navigation > li > span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #6B7684;
+}
+
+.active {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.active-caption {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF !important;
 }
