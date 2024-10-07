@@ -8,3 +8,23 @@ $(document).ready(function () {
     nextArrow: $(".next"),
   });
 });
+
+$(document).ready(function () {
+  $(".grid-item img").click(function () {
+    $("#modal-image").attr("src", $(this).attr("src"));
+    $("#modal-title").text(
+      $(this).siblings(".title-wrapper").find(".content-title").text(),
+    );
+    $("#modal").css("display", "block");
+  });
+
+  $(".close").click(function () {
+    $("#modal").css("display", "none");
+  });
+
+  $(window).click(function (event) {
+    if ($(event.target).is("#modal")) {
+      $("#modal").css("display", "none");
+    }
+  });
+});
