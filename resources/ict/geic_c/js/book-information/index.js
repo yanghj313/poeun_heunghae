@@ -7,4 +7,18 @@ $(document).ready(function () {
     prevArrow: $(".prev"),
     nextArrow: $(".next"),
   });
+
+  $(".button").on("click", function () {
+    $("#popup").fadeIn();
+  });
+
+  $(".close-btn").on("click", function () {
+    $("#popup").fadeOut();
+  });
+
+  $(window).on("click", function (e) {
+    if ($(e.target).is("#popup")) {
+      $("#popup").fadeOut();
+    }
+  });
 });
