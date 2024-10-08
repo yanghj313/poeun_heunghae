@@ -1,0 +1,186 @@
+.container {
+    background: url("../img/course-information/background.svg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    width: 1900px;
+    margin: 0 auto;
+    padding-top: 96px;
+}
+
+.grid {
+    justify-items: center;
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 60px;
+}
+
+.grid-item {
+    height: 340px;
+    padding-left: 113px;
+    border-radius: 40px;
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.left-wrapper {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.status {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.receiving {
+    background: rgba(2, 153, 81, 0.10);
+    color: #029951;
+}
+
+.waiting-application {
+    color: #2F65CD;
+    background: rgba(47, 101, 205, 0.10);
+}
+
+.waiting {
+    background: rgba(241, 181, 92, 0.10);
+    color: #F1B55C;
+}
+
+.book-name {
+    white-space: nowrap;
+    width: 100%;
+    max-width: 1080px;
+    overflow: hidden;
+    color: #191F28;
+    text-overflow: ellipsis;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    margin-bottom: 4px;
+}
+
+.book-description {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    color: #191F28;
+}
+
+.book-description span {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    color: #6B7684;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.right-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    padding-top: 20px;
+    padding-left: 40px;
+    border-radius: 0 40px 0 0;
+    width: 290px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5.25px;
+    background: #1C1C1C;
+}
+
+.bottom-section {
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 290px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5.25px;
+    border-radius: 0 0 40px 0;
+    background: #888888;
+}
+
+.section-title {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.count {
+    line-height: 70px;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.dash {
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ADB5BD;
+}
+
+.highlight {
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    color: #2ef5fd;
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -100px;
+}
+
+.slick-dots li {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #ADB5BD;
+    margin: 0 20px;
+}
+
+.slick-dots li.slick-active {
+    background: #333D4B;
+}
