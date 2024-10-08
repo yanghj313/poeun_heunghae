@@ -5,6 +5,7 @@
 **강윤경 사원** : kangyoonkyung@infoset.co.kr <br>
 
 ## 브랜치
+**main** : protected branch <br>
 **release** : 배포용 브랜치 <br>
 **develop** : 개발 머지용 브랜치 <br>
 **user_name** : 개인 개발용 브랜치
