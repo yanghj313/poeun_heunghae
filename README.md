@@ -20,3 +20,8 @@
 ## class name 표기법
 * snake case
 > ex) snake_case
+> 
+
+## file name 표기법
+* kebab case
+> ex) kebab-case
