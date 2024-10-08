@@ -10,59 +10,100 @@
 .slider {
     width: 1700px;
     margin: 0 auto;
-    padding-top: 96px;
+    padding-top: 86px;
 }
 
 .grid {
-    justify-items: center;
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-row-gap: 120px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 50px;
 }
 
 .grid-item {
+    margin-left: 100px;
+    position: relative;
+    padding: 30px;
+    width: 1700px;
     display: flex;
-    flex-direction: column;
+    gap: 57.17px
+}
+
+.lank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -30px;
+    top: 180px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #E71D36;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.25px;
 }
 
 .grid-item img {
     display: inline-block;
     object-fit: cover;
-    width: 440px;
-    height: 643px;
-    border-radius: 24px;
+    width: 285.825px;
+    height: 450px;
+    border-radius: 16px;
     box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.20);
-    margin-bottom: 28px;
 }
 
 .book-title {
-    font-size: 48px;
+    font-size: 68px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     color: #191F28;
-    line-height: 140%;
-    letter-spacing: -1.2px;
-    margin-bottom: 8px;
+    width: 100%;
+    max-width: 1288px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 24px;
 }
 
 .name {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    color: #4E5968;
+    margin-bottom: 24px;
+}
+
+.year {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    color: #4E5968;
+    margin-bottom: 28px;
+}
+
+.book-caption {
+    color: #191F28;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -1px;
-    color: #4E5968;
-    margin-bottom: 8px;
+    margin-top: 20px;
 }
 
-.year {
+.book-caption span {
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: -1px;
-    color: #4E5968;
+    color: #6B7684;
+    margin-right: 40px;
 }
 
 .slick-prev,
