@@ -1,207 +1,207 @@
 .container {
-    background: url("../img/information/background.svg") center center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: url('../img/information/background.svg') center center no-repeat;
+	background-size: cover;
 }
 
 .content {
-    padding: 96px 180px;
+	padding: 96px 180px;
 }
 
 .wrapper {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    margin-bottom: 26px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 26px;
+	gap: 24px;
 }
 
 .index {
-    width: 100px;
-    height: 100px;
-    background: #191F28;
-    position: relative;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #191f28;
 }
 
 .index span {
-    color: #FFFFFF;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
+	font-size: 40px;
+	font-weight: 700;
+	font-style: normal;
+	color: #ffffff;
 }
 
 .index img {
-    position: absolute;
-    top: -15px;
-    left: 10px;
+	position: absolute;
+	top: -15px;
+	left: 10px;
 }
 
 .index-title {
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: #309BDF;
+	font-size: 60px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: normal;
+	color: #309bdf;
 }
 
 .index-sub-title {
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    color: #191F28;
-    margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: normal;
+	margin-bottom: 40px;
+	color: #191f28;
 }
 
 .first-table {
-    border-collapse: collapse;
-    text-align: center;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-collapse: collapse;
+	text-align: center;
 }
 
 .first-table th:first-child {
-    border-radius: 20px 0 0 0;
+	border-radius: 20px 0 0 0;
 }
 
 .first-table th:last-child {
-    border-radius: 0 20px 0 0;
+	border-radius: 0 20px 0 0;
 }
 
 .first-table tr:first-child td:first-child {
-    border-right: 1px solid #C1D2EF;
-    border-bottom: 1px solid #C1D2EF;
+	border-right: 1px solid #c1d2ef;
+	border-bottom: 1px solid #c1d2ef;
 }
 
 .first-table tr:first-child td:nth-child(2) {
-    border-right: 1px solid #C1D2EF;
+	border-right: 1px solid #c1d2ef;
 }
 
 .first-table tr:nth-child(2) td:first-child {
-    border-right: 1px solid #C1D2EF;
+	border-right: 1px solid #c1d2ef;
 }
 
 .first-table tr:nth-child(2) td:nth-child(2) {
-    border-top: 1px solid #C1D2EF;
-    border-right: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-right: 1px solid #c1d2ef;
 }
 
 .first-table tr:last-child td:first-child {
-    border-radius: 0 0 0 20px;
-    border-top: 1px solid #C1D2EF;
-    border-right: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-right: 1px solid #c1d2ef;
+	border-radius: 0 0 0 20px;
 }
 
 .first-table tr:last-child td:last-child {
-    border-radius: 0 0 20px 0;
-    border-top: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-radius: 0 0 20px 0;
 }
 
 .dark-gray {
-    background: #4E5968;
-    padding: 33px;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 500;
-    color: #FFFFFF;
+	font-size: 44px;
+	font-weight: 500;
+	font-style: normal;
+	padding: 33px;
+	color: #ffffff;
+	background: #4e5968;
 }
 
 .gray {
-    background: #ADB5BD;
-    padding: 33px;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 500;
-    color: #FFFFFF;
+	font-size: 44px;
+	font-weight: 500;
+	font-style: normal;
+	padding: 33px;
+	color: #ffffff;
+	background: #adb5bd;
 }
 
 .white {
-    background: #FFFFFF;
-    padding: 28px;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 500;
-    color: #191F28;
+	font-size: 44px;
+	font-weight: 500;
+	font-style: normal;
+	padding: 28px;
+	color: #191f28;
+	background: #ffffff;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .item {
-    display: flex;
-    gap: 10.5px;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    color: #191F28;
-    letter-spacing: -1.3px;
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 140%;
+	display: flex;
+	letter-spacing: -1.3px;
+	color: #191f28;
+	gap: 10.5px;
 }
 
 .mt-80 {
-    margin-top: 80px;
+	margin-top: 80px;
 }
 
 .ml-44 {
-    margin-left: 60px;
+	margin-left: 60px;
 }
 
 .second-table {
-    border-collapse: collapse;
-    text-align: center;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-collapse: collapse;
+	text-align: center;
 }
 
 .second-table th:first-child {
-    border-radius: 20px 0 0 0;
+	border-radius: 20px 0 0 0;
 }
 
 .second-table th:last-child {
-    border-radius: 0 20px 0 0;
+	border-radius: 0 20px 0 0;
 }
 
 .second-table tr:first-child td:first-child {
-    border-right: 1px solid #C1D2EF;
-    border-bottom: 1px solid #C1D2EF;
+	border-right: 1px solid #c1d2ef;
+	border-bottom: 1px solid #c1d2ef;
 }
 
 .second-table tr:nth-child(2) td:nth-child(2) {
-    border-top: 1px solid #C1D2EF;
-    border-right: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-right: 1px solid #c1d2ef;
 }
 
 .second-table tr:nth-child(3) td:last-child {
-    border-top: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
 }
 
 .second-table tr:nth-child(2) td:first-child {
-    border-top: 1px solid #C1D2EF;
-    border-right: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-right: 1px solid #c1d2ef;
 }
 
 .second-table tr:nth-child(3) td:first-child {
-    border-top: 1px solid #C1D2EF;
-    border-right: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-right: 1px solid #c1d2ef;
 }
 
 .second-table tr:last-child td:first-child {
-    border-radius: 0 0 0 20px;
-    border-top: 1px solid #C1D2EF;
-    border-right: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-right: 1px solid #c1d2ef;
+	border-radius: 0 0 0 20px;
 }
 
 .second-table tr:last-child td:last-child {
-    border-radius: 0 0 20px 0;
-    border-top: 1px solid #C1D2EF;
+	border-top: 1px solid #c1d2ef;
+	border-radius: 0 0 20px 0;
 }

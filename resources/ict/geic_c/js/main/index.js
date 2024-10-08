@@ -5,9 +5,7 @@ function updateDateTime() {
 	document.getElementById('minutes').textContent = String(now.getMinutes()).padStart(2, '0');
 
 	const week = ['일', '월', '화', '수', '목', '금', '토'];
-	const formattedDate = `${now.getFullYear()}. ${String(now.getMonth() + 1).padStart(2, '0')}. ${String(now.getDate()).padStart(2, '0')}. ${week[now.getDay()]}요일`;
-
-	document.getElementById('months').textContent = formattedDate;
+	document.getElementById('months').textContent = `${now.getFullYear()}. ${String(now.getMonth() + 1).padStart(2, '0')}. ${String(now.getDate()).padStart(2, '0')}. ${week[now.getDay()]}요일`;
 }
 
 $(document).ready(function () {
