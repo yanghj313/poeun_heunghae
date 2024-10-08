@@ -135,20 +135,20 @@
 
 .modal {
     position: fixed;
-    z-index: 1000;
-    left: 0;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
-    padding: 440px;
     background: rgba(0, 0, 0, 0.70);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 .modal-container {
+    width: 1800px;
+    margin: 500px auto;
     background: #FFFFFF;
     border-radius: 60px;
 }
@@ -164,6 +164,8 @@
     position: absolute;
     top: 40px;
     right: 50px;
+    width: 455.392px;
+    height: 320.004px;
 }
 
 .modal-sub-title {
@@ -194,7 +196,7 @@
     display: block;
     width: 1500px;
     height: 935px;
-    margin-top: 123px;
+    margin-top: 170px;
     border-radius: 36px;
 }
 

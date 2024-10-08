@@ -10,21 +10,24 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  // 슬라이드 이미지 클릭 시
   $(".grid-item img").click(function () {
+    // 모달 이미지 설정
     $("#modal-image").attr("src", $(this).attr("src"));
-    $("#modal-title").text(
+    $("#caption").text(
       $(this).siblings(".title-wrapper").find(".content-title").text(),
     );
-    $("#modal").css("display", "block");
+    $("#modal").fadeIn();
   });
 
   $(".close").click(function () {
-    $("#modal").css("display", "none");
+    $("#modal").fadeOut();
   });
 
+  // 모달 외부 클릭 시 닫기
   $(window).click(function (event) {
     if ($(event.target).is("#modal")) {
-      $("#modal").css("display", "none");
+      $("#modal").fadeOut();
     }
   });
 });
