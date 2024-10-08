@@ -16,3 +16,7 @@
 * style : 스타일링, 코드 포맷팅
 
 > ex) feat : 강좌 안내 페이지 슬라이드 로직 구현
+
+## class name 표기법
+* snake case
+> ex) snake_case
