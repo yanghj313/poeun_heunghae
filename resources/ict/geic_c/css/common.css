@@ -114,3 +114,60 @@
 	text-align: center;
 	color: #072143;
 }
+
+@media (max-width: 1080px) {
+	.header {
+		padding: 60px 0 40px 0;
+		gap: 8px;
+	}
+
+	.title {
+		font-size: 38px;
+	}
+
+	.caption {
+		font-size: 16px;
+		letter-spacing: 3.2px;
+	}
+
+	.navigation {
+		height: 160px;
+	}
+
+	.navigation > li > img {
+		width: 48px;
+		height: 48px;
+	}
+
+	.navigation > li > .menu {
+		font-size: 22px;
+	}
+
+	.navigation > li > span {
+		font-size: 10px;
+	}
+
+	.active-menu {
+		font-size: 22px;
+	}
+
+	.active-caption {
+		font-size: 10px;
+	}
+
+	.login {
+		width: 150px;
+	}
+
+	.user-name {
+		font-size: 18px;
+	}
+
+	.user-name span {
+		font-size: 18px;
+	}
+
+	.logout {
+		font-size: 10px;
+	}
+}
