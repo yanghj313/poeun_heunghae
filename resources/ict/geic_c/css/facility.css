@@ -18,6 +18,7 @@
 }
 
 .selected-floor {
+	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 292.627px;
 	font-weight: 300;
 	font-style: normal;
@@ -37,6 +38,7 @@
 }
 
 .floor {
+	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 48px;
 	font-weight: 600;
 	font-style: normal;
@@ -93,6 +95,7 @@
 }
 
 .number {
+	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 100px;
 	font-weight: 300;
 	font-style: normal;
@@ -100,6 +103,7 @@
 }
 
 .content-title {
+	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 44px;
 	font-weight: 600;
 	font-style: normal;
@@ -107,6 +111,7 @@
 }
 
 .content-caption {
+	font-family: 'Roboto', sans-serif;
 	font-size: 26px;
 	font-weight: 400;
 	font-style: normal;
@@ -119,15 +124,16 @@
 .next {
 	position: absolute;
 	z-index: 10;
-	top: 950px;
+	top: 900px;
 	right: 60px;
 	width: 160px;
 	height: 160px;
 }
+
 .prev {
 	position: absolute;
 	z-index: 10;
-	top: 950px;
+	top: 900px;
 	left: 60px;
 	width: 160px;
 	height: 160px;
@@ -251,4 +257,124 @@
 	color: #191f28;
 	border-radius: 36px;
 	background: #eff1f3;
+}
+
+@media (max-width: 1080px) {
+	.top-section {
+		margin-top: 48.5px;
+	}
+
+	.top-section img {
+		width: 902.2675px;
+		height: 635.0015px;
+	}
+
+	.grid {
+		grid-column-gap: 66px;
+		grid-row-gap: 15px;
+	}
+
+	.selected-floor {
+		font-size: 146.3135px;
+		position: absolute;
+		bottom: -16.5px;
+		left: 50px;
+	}
+
+	.floors {
+		right: 27.5px;
+		bottom: -65px;
+		gap: 12px;
+	}
+
+	.floor {
+		font-size: 24px;
+		width: 90px;
+		height: 90px;
+		padding: 30.5px 32px 31px 31.5px;
+	}
+
+	.bottom-section {
+		margin-top: 25px;
+		padding: 71.5px 115px;
+	}
+
+	.number {
+		font-size: 50px;
+	}
+
+	.content-title {
+		font-size: 22px;
+	}
+
+	.content-caption {
+		font-size: 13px;
+		line-height: 130%;
+		margin-top: 2px;
+	}
+
+	.next {
+		top: 450px;
+		right: 30px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.prev {
+		top: 450px;
+		left: 30px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.modal-container {
+		width: 900px;
+		margin: 250px auto;
+	}
+
+	.modal-header {
+		padding: 30px 55px;
+	}
+
+	.modal-header img {
+		width: 227.696px;
+		height: 160.002px;
+	}
+
+	.modal-sub-title {
+		font-size: 22px;
+	}
+
+	#modal-title {
+		font-size: 34px;
+		letter-spacing: -0.85px;
+	}
+
+	.modal-content {
+		padding: 0 45px;
+	}
+
+	.content-img {
+		width: 750px;
+		height: 467.5px;
+		margin-top: 85px;
+	}
+
+	.action-wrapper {
+		font-size: 30px;
+	}
+
+	.list-item {
+		font-size: 30px;
+	}
+
+	.modal-caption {
+		font-size: 20px;
+		padding: 30px 40px;
+	}
+
+	.title-wrapper {
+		margin-bottom: 5px;
+		gap: 12px;
+	}
 }
