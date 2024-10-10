@@ -12,7 +12,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 	$('.grid-item img').click(function () {
 		$('#modal-image').attr('src', $(this).attr('src'));
-		$('#caption').text($(this).siblings('.title-wrapper').find('.content-title').text());
+		$('#modal-title').text($(this).siblings('.title-wrapper').find('.content-title').text());
 		$('#modal').fadeIn();
 	});
 

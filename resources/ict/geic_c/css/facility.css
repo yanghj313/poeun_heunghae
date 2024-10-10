@@ -327,54 +327,132 @@
 		height: 80px;
 	}
 
+	.modal {
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.7);
+	}
+
 	.modal-container {
 		width: 900px;
 		margin: 250px auto;
+		border-radius: 30px;
+		background: #ffffff;
 	}
 
 	.modal-header {
+		position: relative;
 		padding: 30px 55px;
+		border-radius: 30px 30px 0 0;
+		background: #8b95a1;
 	}
 
 	.modal-header img {
-		width: 227.696px;
-		height: 160.002px;
+		position: absolute;
+		top: 20px;
+		right: 25px;
+		width: 227.5px;
+		height: 160px;
 	}
 
 	.modal-sub-title {
 		font-size: 22px;
+		font-weight: 400;
+		font-style: normal;
+		color: #ffffff;
 	}
 
 	#modal-title {
 		font-size: 34px;
-		letter-spacing: -0.85px;
+		font-weight: 700;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: -1.7px;
+		text-transform: uppercase;
+		color: #ffffff;
 	}
 
 	.modal-content {
-		padding: 0 45px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 0 30px;
 	}
 
 	.content-img {
+		display: block;
 		width: 750px;
 		height: 467.5px;
-		margin-top: 85px;
+		margin-top: 50px;
+		border-radius: 18px;
 	}
 
 	.action-wrapper {
 		font-size: 30px;
+		font-weight: 500;
+		font-style: normal;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 28.5px 0 32px 0;
+		color: #191f28;
+		border-top: 1px solid #e5e8eb;
+		gap: 9.5px;
+	}
+
+	.action-wrapper img {
+		width: 38px;
+		height: 38px;
+	}
+
+	.close {
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+		color: red;
+	}
+
+	.list {
+		margin-top: 30px;
+		margin-bottom: 31.5px;
+		padding-right: 40px;
+		padding-left: 40px;
 	}
 
 	.list-item {
 		font-size: 30px;
+		font-weight: 500;
+		font-style: normal;
+		line-height: 140%;
+		display: flex;
+		letter-spacing: -1.5px;
+		color: #191f28;
+		gap: 16px;
+	}
+
+	.list-item img {
+		width: 34px;
+		height: 34px;
+		margin-top: 5px;
 	}
 
 	.modal-caption {
 		font-size: 20px;
+		font-weight: 500;
+		font-style: normal;
+		margin-right: 30px;
+		margin-bottom: 64.5px;
+		margin-left: 30px;
 		padding: 30px 40px;
-	}
-
-	.title-wrapper {
-		margin-bottom: 5px;
-		gap: 12px;
+		color: #191f28;
+		border-radius: 18px;
+		background: #eff1f3;
 	}
 }
