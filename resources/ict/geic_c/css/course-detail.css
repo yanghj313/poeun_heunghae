@@ -11,8 +11,8 @@
 .box {
 	position: absolute;
 	z-index: 10;
-	top: 350px;
-	left: 130px;
+	top: 330px;
+	left: 180px;
 	width: 1800px;
 	margin-top: 96px;
 	border-radius: 40px;
@@ -162,8 +162,129 @@
 .course-detail {
 	position: absolute;
 	top: 1630px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding-top: 180px;
+	padding-right: 180px;
+	padding-left: 180px;
+	background: #ffffff;
+}
+
+.detail-wrapper {
+	display: flex;
+	width: 100%;
+	padding-top: 39px;
+	padding-bottom: 39px;
+	border-bottom: 1px solid #6b7684;
+}
+
+.detail-left {
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	width: 20%;
+	color: #6b7684;
+}
+
+.detail-right {
+	font-size: 52px;
+	font-weight: 500;
+	font-style: normal;
+	width: 80%;
+	color: #191f28;
+}
+
+.info {
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	width: 20%;
+	padding-top: 39px;
+	padding-bottom: 39px;
+	color: #6b7684;
+}
+
+.scroll {
+	font-size: 52px;
+	font-weight: 500;
+	font-style: normal;
+	overflow-y: scroll;
 	width: 100%;
 	height: 100%;
-	padding: 300px;
-	background: #ffffff;
+	max-height: 332px;
+	margin-bottom: 48px;
+	padding-bottom: 48px;
+	padding-left: 44px;
+	color: #191f28;
+	border-bottom: 1px solid #6b7684;
+}
+
+.apply {
+	font-size: 68px;
+	font-weight: 700;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
+	margin-bottom: 267px;
+	padding: 60px;
+	cursor: pointer;
+	color: #ffffff;
+	border-radius: 40px;
+	background: #2e80ee;
+}
+
+.btn-wrapper {
+	position: fixed;
+	z-index: 10;
+	bottom: 370px;
+	left: 50px;
+}
+
+.prev-btn {
+	font-size: 40px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 140%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 240px;
+	height: 120px;
+	padding: 32px 42px;
+	cursor: pointer;
+	letter-spacing: -1px;
+	color: #191f28;
+	border: 2px solid #191f28;
+	border-radius: 100px;
+	background: #fff;
+}
+
+.prev-btn:hover {
+	opacity: 0.7;
+}
+
+.prev-btn img {
+	position: absolute;
+	bottom: -30px;
+	left: 50px;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 4px;
+	background: #e5e8eb;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 2px solid #f1f1f1;
+	border-radius: 4px;
+	background-color: #8b95a1;
 }
