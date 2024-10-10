@@ -1,3 +1,5 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
 .container {
 	position: relative;
 	height: 100vh;
@@ -11,6 +13,7 @@
 }
 
 .time {
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 	font-size: 136px;
 	font-weight: 300;
 	font-style: normal;
@@ -19,6 +22,7 @@
 }
 
 #months {
+	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 40px;
 	font-weight: 400;
 	font-style: normal;
@@ -28,6 +32,7 @@
 }
 
 .description {
+	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 160px;
 	font-weight: 500;
 	line-height: 200px;
@@ -39,6 +44,7 @@
 }
 
 .caption {
+	font-family: 'Roboto', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
 	font-style: normal;
@@ -101,5 +107,45 @@
 	}
 	50% {
 		transform: rotate(10deg);
+	}
+}
+
+@media (max-width: 1080px) {
+	.content {
+		padding: 129.5px 0 0 137.5px;
+	}
+
+	.time {
+		font-size: 68px;
+	}
+
+	#months {
+		font-size: 20px;
+		margin-bottom: 167px;
+	}
+
+	.description {
+		font-size: 80px;
+		line-height: 100px;
+	}
+
+	.caption {
+		font-size: 20px;
+		margin-top: 30px;
+		letter-spacing: 2px;
+	}
+
+	.arrow {
+		width: 120px;
+		height: 120px;
+		margin-top: 518px;
+	}
+
+	.cloud {
+		width: 1080px;
+	}
+
+	.bottom {
+		width: 1080px;
 	}
 }
