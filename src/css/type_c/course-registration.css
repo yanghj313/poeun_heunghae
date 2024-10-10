@@ -1,0 +1,547 @@
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background: url('../../asset/img/type_c/course-registration/background.png') center center no-repeat;
+	background-size: cover;
+}
+
+.form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 1800px;
+	height: 2496px;
+	margin-top: 96px;
+	padding: 60px 150px 100px 150px;
+	border: 1px solid #adb5bd;
+	border-radius: 40px;
+	background: #fff;
+}
+
+.form-title {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 60px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: normal;
+	width: 100%;
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+	letter-spacing: -1.5px;
+	color: #191f28;
+	border-bottom: 1px solid #6b7684;
+}
+
+.label {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 52px;
+	font-weight: 500;
+	font-style: normal;
+	width: 100%;
+	margin-bottom: 12px;
+	margin-left: 40px;
+	color: #191f28;
+}
+
+.label::placeholder {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	color: #6b7684;
+}
+
+.name {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	display: inline-flex;
+	width: 100%;
+	height: 152px;
+	margin-bottom: 20px;
+	padding: 48px 40px;
+	border-radius: 20px;
+	background: #ebebeb;
+}
+
+.gender-wrapper {
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+	gap: 40px;
+}
+
+.selected-btn {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 152px;
+	padding: 50px;
+	color: #191f28;
+	border: 2px solid #191f28;
+	border-radius: 20px;
+	background: #ffffff;
+}
+
+.unselected-btn {
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 152px;
+	padding: 50px;
+	color: #6b7684;
+	border-radius: 20px;
+	background: #ebebeb;
+}
+
+.birth-wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.birth-wrapper span {
+	width: 30.852px;
+	height: 1px;
+	margin-right: 14.5px;
+	margin-left: 14.5px;
+	background: #000;
+}
+
+.birth-label {
+	width: 460px;
+}
+
+.birth {
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	width: 100%;
+	height: 152px;
+	padding: 50px 80px;
+	color: #191f28;
+	border-radius: 20px;
+	background: #ebebeb;
+	background: url('../../asset/img/type_c/course-registration/arrow.svg') no-repeat right center;
+	background-color: #ebebeb;
+	background-position: calc(100% - 50px) center; /* 오른쪽에서 20px 이동 */
+	background-size: 96px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.phone-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.phone {
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	width: 460px;
+	height: 152px;
+	padding: 50px 80px;
+	color: #191f28;
+	border-radius: 20px;
+	background: #ebebeb;
+}
+
+.phone-wrapper span {
+	width: 30.852px;
+	height: 1px;
+	margin-right: 14.5px;
+	margin-left: 14.5px;
+	background: #000;
+}
+
+.radio-label {
+	font-size: 52px;
+	font-weight: 500;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 12px;
+	margin-left: 40px;
+	color: #191f28;
+	gap: 60px;
+}
+
+.radio {
+	width: 72px;
+	height: 72px;
+	background-color: #1c1c1c;
+}
+
+.radio-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+[type='radio'] {
+	width: 72px;
+	height: 72px;
+	accent-color: #191f28;
+}
+
+.form-caption {
+	font-size: 44px;
+	font-weight: 400;
+	font-style: normal;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 40px;
+	color: #191f28;
+	border-radius: 20px;
+	background: #ebebeb;
+}
+
+.btn-wrapper {
+	position: fixed;
+	z-index: 10;
+	bottom: 370px;
+	left: 80px;
+}
+
+.prev-btn {
+	font-size: 40px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 140%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 240px;
+	height: 120px;
+	padding: 32px 42px;
+	cursor: pointer;
+	letter-spacing: -1px;
+	color: #191f28;
+	border: 2px solid #191f28;
+	border-radius: 100px;
+	background: #fff;
+}
+
+.prev-btn:hover {
+	opacity: 0.7;
+}
+
+.prev-btn img {
+	position: absolute;
+	bottom: -30px;
+	left: 50px;
+}
+
+.submit {
+	font-size: 68px;
+	font-weight: 700;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1800px;
+	height: 200px;
+	margin-top: 120px;
+	padding: 40px 0;
+	color: #ffffff;
+	border-radius: 40px;
+	background: #2e80ee;
+}
+
+@media (max-width: 1080px) {
+	.container {
+		position: relative;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+		background: url('../../asset/img/type_c/course-registration/background.png') center center no-repeat;
+		background-size: cover;
+	}
+
+	.form {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 900px;
+		height: 1248px;
+		margin-top: 48px;
+		padding: 30px 75px 50px 75px;
+		border: 0.5px solid #adb5bd;
+		border-radius: 20px;
+		background: #fff;
+	}
+
+	.form-title {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 30px;
+		font-weight: 500;
+		font-style: normal;
+		line-height: normal;
+		width: 100%;
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		letter-spacing: -0.75px;
+		color: #191f28;
+		border-bottom: 0.5px solid #6b7684;
+	}
+
+	.label {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 26px;
+		font-weight: 500;
+		font-style: normal;
+		width: 100%;
+		margin-bottom: 6px;
+		margin-left: 20px;
+		color: #191f28;
+	}
+
+	.label::placeholder {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 26px;
+		font-weight: 400;
+		font-style: normal;
+		color: #6b7684;
+	}
+
+	.name {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 26px;
+		font-weight: 400;
+		font-style: normal;
+		display: inline-flex;
+		width: 100%;
+		height: 76px;
+		margin-bottom: 10px;
+		padding: 24px 20px;
+		border-radius: 10px;
+		background: #ebebeb;
+	}
+
+	.gender-wrapper {
+		display: flex;
+		width: 100%;
+		margin-bottom: 10px;
+		gap: 20px;
+	}
+
+	.selected-btn {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 26px;
+		font-weight: 400;
+		font-style: normal;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+		height: 76px;
+		padding: 25px;
+		color: #191f28;
+		border: 1px solid #191f28;
+		border-radius: 10px;
+		background: #ffffff;
+	}
+
+	.unselected-btn {
+		font-size: 26px;
+		font-weight: 400;
+		font-style: normal;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+		height: 76px;
+		padding: 25px;
+		color: #6b7684;
+		border-radius: 10px;
+		background: #ebebeb;
+	}
+
+	.birth-wrapper {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.birth-wrapper span {
+		width: 15.426px;
+		height: 0.5px;
+		margin-right: 7.25px;
+		margin-left: 7.25px;
+		background: #000;
+	}
+
+	.birth-label {
+		width: 230px;
+	}
+
+	.birth {
+		font-size: 26px;
+		font-weight: 400;
+		font-style: normal;
+		width: 100%;
+		height: 76px;
+		padding: 25px 40px;
+		color: #191f28;
+		border-radius: 10px;
+		background: #ebebeb;
+		background: url('../../asset/img/type_c/course-registration/arrow.svg') no-repeat right center;
+		background-color: #ebebeb;
+		background-position: calc(100% - 25px) center;
+		background-size: 48px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+
+	.phone-wrapper {
+		position: relative;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.phone {
+		font-size: 26px;
+		font-weight: 400;
+		font-style: normal;
+		width: 230px;
+		height: 76px;
+		padding: 25px 40px;
+		color: #191f28;
+		border-radius: 10px;
+		background: #ebebeb;
+	}
+
+	.phone-wrapper span {
+		width: 15.426px;
+		height: 0.5px;
+		margin-right: 7.25px;
+		margin-left: 7.25px;
+		background: #000;
+	}
+
+	.radio-label {
+		font-size: 26px;
+		font-weight: 500;
+		font-style: normal;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 6px;
+		margin-left: 20px;
+		color: #191f28;
+		gap: 30px;
+	}
+
+	.radio {
+		width: 36px;
+		height: 36px;
+		background-color: #1c1c1c;
+	}
+
+	.radio-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	[type='radio'] {
+		width: 36px;
+		height: 36px;
+		accent-color: #191f28;
+	}
+
+	.form-caption {
+		font-size: 22px;
+		font-weight: 400;
+		font-style: normal;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 20px;
+		color: #191f28;
+		border-radius: 10px;
+		background: #ebebeb;
+	}
+
+	.btn-wrapper {
+		position: fixed;
+		z-index: 10;
+		bottom: 185px;
+		left: 40px;
+	}
+
+	.prev-btn {
+		font-size: 20px;
+		font-weight: 500;
+		font-style: normal;
+		line-height: 140%;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 120px;
+		height: 60px;
+		padding: 16px 21px;
+		cursor: pointer;
+		letter-spacing: -0.5px;
+		color: #191f28;
+		border: 1px solid #191f28;
+		border-radius: 50px;
+		background: #fff;
+	}
+
+	.prev-btn:hover {
+		opacity: 0.7;
+	}
+
+	.prev-btn img {
+		position: absolute;
+		bottom: -15px;
+		left: 25px;
+		width: 68.6px;
+		height: 30.5px;
+	}
+
+	.submit {
+		font-size: 34px;
+		font-weight: 700;
+		font-style: normal;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 900px;
+		height: 100px;
+		margin-top: 60px;
+		padding: 20px 0;
+		color: #ffffff;
+		border-radius: 20px;
+		background: #2e80ee;
+	}
+}

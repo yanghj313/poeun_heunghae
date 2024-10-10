@@ -1,0 +1,389 @@
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background: url('../../asset/img/type_c/course-information/background.svg') center center no-repeat;
+	background-size: cover;
+}
+
+.slider {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	width: 1900px;
+	margin: 0 auto;
+	padding-top: 96px;
+}
+
+.grid {
+	display: grid !important;
+	justify-items: center;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 60px;
+}
+
+.grid-item {
+	display: flex;
+	justify-content: space-between;
+	width: 1800px;
+	height: 340px;
+	padding-left: 70px;
+	border-radius: 40px;
+	background-color: #ffffff;
+}
+
+.left-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+}
+
+.status {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 44px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.receiving {
+	color: #029951;
+	background: rgba(2, 153, 81, 0.1);
+}
+
+.waiting-application {
+	color: #2f65cd;
+	background: rgba(47, 101, 205, 0.1);
+}
+
+.waiting {
+	color: #f1b55c;
+	background: rgba(241, 181, 92, 0.1);
+}
+
+.book-name {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 60px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: normal;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1080px;
+	margin-bottom: 4px;
+	white-space: nowrap;
+	letter-spacing: -1.5px;
+	text-overflow: ellipsis;
+	color: #191f28;
+}
+
+.book-description {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 44px;
+	font-weight: 500;
+	font-style: normal;
+	color: #191f28;
+}
+
+.book-description span {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 44px;
+	font-weight: 500;
+	font-style: normal;
+	margin-top: 20px;
+	margin-right: 20px;
+	color: #6b7684;
+}
+
+.right-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.top-section {
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	height: 50%;
+	padding-top: 20px;
+	padding-left: 40px;
+	border-radius: 0 40px 0 0;
+	background: #1c1c1c;
+	gap: 5.25px;
+}
+
+.bottom-section {
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	height: 50%;
+	padding-top: 20px;
+	padding-left: 40px;
+	border-radius: 0 0 40px 0;
+	background: #888888;
+	gap: 5.25px;
+}
+
+.section-title {
+	font-size: 32px;
+	font-weight: 500;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.count {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 66px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 70px;
+	color: #ffffff;
+}
+
+.dash {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 66px;
+	font-weight: 700;
+	font-style: normal;
+	color: #adb5bd;
+}
+
+.highlight {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 66px;
+	font-weight: 700;
+	font-style: normal;
+	color: #2ef5fd;
+}
+
+.slick-prev,
+.slick-next {
+	display: none !important;
+}
+
+.slick-dots li button {
+	display: none;
+}
+
+.slick-dots {
+	position: relative;
+	bottom: -100px;
+	display: flex;
+	justify-content: center;
+}
+
+.slick-dots li {
+	width: 24px;
+	height: 24px;
+	margin: 0 20px;
+	border-radius: 50%;
+	background: #adb5bd;
+}
+
+.slick-dots li.slick-active {
+	background: #333d4b;
+}
+
+@media (max-width: 1080px) {
+	.container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+		background: url('../../asset/img/type_c/course-information/background.svg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.slider {
+		display: flex !important;
+		flex-direction: column;
+		justify-content: center;
+		width: 950px;
+		margin: 0 auto;
+		padding-top: 48px;
+	}
+
+	.grid {
+		display: grid !important;
+		justify-items: center;
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 30px;
+	}
+
+	.grid-item {
+		display: flex;
+		justify-content: space-between;
+		width: 900px;
+		height: 170px;
+		padding-left: 35px;
+		border-radius: 20px;
+		background-color: #ffffff;
+	}
+
+	.left-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+	}
+
+	.status {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 22px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: normal;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		border-radius: 50%;
+	}
+
+	.receiving {
+		color: #029951;
+		background: rgba(2, 153, 81, 0.1);
+	}
+
+	.waiting-application {
+		color: #2f65cd;
+		background: rgba(47, 101, 205, 0.1);
+	}
+
+	.waiting {
+		color: #f1b55c;
+		background: rgba(241, 181, 92, 0.1);
+	}
+
+	.book-name {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 30px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: normal;
+		overflow: hidden;
+		width: 100%;
+		max-width: 540px;
+		margin-bottom: 2px;
+		white-space: nowrap;
+		letter-spacing: -0.75px;
+		text-overflow: ellipsis;
+		color: #191f28;
+	}
+
+	.book-description {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 22px;
+		font-weight: 500;
+		font-style: normal;
+		color: #191f28;
+	}
+
+	.book-description span {
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 22px;
+		font-weight: 500;
+		font-style: normal;
+		margin-top: 10px;
+		margin-right: 10px;
+		color: #6b7684;
+	}
+
+	.right-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.top-section {
+		display: flex;
+		flex-direction: column;
+		width: 145px;
+		height: 50%;
+		padding-top: 10px;
+		padding-left: 20px;
+		border-radius: 0 20px 0 0;
+		background: #1c1c1c;
+		gap: 2.625px;
+	}
+
+	.bottom-section {
+		display: flex;
+		flex-direction: column;
+		width: 145px;
+		height: 50%;
+		padding-top: 10px;
+		padding-left: 20px;
+		border-radius: 0 0 20px 0;
+		background: #888888;
+		gap: 2.625px;
+	}
+
+	.section-title {
+		font-size: 16px;
+		font-weight: 500;
+		font-style: normal;
+		color: #ffffff;
+	}
+
+	.count {
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 33px;
+		font-weight: 700;
+		font-style: normal;
+		line-height: 35px;
+		color: #ffffff;
+	}
+
+	.dash {
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 33px;
+		font-weight: 700;
+		font-style: normal;
+		color: #adb5bd;
+	}
+
+	.highlight {
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 33px;
+		font-weight: 700;
+		font-style: normal;
+		color: #2ef5fd;
+	}
+
+	.slick-prev,
+	.slick-next {
+		display: none !important;
+	}
+
+	.slick-dots li button {
+		display: none;
+	}
+
+	.slick-dots {
+		position: relative;
+		bottom: -50px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.slick-dots li {
+		width: 12px;
+		height: 12px;
+		margin: 0 10px;
+		border-radius: 50%;
+		background: #adb5bd;
+	}
+
+	.slick-dots li.slick-active {
+		background: #333d4b;
+	}
+}
