@@ -69,8 +69,8 @@ html {
 .div_wrap_info .div_wrap_bg {
 	position: absolute;
 	z-index: 9;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 2160px;
 	height: 3840px;
 	-o-object-fit: cover;
@@ -82,7 +82,7 @@ html {
 	line-height: 125%;
 	padding: 22px 0 10px 102px;
 	color: #333;
-	background: url("../../asset/img/type_a/info/frame-92.svg") no-repeat 0px 26px;
+	background: url("../../asset/img/type_a/info/frame-92.svg") no-repeat 0 26px;
 }
 
 .overflow-y {
@@ -126,7 +126,7 @@ html {
 
 	.info h4 {
 		padding: 11px 0 4px 51px;
-		background: url("../../asset/img/type_a/info/frame-92.svg") no-repeat 0px 14px;
+		background: url("../../asset/img/type_a/info/frame-92.svg") no-repeat 0 14px;
 		background-size: 32px;
 	}
 
@@ -148,8 +148,8 @@ html {
 
 .weather_wrap .bg_1 {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 2160px;
 	height: 3840px;
 	-o-object-fit: cover;
@@ -199,7 +199,7 @@ html {
 	justify-content: flex-start;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	gap: 0px;
+	gap: 0;
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	-webkit-box-pack: start;
@@ -269,8 +269,8 @@ html {
 
 .weather_main {
 	position: absolute;
-	bottom: 0px;
-	left: 0px;
+	bottom: 0;
+	left: 0;
 	overflow: visible;
 	width: 2160px;
 	height: 2522.88px;
@@ -359,7 +359,7 @@ html {
 	font-size: 240px;
 	font-weight: 500;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: calc(50% - 491px);
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -724,7 +724,7 @@ html {
 	justify-content: flex-end;
 	width: 422px;
 	height: 88px;
-	padding: 0px 100px 0px 48px;
+	padding: 0 100px 0 48px;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	gap: 20px;
@@ -824,8 +824,8 @@ html {
 	justify-content: flex-start;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	margin-top: 0px;
-	padding: 0px;
+	margin-top: 0;
+	padding: 0;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	gap: 38px;
@@ -854,7 +854,7 @@ html {
 	}
 
 	.info-wrap .contents .txt-box {
-		padding: 30px 0px;
+		padding: 30px 0;
 	}
 
 	.info-wrap .contents .title-box {
@@ -1500,7 +1500,7 @@ html {
 	}
 
 	.pic_txt_frame {
-		padding: 0px 0px 0px 4px;
+		padding: 0 0 0 4px;
 		gap: 6px;
 	}
 
@@ -1579,8 +1579,8 @@ html {
 
 	.modal_tit_wrap {
 		width: 900px;
-		padding: 80px 0px 30px 50px;
-		border-radius: 30px 30px 0px 0px;
+		padding: 80px 0 30px 50px;
+		border-radius: 30px 30px 0 0;
 		gap: 10px;
 	}
 
@@ -1638,7 +1638,7 @@ html {
 	.text_wrap_ex h4 {
 		font-size: 30px;
 		padding: 3px 0 3px 50px;
-		background: url("../../asset/img/type_a/info/frame-92.svg") no-repeat 0px 1px;
+		background: url("../../asset/img/type_a/info/frame-92.svg") no-repeat 0 1px;
 		background-size: 4%;
 	}
 
@@ -2632,7 +2632,7 @@ html {
 }
 
 .culture-wrap .bx-slide .culture-list:nth-child(7) {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .faci_wrap .bx-wrapper .bx-pager.bx-default-pager a,
@@ -2676,7 +2676,7 @@ html {
 	}
 
 	.culture-wrap .contents {
-		padding: 0px 90px 0px;
+		padding: 0 90px 0;
 	}
 
 	.culture-wrap .bx-viewport {
