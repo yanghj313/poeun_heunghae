@@ -12,7 +12,7 @@ $(document).ready(function () {
 		$('#popup').fadeIn();
 	});
 
-	$('.close-btn').on('click', function () {
+	$('.close_btn').on('click', function () {
 		$('#popup').fadeOut();
 	});
 

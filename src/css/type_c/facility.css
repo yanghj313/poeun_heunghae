@@ -7,17 +7,17 @@
 	background-size: cover;
 }
 
-.top-section {
+.top_section {
 	position: relative;
 	margin-top: 97px;
 }
 
-.top-section img {
+.top_section img {
 	width: 1804.535px;
 	height: 1270.003px;
 }
 
-.selected-floor {
+.selected_floor {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 292.627px;
 	font-weight: 300;
@@ -57,7 +57,7 @@
 	opacity: 0.7;
 }
 
-.bottom-section {
+.bottom_section {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -82,12 +82,12 @@
 	grid-row-gap: 50px;
 }
 
-.grid-item {
+.grid_item {
 	display: flex;
 	flex-direction: column;
 }
 
-.title-wrapper {
+.title_wrapper {
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
@@ -102,7 +102,7 @@
 	color: #8b95a1;
 }
 
-.content-title {
+.content_title {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 44px;
 	font-weight: 600;
@@ -110,7 +110,7 @@
 	color: #191f28;
 }
 
-.content-caption {
+.content_caption {
 	font-family: 'Roboto', sans-serif;
 	font-size: 26px;
 	font-weight: 400;
@@ -152,21 +152,21 @@
 	background: rgba(0, 0, 0, 0.7);
 }
 
-.modal-container {
+.modal_container {
 	width: 1800px;
 	margin: 500px auto;
 	border-radius: 60px;
 	background: #ffffff;
 }
 
-.modal-header {
+.modal_header {
 	position: relative;
 	padding: 60px 110px;
 	border-radius: 60px 60px 0 0;
 	background: #8b95a1;
 }
 
-.modal-header img {
+.modal_header img {
 	position: absolute;
 	top: 40px;
 	right: 50px;
@@ -174,14 +174,14 @@
 	height: 320.004px;
 }
 
-.modal-sub-title {
+.modal_sub_title {
 	font-size: 44px;
 	font-weight: 400;
 	font-style: normal;
 	color: #ffffff;
 }
 
-#modal-title {
+#modal_title {
 	font-size: 68px;
 	font-weight: 700;
 	font-style: normal;
@@ -191,14 +191,14 @@
 	color: #ffffff;
 }
 
-.modal-content {
+.modal_content {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	padding: 0 90px;
 }
 
-.content-img {
+.content_img {
 	display: block;
 	width: 1500px;
 	height: 935px;
@@ -206,7 +206,7 @@
 	border-radius: 36px;
 }
 
-.action-wrapper {
+.action_wrapper {
 	font-size: 60px;
 	font-weight: 500;
 	font-style: normal;
@@ -231,7 +231,7 @@
 	margin-bottom: 63px;
 }
 
-.list-item {
+.list_item {
 	font-size: 60px;
 	font-weight: 500;
 	font-style: normal;
@@ -242,13 +242,13 @@
 	gap: 32px;
 }
 
-.list-item img {
+.list_item img {
 	width: 68px;
 	height: 68px;
 	margin-top: 10px;
 }
 
-.modal-caption {
+.modal_caption {
 	font-size: 40px;
 	font-weight: 500;
 	font-style: normal;
@@ -260,11 +260,11 @@
 }
 
 @media (max-width: 1080px) {
-	.top-section {
+	.top_section {
 		margin-top: 48.5px;
 	}
 
-	.top-section img {
+	.top_section img {
 		width: 902.2675px;
 		height: 635.0015px;
 	}
@@ -274,7 +274,7 @@
 		grid-row-gap: 15px;
 	}
 
-	.selected-floor {
+	.selected_floor {
 		font-size: 146.3135px;
 		position: absolute;
 		bottom: -16.5px;
@@ -294,7 +294,7 @@
 		padding: 30.5px 32px 31px 31.5px;
 	}
 
-	.bottom-section {
+	.bottom_section {
 		margin-top: 25px;
 		padding: 71.5px 115px;
 	}
@@ -303,11 +303,11 @@
 		font-size: 50px;
 	}
 
-	.content-title {
+	.content_title {
 		font-size: 22px;
 	}
 
-	.content-caption {
+	.content_caption {
 		font-size: 13px;
 		line-height: 130%;
 		margin-top: 2px;
@@ -340,21 +340,21 @@
 		background: rgba(0, 0, 0, 0.7);
 	}
 
-	.modal-container {
+	.modal_container {
 		width: 900px;
 		margin: 250px auto;
 		border-radius: 30px;
 		background: #ffffff;
 	}
 
-	.modal-header {
+	.modal_header {
 		position: relative;
 		padding: 30px 55px;
 		border-radius: 30px 30px 0 0;
 		background: #8b95a1;
 	}
 
-	.modal-header img {
+	.modal_header img {
 		position: absolute;
 		top: 20px;
 		right: 25px;
@@ -362,14 +362,14 @@
 		height: 160px;
 	}
 
-	.modal-sub-title {
+	.modal_sub_title {
 		font-size: 22px;
 		font-weight: 400;
 		font-style: normal;
 		color: #ffffff;
 	}
 
-	#modal-title {
+	#modal_title {
 		font-size: 34px;
 		font-weight: 700;
 		font-style: normal;
@@ -379,14 +379,14 @@
 		color: #ffffff;
 	}
 
-	.modal-content {
+	.modal_content {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		padding: 0 30px;
 	}
 
-	.content-img {
+	.content_img {
 		display: block;
 		width: 750px;
 		height: 467.5px;
@@ -394,7 +394,7 @@
 		border-radius: 18px;
 	}
 
-	.action-wrapper {
+	.action_wrapper {
 		font-size: 30px;
 		font-weight: 500;
 		font-style: normal;
@@ -407,7 +407,7 @@
 		gap: 9.5px;
 	}
 
-	.action-wrapper img {
+	.action_wrapper img {
 		width: 38px;
 		height: 38px;
 	}
@@ -426,7 +426,7 @@
 		padding-left: 40px;
 	}
 
-	.list-item {
+	.list_item {
 		font-size: 30px;
 		font-weight: 500;
 		font-style: normal;
@@ -437,13 +437,13 @@
 		gap: 16px;
 	}
 
-	.list-item img {
+	.list_item img {
 		width: 34px;
 		height: 34px;
 		margin-top: 5px;
 	}
 
-	.modal-caption {
+	.modal_caption {
 		font-size: 20px;
 		font-weight: 500;
 		font-style: normal;

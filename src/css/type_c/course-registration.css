@@ -21,7 +21,7 @@
 	background: #fff;
 }
 
-.form-title {
+.form_title {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 60px;
 	font-weight: 500;
@@ -69,14 +69,14 @@
 	background: #ebebeb;
 }
 
-.gender-wrapper {
+.gender_wrapper {
 	display: flex;
 	width: 100%;
 	margin-bottom: 20px;
 	gap: 40px;
 }
 
-.selected-btn {
+.selected_btn {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 52px;
 	font-weight: 400;
@@ -93,7 +93,7 @@
 	background: #ffffff;
 }
 
-.unselected-btn {
+.unselected_btn {
 	font-size: 52px;
 	font-weight: 400;
 	font-style: normal;
@@ -108,14 +108,14 @@
 	background: #ebebeb;
 }
 
-.birth-wrapper {
+.birth_wrapper {
 	display: flex;
 	align-items: center;
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-.birth-wrapper span {
+.birth_wrapper span {
 	width: 30.852px;
 	height: 1px;
 	margin-right: 14.5px;
@@ -123,7 +123,7 @@
 	background: #000;
 }
 
-.birth-label {
+.birth_label {
 	width: 460px;
 }
 
@@ -146,7 +146,7 @@
 	appearance: none;
 }
 
-.phone-wrapper {
+.phone_wrapper {
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -166,7 +166,7 @@
 	background: #ebebeb;
 }
 
-.phone-wrapper span {
+.phone_wrapper span {
 	width: 30.852px;
 	height: 1px;
 	margin-right: 14.5px;
@@ -174,7 +174,7 @@
 	background: #000;
 }
 
-.radio-label {
+.radio_label {
 	font-size: 52px;
 	font-weight: 500;
 	font-style: normal;
@@ -193,7 +193,7 @@
 	background-color: #1c1c1c;
 }
 
-.radio-wrapper {
+.radio_wrapper {
 	display: flex;
 	align-items: center;
 	gap: 20px;
@@ -205,7 +205,7 @@
 	accent-color: #191f28;
 }
 
-.form-caption {
+.form_caption {
 	font-size: 44px;
 	font-weight: 400;
 	font-style: normal;
@@ -217,14 +217,14 @@
 	background: #ebebeb;
 }
 
-.btn-wrapper {
+.btn_wrapper {
 	position: fixed;
 	z-index: 10;
 	bottom: 370px;
 	left: 80px;
 }
 
-.prev-btn {
+.prev_btn {
 	font-size: 40px;
 	font-weight: 500;
 	font-style: normal;
@@ -244,11 +244,11 @@
 	background: #fff;
 }
 
-.prev-btn:hover {
+.prev_btn:hover {
 	opacity: 0.7;
 }
 
-.prev-btn img {
+.prev_btn img {
 	position: absolute;
 	bottom: -30px;
 	left: 50px;
@@ -294,7 +294,7 @@
 		background: #fff;
 	}
 
-	.form-title {
+	.form_title {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 30px;
 		font-weight: 500;
@@ -342,14 +342,14 @@
 		background: #ebebeb;
 	}
 
-	.gender-wrapper {
+	.gender_wrapper {
 		display: flex;
 		width: 100%;
 		margin-bottom: 10px;
 		gap: 20px;
 	}
 
-	.selected-btn {
+	.selected_btn {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 26px;
 		font-weight: 400;
@@ -366,7 +366,7 @@
 		background: #ffffff;
 	}
 
-	.unselected-btn {
+	.unselected_btn {
 		font-size: 26px;
 		font-weight: 400;
 		font-style: normal;
@@ -381,14 +381,14 @@
 		background: #ebebeb;
 	}
 
-	.birth-wrapper {
+	.birth_wrapper {
 		display: flex;
 		align-items: center;
 		width: 100%;
 		margin-bottom: 10px;
 	}
 
-	.birth-wrapper span {
+	.birth_wrapper span {
 		width: 15.426px;
 		height: 0.5px;
 		margin-right: 7.25px;
@@ -396,7 +396,7 @@
 		background: #000;
 	}
 
-	.birth-label {
+	.birth_label {
 		width: 230px;
 	}
 
@@ -419,7 +419,7 @@
 		appearance: none;
 	}
 
-	.phone-wrapper {
+	.phone_wrapper {
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -439,7 +439,7 @@
 		background: #ebebeb;
 	}
 
-	.phone-wrapper span {
+	.phone_wrapper span {
 		width: 15.426px;
 		height: 0.5px;
 		margin-right: 7.25px;
@@ -447,7 +447,7 @@
 		background: #000;
 	}
 
-	.radio-label {
+	.radio_label {
 		font-size: 26px;
 		font-weight: 500;
 		font-style: normal;
@@ -466,7 +466,7 @@
 		background-color: #1c1c1c;
 	}
 
-	.radio-wrapper {
+	.radio_wrapper {
 		display: flex;
 		align-items: center;
 		gap: 10px;
@@ -478,7 +478,7 @@
 		accent-color: #191f28;
 	}
 
-	.form-caption {
+	.form_caption {
 		font-size: 22px;
 		font-weight: 400;
 		font-style: normal;
@@ -490,14 +490,14 @@
 		background: #ebebeb;
 	}
 
-	.btn-wrapper {
+	.btn_wrapper {
 		position: fixed;
 		z-index: 10;
 		bottom: 185px;
 		left: 40px;
 	}
 
-	.prev-btn {
+	.prev_btn {
 		font-size: 20px;
 		font-weight: 500;
 		font-style: normal;
@@ -517,11 +517,11 @@
 		background: #fff;
 	}
 
-	.prev-btn:hover {
+	.prev_btn:hover {
 		opacity: 0.7;
 	}
 
-	.prev-btn img {
+	.prev_btn img {
 		position: absolute;
 		bottom: -15px;
 		left: 25px;

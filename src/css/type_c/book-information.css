@@ -8,20 +8,20 @@
 	background-size: cover;
 }
 
-.btn-wrapper {
+.btn_wrapper {
 	position: fixed;
 	z-index: 10;
 	bottom: 370px;
 	left: 80px;
 }
 
-.book-wrapper {
+.book_wrapper {
 	position: relative;
 	margin-top: 96px;
 	margin-bottom: 80px;
 }
 
-.book-wrapper img {
+.book_wrapper img {
 	display: inline-block;
 	width: 760px;
 	height: 1100px;
@@ -50,7 +50,7 @@
 	background: #113b9e;
 }
 
-.book-name {
+.book_name {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 80px;
 	font-weight: 600;
@@ -62,14 +62,14 @@
 	color: #191f28;
 }
 
-.book-detail {
+.book_detail {
 	font-family: 'Pretendard-Regular', sans-serif;
 	display: flex;
 	justify-content: space-between;
 	width: 1480px;
 }
 
-.detail-content {
+.detail_content {
 	font-family: 'Pretendard-Regular', sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -119,7 +119,7 @@
 	opacity: 0.7;
 }
 
-.book-information {
+.book_information {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 48px;
 	font-weight: 400;
@@ -135,7 +135,7 @@
 	-webkit-line-clamp: 4;
 }
 
-.book-information span {
+.book_information span {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 48px;
 	font-weight: 600;
@@ -145,7 +145,7 @@
 	color: #4e5968;
 }
 
-.slider-wrapper {
+.slider_wrapper {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -176,7 +176,7 @@
 	width: 1600px;
 }
 
-.slider-item {
+.slider_item {
 	display: flex !important;
 	align-items: center;
 	flex-direction: column;
@@ -185,7 +185,7 @@
 	padding: 30px;
 }
 
-.slider-item .book-img {
+.slider_item .book_img {
 	width: 240px;
 	height: 340px;
 	border-radius: 8px;
@@ -193,7 +193,7 @@
 	object-fit: cover;
 }
 
-.slider-item div {
+.slider_item div {
 	font-size: 32px;
 	font-weight: 500;
 	font-style: normal;
@@ -203,7 +203,7 @@
 	color: #6b7684;
 }
 
-.prev-btn {
+.prev_btn {
 	font-size: 40px;
 	font-weight: 500;
 	font-style: normal;
@@ -223,17 +223,17 @@
 	background: #fff;
 }
 
-.prev-btn:hover {
+.prev_btn:hover {
 	opacity: 0.7;
 }
 
-.prev-btn img {
+.prev_btn img {
 	position: absolute;
 	bottom: -30px;
 	left: 50px;
 }
 
-.popup-overlay {
+.popup_overlay {
 	position: fixed;
 
 	z-index: 999;
@@ -246,18 +246,18 @@
 	height: 100%;
 	background: rgba(0, 0, 0, 0.7);
 }
-.popup-content {
+.popup_content {
 	width: 1800px;
 	text-align: center;
 	border-radius: 60px;
 	background-color: white;
 }
 
-.popup-wrapper {
+.popup_wrapper {
 	padding: 108px 90px 54px 90px;
 }
 
-.popup-title {
+.popup_title {
 	font-size: 72px;
 	font-weight: 600;
 	font-style: normal;
@@ -272,7 +272,7 @@
 	height: 981px;
 }
 
-.action-btn {
+.action_btn {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -280,7 +280,7 @@
 	border-top: 1px solid #a2a2a2;
 }
 
-.action-btn::after {
+.action_btn::after {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -291,8 +291,8 @@
 	background-color: #a2a2a2;
 }
 
-.close-btn,
-.print-btn {
+.close_btn,
+.print_btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -302,8 +302,8 @@
 	gap: 20px;
 }
 
-.close-btn div,
-.print-btn div {
+.close_btn div,
+.print_btn div {
 	font-size: 60px;
 	font-weight: 500;
 	font-style: normal;
@@ -311,8 +311,8 @@
 	color: #242424;
 }
 
-.close-btn img,
-.print-btn img {
+.close_btn img,
+.print_btn img {
 	width: 80px;
 	height: 80px;
 }
@@ -328,20 +328,20 @@
 		background-size: cover;
 	}
 
-	.btn-wrapper {
+	.btn_wrapper {
 		position: fixed;
 		z-index: 10;
 		bottom: 185px;
 		left: 40px;
 	}
 
-	.book-wrapper {
+	.book_wrapper {
 		position: relative;
 		margin-top: 48px;
 		margin-bottom: 40px;
 	}
 
-	.book-wrapper img {
+	.book_wrapper img {
 		display: inline-block;
 		width: 380px;
 		height: 550px;
@@ -370,7 +370,7 @@
 		background: #113b9e;
 	}
 
-	.book-name {
+	.book_name {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 40px;
 		font-weight: 600;
@@ -382,14 +382,14 @@
 		color: #191f28;
 	}
 
-	.book-detail {
+	.book_detail {
 		font-family: 'Pretendard-Regular', sans-serif;
 		display: flex;
 		justify-content: space-between;
 		width: 740px;
 	}
 
-	.detail-content {
+	.detail_content {
 		font-family: 'Pretendard-Regular', sans-serif;
 		display: flex;
 		flex-direction: column;
@@ -439,7 +439,7 @@
 		opacity: 0.7;
 	}
 
-	.book-information {
+	.book_information {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 24px;
 		font-weight: 400;
@@ -455,7 +455,7 @@
 		-webkit-line-clamp: 4;
 	}
 
-	.book-information span {
+	.book_information span {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 24px;
 		font-weight: 600;
@@ -465,7 +465,7 @@
 		color: #4e5968;
 	}
 
-	.slider-wrapper {
+	.slider_wrapper {
 		position: relative;
 		display: flex;
 		justify-content: center;
@@ -497,7 +497,7 @@
 		width: 800px;
 	}
 
-	.slider-item {
+	.slider_item {
 		display: flex !important;
 		align-items: center;
 		flex-direction: column;
@@ -506,7 +506,7 @@
 		padding: 15px;
 	}
 
-	.slider-item .book-img {
+	.slider_item .book_img {
 		width: 120px;
 		height: 170px;
 		border-radius: 4px;
@@ -514,7 +514,7 @@
 		object-fit: cover;
 	}
 
-	.slider-item div {
+	.slider_item div {
 		font-size: 16px;
 		font-weight: 500;
 		font-style: normal;
@@ -524,7 +524,7 @@
 		color: #6b7684;
 	}
 
-	.prev-btn {
+	.prev_btn {
 		font-size: 20px;
 		font-weight: 500;
 		font-style: normal;
@@ -544,11 +544,11 @@
 		background: #fff;
 	}
 
-	.prev-btn:hover {
+	.prev_btn:hover {
 		opacity: 0.7;
 	}
 
-	.prev-btn img {
+	.prev_btn img {
 		position: absolute;
 		bottom: -15px;
 		left: 25px;
@@ -556,7 +556,7 @@
 		height: 30.5px;
 	}
 
-	.popup-overlay {
+	.popup_overlay {
 		position: fixed;
 		z-index: 999;
 		top: 0;
@@ -569,18 +569,18 @@
 		background: rgba(0, 0, 0, 0.7);
 	}
 
-	.popup-content {
+	.popup_content {
 		width: 900px;
 		text-align: center;
 		border-radius: 30px;
 		background-color: white;
 	}
 
-	.popup-wrapper {
+	.popup_wrapper {
 		padding: 54px 45px 27px 45px;
 	}
 
-	.popup-title {
+	.popup_title {
 		font-size: 36px;
 		font-weight: 600;
 		font-style: normal;
@@ -595,7 +595,7 @@
 		height: 490.5px;
 	}
 
-	.action-btn {
+	.action_btn {
 		position: relative;
 		display: flex;
 		justify-content: space-between;
@@ -603,7 +603,7 @@
 		border-top: 1px solid #a2a2a2;
 	}
 
-	.action-btn::after {
+	.action_btn::after {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -614,8 +614,8 @@
 		background-color: #a2a2a2;
 	}
 
-	.close-btn,
-	.print-btn {
+	.close_btn,
+	.print_btn {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -625,8 +625,8 @@
 		gap: 10px;
 	}
 
-	.close-btn div,
-	.print-btn div {
+	.close_btn div,
+	.print_btn div {
 		font-size: 30px;
 		font-weight: 500;
 		font-style: normal;
@@ -634,8 +634,8 @@
 		color: #242424;
 	}
 
-	.close-btn img,
-	.print-btn img {
+	.close_btn img,
+	.print_btn img {
 		width: 40px;
 		height: 40px;
 	}

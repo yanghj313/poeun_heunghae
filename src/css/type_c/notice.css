@@ -7,7 +7,7 @@
 	background-size: cover;
 }
 
-.selected-item {
+.selected_item {
 	width: 1600px;
 	height: 2164px;
 	margin-top: 96px;
@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 1080px) {
-	.selected-item {
+	.selected_item {
 		width: 800px;
 		height: 1082px;
 		margin-top: 48px;
@@ -84,6 +84,7 @@
 		width: 100%;
 		max-width: 800px;
 		margin-top: 35px;
+		pointer-events: auto; /* 필요 시 auto로 설정 */
 	}
 
 	.slick-track {

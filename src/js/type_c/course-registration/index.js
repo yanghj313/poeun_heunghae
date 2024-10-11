@@ -29,12 +29,12 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-	$('.gender-wrapper .selected-btn, .gender-wrapper .unselected-btn').click(function () {
+	$('.gender_wrapper .selected_btn, .gender_wrapper .unselected_btn').click(function () {
 		const $selectedBtn = $(this);
-		const $otherBtn = $selectedBtn.hasClass('selected-btn') ? $('.unselected-btn') : $('.selected-btn');
+		const $otherBtn = $selectedBtn.hasClass('selected_btn') ? $('.unselected_btn') : $('.selected_btn');
 
-		$selectedBtn.addClass('selected-btn').removeClass('unselected-btn');
-		$otherBtn.addClass('unselected-btn').removeClass('selected-btn');
+		$selectedBtn.addClass('selected_btn').removeClass('unselected_btn');
+		$otherBtn.addClass('unselected_btn').removeClass('selected_btn');
 
 		console.log('selected:', $selectedBtn.text());
 	});

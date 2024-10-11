@@ -19,7 +19,7 @@
 	grid-row-gap: 50px;
 }
 
-.grid-item {
+.grid_item {
 	position: relative;
 	display: flex;
 	width: 1700px;
@@ -47,7 +47,7 @@
 	background: #e71d36;
 }
 
-.grid-item img {
+.grid_item img {
 	display: inline-block;
 	width: 285.825px;
 	height: 450px;
@@ -56,7 +56,7 @@
 	object-fit: cover;
 }
 
-.book-title {
+.book_title {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 68px;
 	font-weight: 600;
@@ -92,7 +92,7 @@
 	color: #4e5968;
 }
 
-.book-caption {
+.book_caption {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
@@ -103,7 +103,7 @@
 	color: #191f28;
 }
 
-.book-caption span {
+.book_caption span {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 40px;
 	font-weight: 400;
@@ -112,23 +112,23 @@
 	color: #6b7684;
 }
 
-.slick-prev,
-.slick-next {
+.slick_prev,
+.slick_next {
 	display: none !important;
 }
 
-.slick-dots li button {
+.slick_dots li button {
 	display: none;
 }
 
-.slick-dots {
+.slick_dots {
 	position: relative;
 	bottom: -100px;
 	display: flex;
 	justify-content: center;
 }
 
-.slick-dots li {
+.slick_dots li {
 	width: 24px;
 	height: 24px;
 	margin: 0 20px;
@@ -136,7 +136,7 @@
 	background: #adb5bd;
 }
 
-.slick-dots li.slick-active {
+.slick_dots li.slick_active {
 	background: #333d4b;
 }
 
@@ -162,7 +162,7 @@
 		grid-row-gap: 25px;
 	}
 
-	.grid-item {
+	.grid_item {
 		position: relative;
 		display: flex;
 		width: 850px;
@@ -190,7 +190,7 @@
 		background: #e71d36;
 	}
 
-	.grid-item img {
+	.grid_item img {
 		display: inline-block;
 		width: 142.9px;
 		height: 225px;
@@ -199,7 +199,7 @@
 		object-fit: cover;
 	}
 
-	.book-title {
+	.book_title {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 34px;
 		font-weight: 600;
@@ -235,7 +235,7 @@
 		color: #4e5968;
 	}
 
-	.book-caption {
+	.book_caption {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 20px;
 		font-weight: 500;
@@ -246,7 +246,7 @@
 		color: #191f28;
 	}
 
-	.book-caption span {
+	.book_caption span {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 20px;
 		font-weight: 400;

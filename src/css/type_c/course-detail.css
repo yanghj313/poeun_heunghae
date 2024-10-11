@@ -135,7 +135,7 @@
 	background: #888;
 }
 
-.white-label {
+.white_label {
 	font-size: 52px;
 	font-weight: 500;
 	font-style: normal;
@@ -167,7 +167,7 @@
 	color: #2ef5fd;
 }
 
-.course-detail {
+.course_detail {
 	position: absolute;
 	top: 1630px;
 	display: flex;
@@ -180,7 +180,7 @@
 	background: #ffffff;
 }
 
-.detail-wrapper {
+.detail_wrapper {
 	display: flex;
 	width: 100%;
 	padding-top: 39px;
@@ -188,7 +188,7 @@
 	border-bottom: 1px solid #6b7684;
 }
 
-.detail-left {
+.detail_left {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 52px;
 	font-weight: 400;
@@ -197,7 +197,7 @@
 	color: #6b7684;
 }
 
-.detail-right {
+.detail_right {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 52px;
 	font-weight: 500;
@@ -250,14 +250,14 @@
 	background: #2e80ee;
 }
 
-.btn-wrapper {
+.btn_wrapper {
 	position: fixed;
 	z-index: 10;
 	bottom: 370px;
 	left: 80px;
 }
 
-.prev-btn {
+.prev_btn {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
@@ -278,11 +278,11 @@
 	background: #fff;
 }
 
-.prev-btn:hover {
+.prev_btn:hover {
 	opacity: 0.7;
 }
 
-.prev-btn img {
+.prev_btn img {
 	position: absolute;
 	bottom: -30px;
 	left: 50px;
@@ -441,7 +441,7 @@
 		background: #888;
 	}
 
-	.white-label {
+	.white_label {
 		font-size: 26px;
 		font-weight: 500;
 		font-style: normal;
@@ -473,7 +473,7 @@
 		color: #2ef5fd;
 	}
 
-	.course-detail {
+	.course_detail {
 		position: absolute;
 		top: 815px;
 		display: flex;
@@ -486,7 +486,7 @@
 		background: #ffffff;
 	}
 
-	.detail-wrapper {
+	.detail_wrapper {
 		display: flex;
 		width: 100%;
 		padding-top: 19.5px;
@@ -494,7 +494,7 @@
 		border-bottom: 1px solid #6b7684;
 	}
 
-	.detail-left {
+	.detail_left {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 26px;
 		font-weight: 400;
@@ -503,7 +503,7 @@
 		color: #6b7684;
 	}
 
-	.detail-right {
+	.detail_right {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 26px;
 		font-weight: 500;
@@ -556,14 +556,14 @@
 		background: #2e80ee;
 	}
 
-	.btn-wrapper {
+	.btn_wrapper {
 		position: fixed;
 		z-index: 10;
 		bottom: 185px;
 		left: 40px;
 	}
 
-	.prev-btn {
+	.prev_btn {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 20px;
 		font-weight: 500;
@@ -584,11 +584,11 @@
 		background: #fff;
 	}
 
-	.prev-btn:hover {
+	.prev_btn:hover {
 		opacity: 0.7;
 	}
 
-	.prev-btn img {
+	.prev_btn img {
 		position: absolute;
 		bottom: -15px;
 		left: 25px;

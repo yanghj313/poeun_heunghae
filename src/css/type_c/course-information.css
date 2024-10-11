@@ -23,7 +23,7 @@
 	grid-row-gap: 60px;
 }
 
-.grid-item {
+.grid_item {
 	display: flex;
 	justify-content: space-between;
 	width: 1800px;
@@ -33,7 +33,7 @@
 	background-color: #ffffff;
 }
 
-.left-wrapper {
+.left_wrapper {
 	display: flex;
 	align-items: center;
 	gap: 48px;
@@ -59,7 +59,7 @@
 	background: rgba(2, 153, 81, 0.1);
 }
 
-.waiting-application {
+.waiting_application {
 	color: #2f65cd;
 	background: rgba(47, 101, 205, 0.1);
 }
@@ -69,7 +69,7 @@
 	background: rgba(241, 181, 92, 0.1);
 }
 
-.book-name {
+.book_name {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 60px;
 	font-weight: 600;
@@ -85,7 +85,7 @@
 	color: #191f28;
 }
 
-.book-description {
+.book_description {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 44px;
 	font-weight: 500;
@@ -93,7 +93,7 @@
 	color: #191f28;
 }
 
-.book-description span {
+.book_description span {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 44px;
 	font-weight: 500;
@@ -103,12 +103,12 @@
 	color: #6b7684;
 }
 
-.right-wrapper {
+.right_wrapper {
 	display: flex;
 	flex-direction: column;
 }
 
-.top-section {
+.top_section {
 	display: flex;
 	flex-direction: column;
 	width: 290px;
@@ -120,7 +120,7 @@
 	gap: 5.25px;
 }
 
-.bottom-section {
+.bottom_section {
 	display: flex;
 	flex-direction: column;
 	width: 290px;
@@ -132,7 +132,7 @@
 	gap: 5.25px;
 }
 
-.section-title {
+.section_title {
 	font-size: 32px;
 	font-weight: 500;
 	font-style: normal;
@@ -164,23 +164,23 @@
 	color: #2ef5fd;
 }
 
-.slick-prev,
-.slick-next {
+.slick_prev,
+.slick_next {
 	display: none !important;
 }
 
-.slick-dots li button {
+.slick_dots li button {
 	display: none;
 }
 
-.slick-dots {
+.slick_dots {
 	position: relative;
 	bottom: -100px;
 	display: flex;
 	justify-content: center;
 }
 
-.slick-dots li {
+.slick_dots li {
 	width: 24px;
 	height: 24px;
 	margin: 0 20px;
@@ -188,7 +188,7 @@
 	background: #adb5bd;
 }
 
-.slick-dots li.slick-active {
+.slick_dots li.slick_active {
 	background: #333d4b;
 }
 
@@ -218,7 +218,7 @@
 		grid-row-gap: 30px;
 	}
 
-	.grid-item {
+	.grid_item {
 		display: flex;
 		justify-content: space-between;
 		width: 900px;
@@ -228,7 +228,7 @@
 		background-color: #ffffff;
 	}
 
-	.left-wrapper {
+	.left_wrapper {
 		display: flex;
 		align-items: center;
 		gap: 24px;
@@ -254,7 +254,7 @@
 		background: rgba(2, 153, 81, 0.1);
 	}
 
-	.waiting-application {
+	.waiting_application {
 		color: #2f65cd;
 		background: rgba(47, 101, 205, 0.1);
 	}
@@ -264,7 +264,7 @@
 		background: rgba(241, 181, 92, 0.1);
 	}
 
-	.book-name {
+	.book_name {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 30px;
 		font-weight: 600;
@@ -280,7 +280,7 @@
 		color: #191f28;
 	}
 
-	.book-description {
+	.book_description {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 22px;
 		font-weight: 500;
@@ -288,7 +288,7 @@
 		color: #191f28;
 	}
 
-	.book-description span {
+	.book_description span {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 22px;
 		font-weight: 500;
@@ -298,12 +298,12 @@
 		color: #6b7684;
 	}
 
-	.right-wrapper {
+	.right_wrapper {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.top-section {
+	.top_section {
 		display: flex;
 		flex-direction: column;
 		width: 145px;
@@ -315,7 +315,7 @@
 		gap: 2.625px;
 	}
 
-	.bottom-section {
+	.bottom_section {
 		display: flex;
 		flex-direction: column;
 		width: 145px;
@@ -327,7 +327,7 @@
 		gap: 2.625px;
 	}
 
-	.section-title {
+	.section_title {
 		font-size: 16px;
 		font-weight: 500;
 		font-style: normal;

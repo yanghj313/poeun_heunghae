@@ -21,12 +21,12 @@
 	grid-row-gap: 120px;
 }
 
-.grid-item {
+.grid_item {
 	display: flex;
 	flex-direction: column;
 }
 
-.grid-item img {
+.grid_item img {
 	display: inline-block;
 	width: 440px;
 	height: 643px;
@@ -36,7 +36,7 @@
 	object-fit: cover;
 }
 
-.book-title {
+.book_title {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 48px;
 	font-weight: 500;
@@ -71,23 +71,23 @@
 	color: #4e5968;
 }
 
-.slick-prev,
-.slick-next {
+.slick_prev,
+.slick_next {
 	display: none !important;
 }
 
-.slick-dots li button {
+.slick_dots li button {
 	display: none;
 }
 
-.slick-dots {
+.slick_dots {
 	position: relative;
 	bottom: -100px;
 	display: flex;
 	justify-content: center;
 }
 
-.slick-dots li {
+.slick_dots li {
 	width: 24px;
 	height: 24px;
 	margin: 0 20px;
@@ -95,7 +95,7 @@
 	background: #adb5bd;
 }
 
-.slick-dots li.slick-active {
+.slick_dots li.slick-active {
 	background: #333d4b;
 }
 
@@ -123,12 +123,12 @@
 		grid-row-gap: 60px;
 	}
 
-	.grid-item {
+	.grid_item {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.grid-item img {
+	.grid_item img {
 		display: inline-block;
 		width: 220px;
 		height: 321.5px;
@@ -138,7 +138,7 @@
 		object-fit: cover;
 	}
 
-	.book-title {
+	.book_title {
 		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 24px;
 		font-weight: 500;

@@ -11,8 +11,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$('.grid-item img').click(function () {
-		$('#modal-image').attr('src', $(this).attr('src'));
-		$('#modal-title').text($(this).siblings('.title-wrapper').find('.content-title').text());
+		$('#modal_image').attr('src', $(this).attr('src'));
+		$('#modal_title').text($(this).siblings('.title-wrapper').find('.content-title').text());
 		$('#modal').fadeIn();
 	});
 
