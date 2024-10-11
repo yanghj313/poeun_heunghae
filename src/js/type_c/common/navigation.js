@@ -1,8 +1,8 @@
 $(document).ready(function () {
 	function toggleActiveMenu(clickedItem) {
 		$('.navigation li').each(function () {
-			$(this).find('.active-menu').removeClass('active-menu').addClass('menu');
-			$(this).find('span').removeClass('active-caption');
+			$(this).find('.active-menu').removeClass('active_menu').addClass('menu');
+			$(this).find('span').removeClass('active_caption');
 
 			$(this)
 				.find('img.item')
@@ -11,8 +11,8 @@ $(document).ready(function () {
 				});
 		});
 
-		clickedItem.find('.menu').removeClass('menu').addClass('active-menu');
-		clickedItem.find('span').addClass('active-caption');
+		clickedItem.find('.menu').removeClass('menu').addClass('active_menu');
+		clickedItem.find('span').addClass('active_caption');
 
 		clickedItem.find('img.item').attr('src', function (index, src) {
 			return !src.includes('active_') ? src.replace(/^(.*\/)(.*)$/, '$1active_$2') : src;
