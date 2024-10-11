@@ -1,26 +1,27 @@
 .header {
 	display: flex;
-	align-items: center;
 	flex-direction: column;
-	padding: 120px 0 80px 0;
+	padding: 140px 180px 110px 180px;
 	gap: 16px;
 }
 
 .title {
 	font-family: 'Pretendard-Regular', sans-serif;
-	font-size: 76px;
-	font-weight: 500;
+	font-size: 92px;
+	font-weight: 600;
 	font-style: normal;
-	color: #333d4b;
+	line-height: normal;
+	color: #fff;
 }
 
 .caption {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 32px;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
+	line-height: normal;
 	letter-spacing: 6.4px;
-	color: #6b7684;
+	color: #adb5bd;
 }
 
 .navigation {
@@ -117,17 +118,29 @@
 
 @media (max-width: 1080px) {
 	.header {
-		padding: 60px 0 40px 0;
+		display: flex;
+		flex-direction: column;
+		padding: 70px 90px 55px 90px;
 		gap: 8px;
 	}
 
 	.title {
-		font-size: 38px;
+		font-family: 'Pretendard-Regular', sans-serif;
+		font-size: 46px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: normal;
+		color: #fff;
 	}
 
 	.caption {
+		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 16px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: normal;
 		letter-spacing: 3.2px;
+		color: #adb5bd;
 	}
 
 	.navigation {

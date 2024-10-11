@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	function toggleActiveMenu(clickedItem) {
 		$('.navigation li').each(function () {
-			$(this).find('.active-menu').removeClass('active_menu').addClass('menu');
+			$(this).find('.active_menu').removeClass('active_menu').addClass('menu');
 			$(this).find('span').removeClass('active_caption');
 
 			$(this)
