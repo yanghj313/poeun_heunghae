@@ -662,7 +662,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 1612px;
-	padding: 50px 28px 12px 28px;
+	padding: 50px 28px 50px 28px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	gap: 20px;
@@ -966,7 +966,7 @@
 	}
 	.pop_totaltxt .text_check {
 		width: 806px;
-		padding: 25px 14px 6px 14px;
+		padding: 25px 14px 25px 14px;
 		gap: 10px;
 	}
 	.text_wrap_ex h4 {
