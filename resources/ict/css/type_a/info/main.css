@@ -1,0 +1,334 @@
+.weather_wrap .div_wrap_bg {
+	z-index: -1;
+}
+.weather_wrap .bg_1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 2160px;
+	height: 3840px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.weather_section {
+	position: absolute;
+	z-index: 9999;
+	top: 0px;
+	left: 0px;
+	width: 2160px;
+	height: 3840px;
+}
+.weather_wrap .top_sec {
+	position: absolute;
+	top: calc(50% - 1334px);
+	left: calc(50% - 840px);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 1680px;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	gap: 24px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+}
+.weather_wrap .time_date {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: flex-start;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	flex-shrink: 0;
+	justify-content: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	gap: 0px;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	-ms-flex-negative: 0;
+}
+.weather_wrap .time {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	align-items: flex-start;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	flex-shrink: 0;
+	justify-content: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	gap: 20px;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	-ms-flex-negative: 0;
+}
+.weather_wrap .time_txt {
+	font-family: 'Century Gothic';
+	font-size: 240px;
+	font-weight: 400;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: left;
+	color: #ffffff;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+}
+.weather_wrap .date_txt {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 72px;
+	font-weight: 400;
+	position: relative;
+	left: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	text-align: left;
+	color: #ffffff;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+}
+.weather_main {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	overflow: visible;
+	width: 2160px;
+	height: 2523px;
+}
+.button_go {
+	position: absolute;
+	top: 3200px;
+	left: calc(50% - 160px);
+	overflow: visible;
+	width: 320px;
+	height: 320px;
+}
+.go_arrow {
+	position: absolute;
+	top: 39%;
+	right: 14%;
+	bottom: 40%;
+	left: 12%;
+	overflow: visible;
+	width: 73%;
+	height: 22%;
+	-webkit-animation: horizontal 0.7s ease-in-out infinite;
+	animation: horizontal 0.7s ease-in-out infinite;
+}
+
+@-webkit-keyframes horizontal {
+	0% {
+		margin-left: 90px;
+	}
+
+	50% {
+		margin-left: 110px;
+	}
+
+	100% {
+		margin-left: 90px;
+	}
+}
+
+@keyframes horizontal {
+	0% {
+		margin-left: 90px;
+	}
+
+	50% {
+		margin-left: 110px;
+	}
+
+	100% {
+		margin-left: 90px;
+	}
+}
+
+.welcome_wrap {
+	position: absolute;
+	top: 1148px;
+	left: calc(50% - 491px);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	justify-content: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	gap: 40px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+}
+.welcome_text_01 {
+	position: static;
+	flex-shrink: 0;
+	width: 982px;
+	height: 286px;
+	-ms-flex-negative: 0;
+}
+.welcome {
+	font-family: 'Pretendard-Medium', sans-serif;
+	font-size: 240px;
+	font-weight: 500;
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 491px);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ffffff;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+}
+.welcome_text_02 {
+	position: static;
+	flex-shrink: 0;
+	width: 848px;
+	height: 72px;
+	-ms-flex-negative: 0;
+}
+.lib_name_new {
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 60px;
+	font-weight: 400;
+	position: absolute;
+	top: 326px;
+	left: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	text-align: center;
+	color: #ffffff;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+}
+
+@media (max-width: 1080px) {
+	.weather_wrap .bg_1 {
+		width: 1080px;
+		height: 1920px;
+	}
+	.weather_section {
+		width: 1080px;
+		height: 1920px;
+	}
+	.weather_wrap .top_sec {
+		top: calc(50% - 667px);
+		left: calc(50% - 420px);
+		width: 840px;
+		gap: 12px;
+	}
+	.weather_wrap .time {
+		gap: 10px;
+	}
+	.weather_wrap .time_txt {
+		font-size: 120px;
+	}
+	.weather_wrap .date_txt {
+		font-size: 36px;
+	}
+	.weather_main {
+		width: 1080px;
+		height: 1262px;
+	}
+	.button_go {
+		top: 1600px;
+		left: calc(50% - 80px);
+		width: 160px;
+		height: 160px;
+	}
+
+	@-webkit-keyframes horizontal {
+		0% {
+			margin-left: 45px;
+		}
+
+		50% {
+			margin-left: 55px;
+		}
+
+		100% {
+			margin-left: 45px;
+		}
+	}
+
+	@keyframes horizontal {
+		0% {
+			margin-left: 45px;
+		}
+
+		50% {
+			margin-left: 55px;
+		}
+
+		100% {
+			margin-left: 45px;
+		}
+	}
+
+	.welcome_wrap {
+		top: 574px;
+		left: calc(50% - 245px);
+		gap: 20px;
+	}
+	.welcome_text_01 {
+		width: 491px;
+		height: 143px;
+	}
+	.welcome {
+		font-size: 120px;
+		left: calc(50% - 246px);
+	}
+	.welcome_text_02 {
+		width: 424px;
+		height: 36px;
+	}
+	.lib_name_new {
+		font-size: 30px;
+		top: 163px;
+	}
+}
