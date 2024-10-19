@@ -364,10 +364,14 @@
 	line-height: normal;
 	color: #242424;
 }
-.close_btn img,
+.close_btn img {
+	width: 45px;
+	height: 45px;
+}
+
 .print_btn img {
-	width: 80px;
-	height: 80px;
+	width: 56px;
+	height: 60px;
 }
 
 @media (max-width: 1080px) {
@@ -547,9 +551,13 @@
 		font-size: 30px;
 		font-weight: 500;
 	}
-	.close_btn img,
+	.close_btn img {
+		width: 22px;
+		height: 22px;
+	}
+
 	.print_btn img {
-		width: 40px;
-		height: 40px;
+		width: 28px;
+		height: 30px;
 	}
 }
