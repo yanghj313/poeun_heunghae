@@ -107,6 +107,12 @@
 .info-wrap .contents table tbody tr:last-child td.last {
 	border-bottom-right-radius: 24px;
 }
+.info-wrap .contents table td.last {
+	border-bottom-right-radius: 24px;
+}
+.info-wrap .contents table td.first {
+	border-bottom-left-radius: 24px;
+}
 .info-wrap .contents table tbody tr:last-child td {
 	border-bottom: none;
 }
@@ -200,6 +206,13 @@
 	.info-wrap .contents table tbody tr:last-child td.last {
 		border-bottom-right-radius: 12px;
 	}
+	.info-wrap .contents table td.last {
+		border-bottom-right-radius: 12px;
+	}
+	.info-wrap .contents table td.first {
+		border-bottom-left-radius: 12px;
+	}
+
 	.info-wrap .contents ul li {
 		font-size: 30px;
 		padding-left: 48px;

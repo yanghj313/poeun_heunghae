@@ -9,8 +9,8 @@
 	background: url(../../../img/type_a/info/book/bg_loan.png) no-repeat top center;
 }
 .new_wrap .bx-wrapper {
-	border: 0;
 	background: none;
+	border: 0;
 	-webkit-box-shadow: 0 0 0 transparent;
 	box-shadow: 0 0 0 transparent;
 }
@@ -21,22 +21,33 @@
 .slider {
 	width: 1720px;
 	margin: 0 auto;
-	padding-top: 96px;
+	padding-top: 50px;
+}
+
+#best_wrap .slider {
+	padding-top: 160px;
+}
+
+div[aria-hidden='true'] {
+	display: none;
+	visibility: hidden;
 }
 
 .new_wrap .slide_01 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	gap: 170px;
+	overflow: visible;
 }
 
 .new_wrap .bx-viewport {
 	height: 2880px !important;
+	overflow: visible !important;
 }
 .grid {
 	display: grid !important;
@@ -49,10 +60,10 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
 .grid-item img {
 	display: inline-block;
@@ -60,15 +71,21 @@
 	height: 692px;
 	margin-bottom: 28px;
 	border-radius: 24px;
-	-webkit-box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.2);
-	box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.2);
+	-webkit-box-shadow: 20px 20px 70px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 20px 20px 70px 0 rgba(0, 0, 0, 0.2);
 	-o-object-fit: cover;
 	object-fit: cover;
 }
+
+#best_wrap .grid-item img {
+	margin-bottom: 50px;
+}
+
 .new_wrap .girid_b {
 	display: grid !important;
 	justify-items: center;
 	grid-template-columns: 1fr 1fr;
+	overflow: visible;
 }
 .new_wrap .girid_c {
 	display: grid !important;
@@ -76,54 +93,55 @@
 	grid-template-columns: 1fr 1fr 1fr;
 }
 #best_wrap .grid-item {
-	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+	overflow: visible;
 }
 .girid_c .grid-item img {
-	position: relative;
 	display: inline-block;
 	width: 512px;
 	height: 788px;
 	margin-bottom: 28px;
 	border-radius: 24px;
-	-webkit-box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.2);
-	box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.2);
+	-webkit-box-shadow: 20px 20px 70px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 20px 20px 70px 0 rgba(0, 0, 0, 0.2);
 	-o-object-fit: cover;
 	object-fit: cover;
+	position: relative;
 }
 .book-title {
+	width: 480px;
 	font-size: 48px;
 	font-weight: 500;
 	font-style: normal;
 	line-height: 140%;
-	display: block;
-	overflow: hidden;
-	width: 480px;
 	margin-bottom: 8px;
-	white-space: nowrap;
 	letter-spacing: -1.2px;
-	text-overflow: ellipsis;
 	color: #191f28;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .name {
+	width: 480px;
 	font-size: 40px;
 	font-weight: 500;
 	font-style: normal;
 	line-height: normal;
-	display: block;
-	overflow: hidden;
-	width: 480px;
 	margin-bottom: 8px;
-	white-space: nowrap;
 	letter-spacing: -1px;
-	text-overflow: ellipsis;
 	color: #4e5968;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .year {
 	font-size: 40px;
@@ -134,14 +152,14 @@
 	color: #4e5968;
 }
 .girid_b .grid-item {
-	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
 }
 .girid_b .grid-item img {
 	position: relative;
@@ -150,59 +168,59 @@
 	height: 1260px;
 	margin-bottom: 28px;
 	border-radius: 40px;
-	-webkit-box-shadow: 20px 20px 70px 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 20px 20px 70px 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 20px 20px 70px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 20px 20px 70px 0px rgba(0, 0, 0, 0.2);
 }
 .girid_b .book-title {
+	width: 820px;
 	font-size: 60px;
 	font-weight: 600;
-	width: 820px;
 }
 .girid_b .name {
-	font-size: 50px;
 	width: 820px;
+	font-size: 50px;
 }
 .girid_c .book-title {
+	width: 512px;
 	font-size: 60px;
 	font-weight: 600;
-	width: 512px;
 }
 .girid_c .name {
-	font-size: 50px;
 	width: 512px;
+	font-size: 50px;
 }
 #best_wrap .status-box {
+	background: #000000;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	transform: translate(-50%); /* bottom: 87.36%; */
+	top: -6%;
+	color: var(--white, #ffffff);
+	text-align: center;
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 60px;
 	font-weight: 700;
-	position: absolute;
-	z-index: 1;
-	top: -6%;
-	left: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	-webkit-transform: translate(-50%);
-	transform: translate(-50%); /* bottom: 87.36%; */
-	text-align: center;
-	color: var(--white, #ffffff);
-	border-radius: 50%;
-	background: #000000;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	justify-content: center;
+	z-index: 1;
 }
 #best_wrap .girid_c .status-box {
 	width: 160px;
 	height: 160px;
 }
 #best_wrap .girid_b .status-box {
-	font-size: 72px;
 	width: 200px;
 	height: 200px;
+	font-size: 72px;
 }
 .new_wrap .bx-controls {
 	position: absolute;
@@ -213,26 +231,25 @@
 }
 .new_wrap .bx-wrapper .bx-pager {
 	position: relative;
-	top: 100px;
+	top: 130px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	justify-content: center;
 }
 .new_wrap .bx-wrapper .bx-pager.bx-default-pager a {
 	width: 24px;
 	height: 24px;
 	margin: 0 20px;
 	border-radius: 50%;
-	background: #8b95a1 !important;
+	background: var(--gray500, #8b95a1);
 }
-
 .new_wrap .bx-wrapper .bx-pager.bx-default-pager a.active,
 .new_wrap .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .new_wrap .bx-wrapper .bx-pager.bx-default-pager a:focus {
-	background: #fff !important;
+	background: #fff;
 }
 
 @media (max-width: 1080px) {
@@ -249,7 +266,10 @@
 	}
 	.slider {
 		width: 860px;
-		padding-top: 48px;
+		padding-top: 25px;
+	}
+	#best_wrap .slider {
+		padding-top: 80px;
 	}
 	.grid {
 		grid-row-gap: 60px;
@@ -260,17 +280,24 @@
 		height: 346px;
 		margin-bottom: 14px;
 		border-radius: 12px;
-		-webkit-box-shadow: 0 5px 15px 0 rgba(25, 33, 61, 0.2);
-		box-shadow: 0 5px 15px 0 rgba(25, 33, 61, 0.2);
+		-webkit-box-shadow: 10x 10px 35px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.2);
+		-o-object-fit: cover;
+		object-fit: cover;
 	}
+
+	#best_wrap .grid-item img {
+		margin-bottom: 25px;
+	}
+
 	.book-title {
-		font-size: 24px;
 		width: 240px;
+		font-size: 24px;
 		margin-bottom: 4px;
 	}
 	.name {
-		font-size: 20px;
 		width: 240px;
+		font-size: 20px;
 		margin-bottom: 4px;
 	}
 	.year {
@@ -284,32 +311,32 @@
 		height: 394px;
 		margin-bottom: 14px;
 		border-radius: 12px;
-		-webkit-box-shadow: 0 5px 15px 0 rgba(25, 33, 61, 0.2);
-		box-shadow: 0 5px 15px 0 rgba(25, 33, 61, 0.2);
+		-webkit-box-shadow: 10x 10px 35px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.2);
 	}
 	.girid_b .grid-item img {
 		width: 410px;
 		height: 630px;
 		margin-bottom: 14px;
 		border-radius: 20px;
-		-webkit-box-shadow: 10px 10px 35px 2px rgba(0, 0, 0, 0.2);
-		box-shadow: 10px 10px 35px 2px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 10x 10px 35px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 10px 10px 35px 0 rgba(0, 0, 0, 0.2);
 	}
 	.girid_b .book-title {
-		font-size: 30px;
 		width: 410px;
+		font-size: 30px;
 	}
 	.girid_b .name {
-		font-size: 25px;
 		width: 410px;
+		font-size: 25px;
 	}
 	.girid_c .book-title {
-		font-size: 30px;
 		width: 256px;
+		font-size: 30px;
 	}
 	.girid_c .name {
-		font-size: 25px;
 		width: 256px;
+		font-size: 25px;
 	}
 	#best_wrap .status-box {
 		font-size: 30px;
@@ -319,12 +346,12 @@
 		height: 80px;
 	}
 	#best_wrap .girid_b .status-box {
-		font-size: 36px;
 		width: 100px;
 		height: 100px;
+		font-size: 36px;
 	}
 	.new_wrap .bx-wrapper .bx-pager {
-		top: 50px;
+		top: 65px;
 	}
 	.new_wrap .bx-wrapper .bx-pager.bx-default-pager a {
 		width: 12px;

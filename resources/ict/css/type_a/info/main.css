@@ -2,83 +2,85 @@
 	z-index: -1;
 }
 .weather_wrap .bg_1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
 	width: 2160px;
 	height: 3840px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 	-o-object-fit: cover;
 	object-fit: cover;
 }
 .weather_section {
 	position: absolute;
-	z-index: 9999;
-	top: 0px;
 	left: 0px;
+	top: 0px;
+	z-index: 9999;
 	width: 2160px;
 	height: 3840px;
 }
 .weather_wrap .top_sec {
-	position: absolute;
-	top: calc(50% - 1334px);
-	left: calc(50% - 840px);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 1680px;
-	text-align: center;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	gap: 24px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	justify-content: flex-start;
+	width: 1680px;
+	position: absolute;
+	left: calc(50% - 840px);
+	top: calc(50% - 1334px);
+	text-align: center;
 }
 .weather_wrap .time_date {
-	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: flex-start;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	flex-shrink: 0;
-	justify-content: flex-start;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	gap: 0px;
 	-webkit-box-align: start;
 	-ms-flex-align: start;
+	align-items: flex-start;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	justify-content: flex-start;
 	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	position: relative;
 }
 .weather_wrap .time {
-	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	overflow: hidden;
-	align-items: flex-start;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	flex-shrink: 0;
-	justify-content: flex-start;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	gap: 20px;
 	-webkit-box-align: start;
 	-ms-flex-align: start;
+	align-items: flex-start;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	justify-content: flex-start;
 	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	position: relative;
+	overflow: hidden;
 }
 .weather_wrap .time_txt {
+	color: #ffffff;
+	text-align: left;
 	font-family: 'Century Gothic';
 	font-size: 240px;
 	font-weight: 400;
@@ -86,60 +88,58 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	text-align: left;
-	color: #ffffff;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	justify-content: flex-start;
 }
 .weather_wrap .date_txt {
+	color: #ffffff;
+	text-align: left;
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 72px;
 	font-weight: 400;
 	position: relative;
-	left: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-	text-align: left;
-	color: #ffffff;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	justify-content: center;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 .weather_main {
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	overflow: visible;
 	width: 2160px;
 	height: 2523px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	overflow: visible;
 }
 .button_go {
-	position: absolute;
-	top: 3200px;
-	left: calc(50% - 160px);
-	overflow: visible;
 	width: 320px;
 	height: 320px;
+	position: absolute;
+	left: calc(50% - 160px);
+	top: 3200px;
+	overflow: visible;
 }
 .go_arrow {
-	position: absolute;
-	top: 39%;
-	right: 14%;
-	bottom: 40%;
-	left: 12%;
-	overflow: visible;
 	width: 73%;
 	height: 22%;
+	position: absolute;
+	right: 14%;
+	left: 0;
+	bottom: 40%;
+	top: 39%;
+	overflow: visible;
 	-webkit-animation: horizontal 0.7s ease-in-out infinite;
 	animation: horizontal 0.7s ease-in-out infinite;
 }
@@ -173,78 +173,78 @@
 }
 
 .welcome_wrap {
-	position: absolute;
-	top: 1148px;
-	left: calc(50% - 491px);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	justify-content: flex-start;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	gap: 40px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	justify-content: flex-start;
+	position: absolute;
+	left: calc(50% - 491px);
+	top: 1148px;
 }
 .welcome_text_01 {
-	position: static;
+	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	width: 982px;
 	height: 286px;
-	-ms-flex-negative: 0;
+	position: static;
 }
 .welcome {
+	color: #ffffff;
+	text-align: center;
 	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 240px;
 	font-weight: 500;
 	position: absolute;
-	top: 0px;
 	left: calc(50% - 491px);
+	top: 0px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: #ffffff;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	justify-content: center;
 }
 .welcome_text_02 {
-	position: static;
+	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	width: 848px;
 	height: 72px;
-	-ms-flex-negative: 0;
+	position: static;
 }
 .lib_name_new {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 60px;
 	font-weight: 400;
 	position: absolute;
-	top: 326px;
 	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	top: 326px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-	text-align: center;
-	color: #ffffff;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 @media (max-width: 1080px) {
@@ -257,10 +257,10 @@
 		height: 1920px;
 	}
 	.weather_wrap .top_sec {
-		top: calc(50% - 667px);
-		left: calc(50% - 420px);
-		width: 840px;
 		gap: 12px;
+		width: 840px;
+		left: calc(50% - 420px);
+		top: calc(50% - 667px);
 	}
 	.weather_wrap .time {
 		gap: 10px;
@@ -276,10 +276,10 @@
 		height: 1262px;
 	}
 	.button_go {
-		top: 1600px;
-		left: calc(50% - 80px);
 		width: 160px;
 		height: 160px;
+		left: calc(50% - 80px);
+		top: 1600px;
 	}
 
 	@-webkit-keyframes horizontal {
@@ -311,9 +311,9 @@
 	}
 
 	.welcome_wrap {
-		top: 574px;
-		left: calc(50% - 245px);
 		gap: 20px;
+		left: calc(50% - 245px);
+		top: 574px;
 	}
 	.welcome_text_01 {
 		width: 491px;
