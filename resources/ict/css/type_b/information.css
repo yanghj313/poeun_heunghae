@@ -74,12 +74,15 @@
 }
 .info-wrap .contents table thead th {
 	font-size: 44px;
-	padding: 20px 16px;
+	padding: 24px 16px;
 	text-align: center;
 	color: #fff;
 	border: 1px solid #587590;
-	border-width: 0; /* border-radius: 24px 0 0 0; */
+	border-width: 0;
+	/* border-radius: 24px 0 0 0; */
 	background: #587590;
+	font-family: 'Pretendard-Regular';
+	font-weight: 500;
 }
 .info-wrap .contents table thead th.right-top {
 	border-top-right-radius: 24px;
@@ -89,13 +92,15 @@
 }
 .info-wrap .contents table tbody td {
 	font-size: 44px;
-	padding: 16px 20px;
+	padding: 34px 20px;
 	border-color: transparent;
 	border-top: none;
 	border-right: none;
 	border-bottom: 1px solid #e5e8eb;
 	border-left: none;
 	background: #fff;
+	font-family: 'Pretendard-Medium';
+	font-weight: 500;
 }
 .info-wrap .contents table.under_table th.left-top {
 	width: 450px;
@@ -117,7 +122,8 @@
 	padding-left: 96px;
 	text-align: left;
 	letter-spacing: -1.3px;
-	background: url(../../img/common/check.svg) no-repeat left 10px;
+	background: url(../../img/common/check_02.svg) no-repeat -2px -2px;
+	background-size: 68px;
 }
 .info-wrap .contents .cont-box {
 	font-size: 24px;
@@ -178,7 +184,7 @@
 	}
 	.info-wrap .contents table thead th {
 		font-size: 22px;
-		padding: 10px 8px;
+		padding: 12px 8px;
 	}
 	.info-wrap .contents table thead th.right-top {
 		border-top-right-radius: 12px;
@@ -188,7 +194,7 @@
 	}
 	.info-wrap .contents table tbody td {
 		font-size: 22px;
-		padding: 8px 10px;
+		padding: 17px 10px;
 	}
 	.info-wrap .contents table.under_table th.left-top {
 		width: 225px;
@@ -203,7 +209,7 @@
 		font-size: 30px;
 		padding-left: 48px;
 		letter-spacing: -1.3px;
-		background: url(../../img/common/check.svg) no-repeat left 5px;
+		background: url(../../img/common/check_02.svg) no-repeat 4px 2px;
 		background-size: 34px 42px;
 	}
 	.info-wrap .contents .cont-box {
