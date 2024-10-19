@@ -1,4 +1,7 @@
 /**********************************************common**********************************************/
+* {
+	font-family: 'Pretendard-Regular';
+}
 .nav {
 	position: absolute;
 	z-index: 99999;
@@ -63,7 +66,7 @@
 	-ms-flex-align: center;
 }
 .nav li a span {
-	color: #6b7684;
+	color: #adb5bd;
 }
 .nav li a img {
 	width: 96px;
@@ -86,15 +89,15 @@
 	letter-spacing: -0.02em;
 }
 .nav li a img {
-	-webkit-filter: invert(78%) sepia(13%) saturate(173%) hue-rotate(169deg) brightness(90%) contrast(92%);
-	filter: invert(78%) sepia(13%) saturate(173%) hue-rotate(169deg) brightness(90%) contrast(92%);
+	-webkit-filter: invert(81%) sepia(13%) saturate(181%) hue-rotate(169deg) brightness(89%) contrast(86%);
+	filter: invert(81%) sepia(13%) saturate(181%) hue-rotate(169deg) brightness(89%) contrast(86%);
 }
 .nav li a span.eng-txt {
 	font-size: 20px;
 	position: relative;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	color: #74747a;
+	color: #adb5bd;
 }
 .nav li a.on img,
 .nav li a:hover img,
@@ -120,7 +123,7 @@
 	height: 17px;
 	content: '';
 	transform: translateX(-50%);
-	background: url('../../../asset/img/common/nav_line.svg') no-repeat;
+	background: url('../../img/common/nav_line.svg') no-repeat;
 	background-size: cover;
 }
 .header {
@@ -148,7 +151,7 @@
 .info .header h1 {
 	font-family: 'Pretendard-SemiBold', sans-serif;
 	font-size: 92px;
-	font-weight: 600;
+	font-weight: 700;
 	font-weight: 600;
 	text-align: left;
 	color: #191f28;
@@ -361,7 +364,7 @@ html {
 	line-height: 125%;
 	padding: 22px 0 10px 102px;
 	color: #333;
-	background: url('../../../asset/img/common/check.svg') no-repeat 0px 26px;
+	background: url('../../img/common/check.svg') no-repeat 0px 26px;
 }
 
 .overflow-y {
@@ -417,12 +420,6 @@ html {
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: #74747a;
-	}
-	.nav li:nth-child(7) a {
-		background: url('../../img/kiosk/nav-img-07.png') no-repeat center 70px;
-	}
-	.nav li:nth-child(7) a.on {
-		background: #113b9e url('../../img/kiosk/nav-img-07.png') no-repeat center 70px;
 	}
 
 	.nav li a.on span.eng-txt::after,
@@ -484,7 +481,7 @@ html {
 	}
 	.info h4 {
 		padding: 11px 0 4px 51px;
-		background: url('../../../asset/img/common/check.svg') no-repeat 0px 14px;
+		background: url('../../img/common/check.svg') no-repeat 0px 14px;
 		background-size: 32px;
 	}
 	.overflow-y::-webkit-scrollbar {

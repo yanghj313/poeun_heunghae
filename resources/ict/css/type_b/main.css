@@ -89,9 +89,9 @@
 }
 
 .welcome_message {
-	font-family: 'Pretendard-Regular', sans-serif;
+	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 120px;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 	line-height: 140%;
 	margin-top: 253px;
@@ -207,7 +207,6 @@
 	}
 
 	.welcome_message {
-		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 60px;
 		font-weight: 500;
 		font-style: normal;
@@ -219,7 +218,6 @@
 	}
 
 	.caption {
-		font-family: 'Pretendard-Regular', sans-serif;
 		font-size: 26px;
 		font-weight: 400;
 		font-style: normal;

@@ -1,12 +1,11 @@
 $(function () {
 	var thumbsSwiper = new Swiper('.notice-slide-thumbs', {
-		spaceBetween: 10,
-		slidesPerView: 5,
+		slidesPerView: 5, // 5개의 썸네일이 메인 이미지 너비에 맞춰져 표시됩니다.
 		freeMode: true,
 		watchSlidesProgress: true,
+		loop: true,
 	});
 
-	// 메인 슬라이드 초기화 및 썸네일 연동
 	var mainSwiper = new Swiper('.notice-slide', {
 		spaceBetween: 10,
 		thumbs: {
