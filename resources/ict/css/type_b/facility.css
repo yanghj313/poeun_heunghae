@@ -2,7 +2,7 @@
 	position: relative;
 	width: 100%;
 	height: 3840px;
-	background: url(../../img/type_b/info/facility/f_bg_02.svg) no-repeat top center;
+	background: url(../../img/type_b/info/facility/bg_faci.png) no-repeat center;
 	background-size: cover;
 }
 
@@ -11,7 +11,7 @@
 }
 .faci_wrap .header p,
 .culture-wrap .header p {
-	color: #8b95a1 !important;
+	color: #ADB5BD !important;
 }
 
 .faci_wrap .faci_tab {
@@ -35,7 +35,7 @@
 	transform: translateX(-50%);
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	gap: 100px;
+	gap: 80px;
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	-webkit-box-pack: start;
@@ -47,7 +47,7 @@
 	-webkit-box-shadow: 0 0 0 transparent;
 	box-shadow: 0 0 0 transparent;
 	position: absolute;
-	top: 1740px;
+	top: 1730px;
 	z-index: 1111;
 }
 .faci_wrap .contents {
@@ -426,7 +426,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 580px;
-	padding: 60px 40px 60px 40px;
+	padding: 60px;
 	border-radius: 24px;
 	background: #e5ddd8;
 	-webkit-box-orient: horizontal;
@@ -502,16 +502,18 @@
 }
 .facilty-1-span {
 	font-family: 'Pretendard-Regular', sans-serif;
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 400;
 	letter-spacing: 0.05em;
-	color: #6b7684;
+	color: #6B7684;
+	line-height: normal;
 }
 .facilty-1-span2 {
 	font-family: 'Pretendard-Regular', sans-serif;
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 400;
-	color: #adb5bd;
+	color: #6B7684;
+	line-height: normal;
 }
 .pic_txt {
 	font-family: 'Pretendard-SemiBold', sans-serif;
@@ -529,6 +531,7 @@
 	-ms-flex-align: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	line-height: normal;
 }
 .fa_image {
 	position: relative;
@@ -688,13 +691,14 @@
 .modal_txt {
 	font-weight: 600;
 	color: #191f28;
+	font-size: 68px;
 }
 .modal_stxt {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 44px;
 	font-weight: 400;
 	position: absolute;
-	top: -5px;
+	top: -15px;
 	left: 0px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -788,7 +792,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 1612px;
-	padding: 50px 28px 12px 28px;
+	padding: 50px 28px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	gap: 20px;
@@ -811,7 +815,7 @@
 	letter-spacing: -0.025em;
 	color: #333;
 	color: #191f28;
-	background: url('../../img/type_b/info/facility/check.svg') no-repeat 0px 2px;
+	background: url('../../img/common/check_02.svg') no-repeat 0px 2px;
 	-ms-flex-item-align: stretch;
 }
 .pop_totaltxt {
@@ -861,7 +865,7 @@
 .faci_wrap .bx-wrapper .bx-pager {
 	/* bottom: 120px; */
 	padding-top: 0;
-	top: 1180px;
+	top: 1160px;
 }
 .bg_faci_02 {
 	position: absolute;
@@ -904,7 +908,7 @@
 	.faci_wrap .faci_tab {
 		top: 970px;
 		width: 538px;
-		gap: 50px;
+		gap: 40px;
 	}
 	.faci_wrap .faci_tab a {
 		font-size: 40px;
@@ -980,7 +984,7 @@
 	}
 
 	.faci_wrap .bx-wrapper {
-		top: 870px;
+		top: 865px;
 	}
 
 	.small_photo {
@@ -990,7 +994,7 @@
 	}
 	.photo_frame {
 		width: 290px;
-		padding: 30px 20px 30px 20px;
+		padding: 30px;
 		border-radius: 12px;
 		gap: 35px;
 	}
@@ -1005,10 +1009,10 @@
 		font-size: 20px;
 	}
 	.facilty-1-span {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.facilty-1-span2 {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.pic_txt {
 		font-size: 26px;
@@ -1078,7 +1082,7 @@
 	}
 	.modal_stxt {
 		font-size: 22px;
-		top: -5px;
+		top: -8px;
 	}
 	.modal_sub_img {
 		top: 26px;
@@ -1106,14 +1110,14 @@
 	}
 	.pop_totaltxt .text_check {
 		width: 806px;
-		padding: 25px 14px 6px 14px;
+		padding: 25px 14px;
 		gap: 10px;
 	}
 	.text_wrap_ex h4 {
 		font-size: 11px;
 		font-size: 30px;
 		padding: 3px 0 3px 50px;
-		background: url('../../img/type_b/info/facility/check.svg') no-repeat 0px 1px;
+		background: url('../../img/common/check_02.svg') no-repeat 0px 1px;
 		background-size: 4%;
 	}
 	.pop_totaltxt {
@@ -1130,8 +1134,7 @@
 		font-size: 20px;
 	}
 	.faci_wrap .bx-wrapper .bx-pager {
-		/* bottom: 0px; */
-		top: 590px;
+		top: 580px;
 	}
 	.bg_faci_02 {
 		width: 1080px;
