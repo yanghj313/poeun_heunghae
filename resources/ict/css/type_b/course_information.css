@@ -5,7 +5,6 @@
 	height: 3840px;
 	text-align: center;
 	color: #fff;
-
 	background: url('../../img/type_b/info/course_information/bg_lec.svg') no-repeat 0 0;
 	background-size: cover;
 }
@@ -20,20 +19,20 @@
 }
 .culture-wrap .bx-wrapper {
 	height: 100%;
-	margin: 0;
+	margin: 40px 0 0 0;
 	border: 0;
 	background: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 .culture-wrap .bx-viewport {
-	height: 2760px !important;
+	height: 2668px !important;
 }
 .culture-list {
 	position: relative;
 	width: 100%;
 	height: 340px;
-	margin-bottom: 60px;
+	margin-bottom: 48px;
 	border-radius: 40px;
 	background: #fff;
 }
@@ -69,6 +68,7 @@
 	letter-spacing: -0.3px;
 	border-radius: 200px;
 	background: #113b9e;
+	line-height: normal;
 }
 .culture-list .cul-status span.status_0 {
 	color: #029951;
@@ -100,7 +100,7 @@
 	color: #252525;
 }
 .culture-list .cul-info li span {
-	color: #7d7a78;
+	color: #6b7684;
 }
 .culture-list .cul-info li:nth-child(1) {
 	font-size: 60px;
@@ -130,7 +130,7 @@
 	box-sizing: border-box;
 	width: 290px;
 	height: 50%;
-	padding: 20px 0 20px 30px;
+	padding: 18px 0 20px 40px;
 }
 .culture-list .cul-cnt li:nth-child(1) {
 	border-top-right-radius: 40px;
@@ -148,6 +148,7 @@
 	font-family: 'Century Gothic';
 	font-size: 66px;
 	font-weight: 700;
+	line-height: normal;
 }
 .culture-list .cul-cnt li p.cul-cnt-state span {
 	color: #00f6ff;
@@ -162,9 +163,8 @@
 	padding: 0;
 }
 .culture-wrap .bx-slide .culture-list:nth-child(7) {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
-.faci_wrap .bx-wrapper .bx-pager.bx-default-pager a,
 .culture-wrap .bx-wrapper .bx-pager.bx-default-pager a {
 	width: 24px;
 	height: 24px;
@@ -199,15 +199,19 @@
 		letter-spacing: 0.2em;
 		color: var(--gray600, #6b7684);
 	}
+	.culture-wrap .bx-wrapper {
+		margin: 20px 0 0 0;
+	}
+
 	.culture-wrap .contents {
 		padding: 0px 90px 0px;
 	}
 	.culture-wrap .bx-viewport {
-		height: 1380px !important;
+		height: 1334px !important;
 	}
 	.culture-list {
 		height: 170px;
-		margin-bottom: 30px;
+		margin-bottom: 24px;
 		border-radius: 20px;
 	}
 	.culture-list .cul-status {
@@ -218,7 +222,7 @@
 	.culture-list .cul-status span {
 		font-size: 20px;
 		width: 100px;
-		height: 100px; /* line-height:100px; */
+		height: 100px;
 		text-align: center;
 		letter-spacing: -1.3px;
 		border-radius: 100px;
@@ -245,7 +249,7 @@
 	.culture-list .cul-cnt li {
 		width: 145px;
 		height: 50%;
-		padding: 10px 0 10px 15px;
+		padding: 9px 0 10px 20px;
 	}
 	.culture-list .cul-cnt li:nth-child(1) {
 		border-top-right-radius: 20px;
@@ -270,6 +274,7 @@
 	.culture-wrap .bx-slide .culture-list:nth-child(7) {
 		margin-bottom: 0px;
 	}
+
 	.culture-wrap .bx-wrapper .bx-pager.bx-default-pager a {
 		width: 12px;
 		height: 12px;

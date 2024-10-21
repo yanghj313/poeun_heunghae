@@ -91,6 +91,7 @@
 	margin-bottom: 8px;
 	text-align: left;
 	color: #191f28;
+	font-family: 'Pretendard-Medium';
 }
 #culture_wrap_info .course_title {
 	font-size: 76px;
@@ -115,6 +116,7 @@
 	margin-bottom: 8px;
 	text-align: left;
 	color: #6b7684;
+	font-family: 'Pretendard-Medium';
 }
 #culture_wrap_info .course_date {
 	font-size: 76px;

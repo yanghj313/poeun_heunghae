@@ -25,7 +25,7 @@
 	background: #ffffff;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	gap: 60px;
+	gap: 50px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	-webkit-box-pack: start;
@@ -46,7 +46,7 @@
 	flex-direction: row;
 	flex-shrink: 0;
 	justify-content: center;
-	padding: 60px 150px 60px 150px;
+	padding: 60px 150px 0px 150px;
 	text-align: center;
 	letter-spacing: -0.025em;
 	text-transform: uppercase;
@@ -108,6 +108,7 @@
 	-ms-flex-align: center;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
+	margin-bottom: 12px;
 }
 .apply_name,
 .apply_pw,
@@ -241,7 +242,7 @@ select::-ms-expand {
 }
 #culture_wrap_apply .select_birth {
 	outline: 0 none;
-	background: #ebebeb url('../../../asset/img/common/keyboard_arrow_down.svg') calc(100% - 5px) center no-repeat;
+	background: #ebebeb url('../../img/common/keyboard_arrow_down.svg') calc(100% - 28px) center no-repeat;
 	background-size: 96px;
 	-o-appearance: none;
 	-webkit-appearance: none;
@@ -322,7 +323,7 @@ select::-ms-expand {
 .radio_bx input[type='radio'] {
 	display: none;
 }
-.on {
+#culture_wrap_apply .on {
 	position: absolute;
 	top: 0;
 	left: -80px;
@@ -335,18 +336,18 @@ select::-ms-expand {
 .radio_bx input[type='radio']:checked + .on {
 	background: #fff;
 }
-.on:after {
+#culture_wrap_apply .on:after {
 	position: absolute;
 	display: none;
 	content: '';
 }
-.radio_bx input[type='radio']:checked + .on:after {
+#culture_wrap_apply .radio_bx input[type='radio']:checked + .on:after {
 	display: block;
 }
-.on:after {
+#culture_wrap_apply .on:after {
 	position: absolute;
 	top: 15px;
-	left: 15px;
+	left: 13px;
 	width: 30px;
 	height: 30px;
 	border-width: 3px;
@@ -395,12 +396,13 @@ select::-ms-expand {
 	width: 1800px;
 	height: 220px;
 	margin: 100px auto;
-	padding: 72px 0px 72px 0px;
+	/* padding: 72px 0px 72px 0px; */
 	text-align: left;
 	text-align: center;
 	color: #ffffff;
 	border-radius: 40px;
 	background: #191f28;
+	line-height: 220px;
 }
 
 @media (max-width: 1080px) {
@@ -410,11 +412,11 @@ select::-ms-expand {
 	.apply_wrap {
 		width: 900px;
 		border-radius: 20px;
-		gap: 30px;
+		gap: 25px;
 	}
 	.apply_info {
 		font-size: 30px;
-		padding: 30px 75px;
+		padding: 30px 75px 0;
 		gap: 10px;
 	}
 	.app_line {
@@ -428,6 +430,7 @@ select::-ms-expand {
 	.label_tag {
 		font-size: 26px;
 		padding: 0px 0px 0px 20px;
+		margin-bottom: 6px;
 	}
 	.input_01 {
 		font-size: 26px;
@@ -463,7 +466,7 @@ select::-ms-expand {
 		height: 76px;
 	}
 	#culture_wrap_apply .select_birth {
-		/* background: url('../../img/type_a/info/keyboard_arrow_down.svg') calc(100% - 5px) center no-repeat; */
+		background: #ebebeb url('../../img/common/keyboard_arrow_down.svg') calc(100% - 14px) center no-repeat;
 		background-size: 48px 48px;
 	}
 	.line_m {
@@ -494,17 +497,17 @@ select::-ms-expand {
 	.radio_bx p {
 		margin-left: 5px;
 	}
-	.on {
+	#culture_wrap_apply .on {
 		left: -40px;
 		width: 30px;
 		height: 30px;
 		border: 1px solid #191f28;
 	}
-	.on:after {
-		top: 7px;
-		left: 7px;
-		width: 16px;
-		height: 16px;
+	#culture_wrap_apply .on:after {
+		top: 7.5px;
+		left: 6.5px;
+		width: 15px;
+		height: 15px;
 		border-width: 1px;
 	}
 	.apply_purpose {
@@ -517,7 +520,7 @@ select::-ms-expand {
 		width: 900px;
 		height: 110px;
 		margin: 50px auto;
-		padding: 36px 0;
 		border-radius: 20px;
+		line-height: 110px;
 	}
 }

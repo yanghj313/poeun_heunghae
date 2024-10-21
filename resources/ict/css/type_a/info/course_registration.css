@@ -348,7 +348,7 @@ select::-ms-expand {
 	display: none;
 	content: '';
 }
-.radio_bx input[type='radio']:checked + .on:after {
+#culture_wrap_apply .radio_bx input[type='radio']:checked + .on:after {
 	display: block;
 }
 #culture_wrap_apply .on:after {
