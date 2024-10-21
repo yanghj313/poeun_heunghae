@@ -73,13 +73,11 @@
 	height: 96px;
 }
 .nav li a span {
-	font-weight: 200;
 	display: block;
 	text-align: center;
 }
 .nav li a span {
 	font-size: 160%;
-	font-weight: 600;
 	letter-spacing: -0.5px;
 }
 .nav li a span.kor-txt {
