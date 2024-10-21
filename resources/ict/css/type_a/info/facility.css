@@ -126,9 +126,9 @@
 .faci_img {
 	position: absolute;
 	/* z-index: -1; */
-	top: 0;
+	top: 2%;
 	left: 50%;
-	width: 100%;
+	width: 95%;
 	height: auto;
 	-o-object-fit: cover;
 	object-fit: contain;
@@ -693,7 +693,7 @@
 	overflow-x: hidden;
 	width: 1612px;
 	height: 850px;
-	margin: 1426px auto 0;
+	margin: 1380px auto 0;
 }
 .pop_totaltxt .txt_frame {
 	position: relative;
@@ -979,7 +979,7 @@
 	.pop_totaltxt {
 		width: 806px;
 		height: 425px;
-		margin: 713px auto 0;
+		margin: 690px auto 0;
 	}
 	.pop_totaltxt .txt_frame {
 		width: 810px;

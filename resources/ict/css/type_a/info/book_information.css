@@ -235,6 +235,8 @@
 }
 .detail_wrap .thumbnail-slider {
 	height: 560px;
+	width: 1958px;
+	left: 2%;
 }
 .detail_wrap .swiper-pagination {
 	bottom: 0 !important;
@@ -374,8 +376,8 @@
 }
 
 .print_btn img {
-	width: 56px;
-	height: 60px;
+	width: 54px;
+	height: 68px;
 }
 
 @media (max-width: 1080px) {
@@ -512,6 +514,7 @@
 	}
 	.detail_wrap .thumbnail-slider {
 		height: 280px;
+		width: 979px;
 	}
 	.detail_wrap .background_rec {
 		width: 1080px;
@@ -561,7 +564,7 @@
 	}
 
 	.print_btn img {
-		width: 28px;
-		height: 30px;
+		width: 27px;
+		height: 34px;
 	}
 }

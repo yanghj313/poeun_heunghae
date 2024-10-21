@@ -21,12 +21,12 @@
 .bookinfo_thumbnails {
 	position: absolute !important;
 	top: 108%;
-	left: calc(50% - 972px);
+	left: calc(50% - 1000px);
 	overflow: hidden;
 	-ms-flex-direction: row;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 2036px;
+	width: 2080px;
 	height: 498px;
 	/* z-index: 999999; */
 	-webkit-box-orient: horizontal;
@@ -52,7 +52,7 @@
 	width: 235px !important;
 	height: 445px;
 	margin-top: 18px;
-	margin-right: 114px;
+	margin-right: 124px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	gap: 28px;
@@ -534,8 +534,8 @@
 }
 
 .print_btn img {
-	width: 56px;
-	height: 60px;
+	width: 54px;
+	height: 68px;
 }
 .detail_wrap .scroll {
 	overflow-y: scroll;
@@ -568,9 +568,9 @@
 	}
 	.bookinfo_thumbnails {
 		top: 108%;
-		left: calc(50% - 486px);
+		left: calc(50% - 500px);
 		overflow: hidden;
-		width: 1018px;
+		width: 1040px;
 		height: 250px;
 	}
 	.detail_wrap .thum_info {
@@ -578,7 +578,7 @@
 		width: 117px !important;
 		height: 222px;
 		margin-top: 9px;
-		margin-right: 57px;
+		margin-right: 62px;
 		gap: 14px;
 	}
 	.detail_wrap .bookinfo_main {
@@ -758,7 +758,7 @@
 	}
 
 	.print_btn img {
-		width: 28px;
-		height: 30px;
+		width: 27px;
+		height: 34px;
 	}
 }

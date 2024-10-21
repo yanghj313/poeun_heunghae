@@ -11,7 +11,7 @@
 }
 .faci_wrap .header p,
 .culture-wrap .header p {
-	color: #ADB5BD !important;
+	color: #adb5bd !important;
 }
 
 .faci_wrap .faci_tab {
@@ -56,8 +56,8 @@
 }
 .faci_wrap .map_wrapper {
 	position: relative;
-	top: 0;
-	width: 1840px;
+	top: 2%;
+	width: 1850px;
 	height: 1200px;
 }
 .faci_wrap .faci_tab a {
@@ -426,7 +426,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 580px;
-	padding: 60px;
+	padding: 48px 60px 60px 60px;
 	border-radius: 24px;
 	background: #e5ddd8;
 	-webkit-box-orient: horizontal;
@@ -505,14 +505,14 @@
 	font-size: 32px;
 	font-weight: 400;
 	letter-spacing: 0.05em;
-	color: #6B7684;
+	color: #6b7684;
 	line-height: normal;
 }
 .facilty-1-span2 {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 32px;
 	font-weight: 400;
-	color: #6B7684;
+	color: #6b7684;
 	line-height: normal;
 }
 .pic_txt {
@@ -901,8 +901,8 @@
 	}
 	.faci_wrap .map_wrapper {
 		position: relative;
-		top: 0;
-		width: 920px;
+		top: 2%;
+		width: 925px;
 		height: 600px;
 	}
 	.faci_wrap .faci_tab {
@@ -994,7 +994,7 @@
 	}
 	.photo_frame {
 		width: 290px;
-		padding: 30px;
+		padding: 24px 30px 30px 30px;
 		border-radius: 12px;
 		gap: 35px;
 	}

@@ -111,6 +111,14 @@
 .info-wrap .contents table tbody tr:last-child td.last {
 	border-bottom-right-radius: 24px;
 }
+
+.info-wrap .contents table tbody tr td.first {
+	border-bottom-left-radius: 24px;
+}
+.info-wrap .contents table tbody tr td.last {
+	border-bottom-right-radius: 24px;
+}
+
 .info-wrap .contents table tbody tr:last-child td {
 	border-bottom: none;
 }
@@ -122,7 +130,7 @@
 	padding-left: 96px;
 	text-align: left;
 	letter-spacing: -1.3px;
-	background: url(../../img/common/check_02.svg) no-repeat -2px -2px;
+	background: url(../../img/common/check_02.svg) no-repeat 3px -2px;
 	background-size: 68px;
 }
 .info-wrap .contents .cont-box {

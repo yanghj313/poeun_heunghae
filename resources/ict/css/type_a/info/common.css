@@ -56,7 +56,8 @@
 	padding: 60px 0 60px 0;
 }
 .nav li a span {
-	color: #6b7684;
+	color: #adb5bd;
+	font-family: 'Pretendard-Medium';
 }
 .nav li a img {
 	width: 96px;
@@ -78,11 +79,11 @@
 	letter-spacing: -0.02em;
 }
 .nav li a img {
-	-webkit-filter: invert(86%) sepia(15%) saturate(159%) hue-rotate(169deg) brightness(84%) contrast(84%);
-	filter: invert(86%) sepia(15%) saturate(159%) hue-rotate(169deg) brightness(84%) contrast(84%);
+	-webkit-filter: invert(81%) sepia(13%) saturate(181%) hue-rotate(169deg) brightness(89%) contrast(86%);
+	filter: invert(81%) sepia(13%) saturate(181%) hue-rotate(169deg) brightness(89%) contrast(86%);
 }
 .nav li a span.eng-txt {
-	color: #74747a;
+	color: #adb5bd;
 	font-size: 20px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -99,7 +100,7 @@
 .nav li a:hover span,
 .nav li a:active span {
 	color: #191f28;
-	font-weight: 600;
+	font-family: 'Pretendard-Semibold';
 }
 
 .nav li a.on span.eng-txt::after,
