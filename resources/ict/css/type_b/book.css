@@ -8,7 +8,6 @@
 .new_wrap .bg_cir_b {
 	position: absolute;
 	top: 0px;
-
 	left: 0px;
 	width: 1080px;
 	height: 900px;
@@ -44,10 +43,15 @@
 	padding-top: 0px;
 }
 #best_wrap .slider {
-	width: 1720px;
 	margin: 0 auto;
 	padding-top: 96px;
 }
+
+div[aria-hidden='true'] {
+	display: none;
+	visibility: hidden;
+}
+
 .new_wrap .slide_01 {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -60,6 +64,7 @@
 }
 .new_wrap .bx-viewport {
 	height: 2880px !important;
+	overflow: visible !important;
 }
 .grid {
 	display: grid !important;
@@ -113,7 +118,7 @@
 	display: inline-block;
 	width: 512px;
 	height: 788px;
-	margin-bottom: 28px;
+	margin-bottom: 50px;
 	border-radius: 24px;
 	-webkit-box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.2);
 	box-shadow: 0 10px 30px 0 rgba(25, 33, 61, 0.2);
@@ -135,8 +140,12 @@
 	color: #191f28;
 	font-family: 'Pretendard-Medium';
 }
+
+#best_wrap .book-title {
+	margin-bottom: 16px;
+}
 .name {
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: 500;
 	font-style: normal;
 	line-height: normal;
@@ -147,15 +156,15 @@
 	white-space: nowrap;
 	letter-spacing: -1px;
 	text-overflow: ellipsis;
-	color: #6B7684;
+	color: #6b7684;
 }
-.name span{
+.name span {
 	font-size: 40px;
 	font-weight: 400;
 	font-style: normal;
 	line-height: normal;
 	letter-spacing: -1px;
-	color: #6B7684;
+	color: #6b7684;
 	display: inline-block;
 	margin-left: 8px;
 }
@@ -174,7 +183,7 @@
 	display: inline-block;
 	width: 820px;
 	height: 1260px;
-	margin-bottom: 28px;
+	margin-bottom: 50px;
 	border-radius: 40px;
 	-webkit-box-shadow: 20px 20px 70px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 20px 20px 70px 5px rgba(0, 0, 0, 0.2);
@@ -304,12 +313,16 @@
 		width: 220px;
 		margin-bottom: 4px;
 	}
+
+	#best_wrap .book-title {
+		margin-bottom: 8px;
+	}
 	.name {
-		font-size: 20px;
+		font-size: 19px;
 		width: 220px;
 		margin-bottom: 4px;
 	}
-	.name span{
+	.name span {
 		font-size: 20px;
 		margin-left: 4px;
 	}
@@ -322,7 +335,7 @@
 	.girid_c .grid-item img {
 		width: 256px;
 		height: 394px;
-		margin-bottom: 14px;
+		margin-bottom: 25px;
 		border-radius: 12px;
 		-webkit-box-shadow: 0 5px 15px 0 rgba(25, 33, 61, 0.2);
 		box-shadow: 0 5px 15px 0 rgba(25, 33, 61, 0.2);
@@ -330,7 +343,7 @@
 	.girid_b .grid-item img {
 		width: 410px;
 		height: 630px;
-		margin-bottom: 14px;
+		margin-bottom: 25px;
 		border-radius: 20px;
 		-webkit-box-shadow: 10px 10px 35px 2px rgba(0, 0, 0, 0.2);
 		box-shadow: 10px 10px 35px 2px rgba(0, 0, 0, 0.2);
