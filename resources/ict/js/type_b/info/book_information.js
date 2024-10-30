@@ -18,7 +18,7 @@ $(function () {
     });
 
   $(".bookinfo_thumbnails").slick({
-    infinite: true,
+ //   infinite: true,
     slidesToShow: 6,
     asNavFor: ".bookinfo_main",
     focusOnSelect: true,
