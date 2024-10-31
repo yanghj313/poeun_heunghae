@@ -130,36 +130,34 @@
 }
 
 .mark_01 {
-	top: 190px;
-	left: 754px;
+	top: 800px;
+	left: 1200px;
 }
 
 .mark_02 {
-	top: -180px;
-	left: 340px;
+	top: 400px;
+	left: 400px;
 }
 
 .mark_03 {
 	top: 246px;
-	left: 476px;
+	left: 496px;
 }
 
 .mark_04 {
-	top: -140px;
+	top: 1000px;
 	left: 900px;
 }
 
 .mark_05 {
-	top: -800px;
+	top: 700px;
 	left: 1480px;
 }
 
 .mark_06 {
-	top: -888px;
-	left: 1140px;
+	top: 900px;
+	left: 540px;
 }
-
-
 
 /* ALL */
 .cate {
@@ -168,7 +166,7 @@
 }
 
 .cate p {
-	font-size: 20px;
+	font-size: 40px;
 	color: rgba(255, 255, 255, 0.5);
 	letter-spacing: 0.3rem;
 }
@@ -176,29 +174,29 @@
 .cate h2 {
 	font-size: 2.4rem;
 	color: #fff;
-	margin-top: 10px;
+	margin-top: 20px;
 	letter-spacing: 0.3rem;
 }
 
 /* con */
 .con {
 	width: 100%;
-	padding: 0 90px;
+	padding: 0 180px;
 }
 
 .con .con_slide {
-	height: 1520px;
+	height: 3040px;
 	position: relative;
 }
 
 
 .con .con_slide .swiper {
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .con .con_slide .con_img {
 	position: relative;
-	top: -118px;
+	top: -236px;
 }
 
 .con .con_slide .con_img img {
@@ -211,7 +209,7 @@
 
 .con .con_slide .con_img {
 	width: 100%;
-	max-width: 900px;
+	max-width: 1800px;
 }
 
 .con .con_slide .swiper-slide {
@@ -224,23 +222,23 @@
 
 .con .con_slide .con_txt {
 	position: relative;
-	top: -220px;
-	height: 770px;
+	top: -440px;
+	height: 1540px;
 }
 
 .con .con_slide .con_txt .con_floor {}
 
 .con .con_slide .con_txt .con_floor h2 {
-	font-size: 170px;
+	font-size: 340px;
 	color: #fff;
 }
 
 .con .con_slide .con_txt .con_place {
-	margin: 30px 0;
+	margin: 60px 0;
 }
 
 .con .con_slide .con_txt .con_place p {
-	font-size: 60px;
+	font-size: 120px;
 	color: #fff;
 	font-family: 'Pretendard-Bold';
 }
@@ -251,7 +249,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .con .con_slide .con_txt .con_info p:last-child {
@@ -259,12 +257,12 @@
 }
 
 .con .con_slide .con_txt .con_info p i {
-	font-size: 20px;
+	font-size: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 35px;
-	height: 35px;
+	width: 70px;
+	height: 70px;
 	border-radius: 50%;
 	background: url(../../../img/common/check.svg) center;
 	background-repeat: no-repeat;
@@ -273,31 +271,31 @@
 }
 
 .con .con_slide .con_txt .con_info p span {
-	width: calc(100% - 50px);
-	font-size: 30px;
+	width: calc(100% - 100px);
+	font-size: 60px;
 	color: #fff;
 	word-break: keep-all;
-	line-height: 35px;
+	line-height: 70px;
 	font-family: 'Pretendard-Medium';
 }
 
 .con .con_slide .con_txt .con_desc {
-	margin-top: 70px;
+	margin-top: 140px;
 	background: rgba(0, 0, 0, 0.5);
-	border-radius: 15px;
-	padding: 30px;
+	border-radius: 30px;
+	padding: 60px;
 }
 
 .con .con_slide .con_txt .con_desc p {
-	font-size: 26px;
+	font-size: 52px;
 	color: #fff;
 	font-family: 'Pretendard-Medium';
 }
 
 .con .con_slide .swiper-pagination-bullet {
-	width: 12px;
-	height: 12px;
-	margin: 0 10px;
+	width: 24px;
+	height: 24px;
+	margin: 0 20px;
 	background: #ADB5BD;
 	opacity: 1;
 }
@@ -311,8 +309,8 @@
 }
 
 .con .con_cate {
-	margin-top: 30px;
-	top: 1650px;
+	margin-top: 15px;
+	top: 3300px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -322,15 +320,15 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 130px;
+	gap: 260px;
 }
 
 .con .con_cate ul li {
-	margin: 0 40px;
+	margin: 0 80px;
 }
 
 .con .con_cate ul li p {
-	font-size: 40px;
+	font-size: 80px;
 	font-family: 'Pretendard-SemiBold';
 	font-weight: 500;
 	color: rgba(255, 255, 255, 0.5);
@@ -340,8 +338,8 @@
 	content: '';
 	display: block;
 	width: 100%;
-	height: 3px;
-	margin-top: 5px;
+	height: 6px;
+	margin-top: 10px;
 	background: rgba(255, 255, 255, 0.5);
 }
 
@@ -357,17 +355,21 @@
 .desc {
 	width: 100%;
 	text-align: center;
-	padding: 40px 0;
+	padding: 80px 0;
 	position: absolute;
 	bottom: 0;
 }
 
 .desc p {
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: 500;
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.faci_wrap .swiper-pagination {
+	top: 2800px !important;
+	height: 60px;
+}
 
 
 @media (max-width: 1080px) {
@@ -629,14 +631,6 @@
 		height: 3px;
 		margin-top: 5px;
 		background: rgba(255, 255, 255, 0.5);
-	}
-
-	.con .con_cate ul li.on p::after {
-		background: #fec962;
-	}
-
-	.con .con_cate ul li.on p {
-		color: #fec962;
 	}
 
 	/* desc */
