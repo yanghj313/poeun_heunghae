@@ -1,0 +1,342 @@
+.new_wrap {
+    background: #ffffff;
+    width: 2160px;
+    height: 3840px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.new_wrap .header {
+    position: absolute;
+    z-index: 999999;
+}
+
+.div_wrap_bg {
+    width: 2160px;
+    height: 3840px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 9;
+}
+
+.new_wrap .header h1 {
+    color: #fff !important;
+}
+
+.notice_section {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    /* align-items: center; */
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    position: absolute;
+    left: calc(50% - 872px);
+    top: 380px;
+    height: 3156px;
+    width: 1770px;
+    z-index: 999;
+}
+
+.new_wrap .bg_slide {
+    width: 2160px;
+    height: 3840px;
+    position: absolute !important;
+    left: 0px;
+    top: 0px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.bg_slide img {
+    width: 2160px;
+    height: 3840px !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.bwg {
+    background: rgba(0, 0, 0, 0.15);
+    width: 2160px;
+    height: 3840px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(140px);
+}
+
+.newbook_section {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    position: absolute;
+    left: calc(50% - 872px);
+    top: 400px;
+    height: 3156px;
+}
+
+.n-slide-thumbs {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 250px;
+    position: absolute !important;
+    left: 1500px;
+    top: 90px;
+    overflow: hidden;
+    height: 2954px;
+}
+
+.n-slide-thumbs img {
+    border-radius: 12px;
+    flex-shrink: 0;
+    width: 250px;
+    height: 378px;
+    position: relative;
+    /*box-shadow: 28px 40px 100px 8px rgba(0, 0, 0, 0.1); */
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.book_explain {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1260px;
+    height: 918px;
+    position: absolute;
+    top: 2000px;
+}
+
+
+
+.book_int_wrap {
+    text-align: left;
+    font-family: "Pretendard-Medium", sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.write-span {
+    font-family: "Pretendard-Medium", sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    max-width: 700px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 8px;
+    width: auto;
+}
+
+.write-span2 {
+    font-family: "Pretendard-Medium", sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    width: 500px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book_n_tit {
+    text-align: left;
+    font-family: "Pretendard-SemiBold", sans-serif;
+    font-size: 120px;
+    letter-spacing: -0.025em;
+    line-height: normal;
+    position: relative;
+    width: 1260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.book_story_learn {
+    text-align: left;
+    font-family: "Pretendard-Regular", sans-serif;
+    font-size: 60px;
+    line-height: 150%;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    position: relative;
+    width: 1260px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+}
+
+.n-slide img {
+    border-radius: 0;
+    width: 1260px;
+    height: 1864px;
+    position: absolute;
+    left: 200px;
+    top: 440px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: none !important;
+}
+
+.n-slide .swiper-slide {
+    /* border-radius: 40px; */
+    width: 1260px;
+    height: 3000px;
+    left: 200px;
+    top: 90px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.n-slide .pic {
+    /* border-radius: 40px; */
+    width: 1260px;
+    height: 1864px;
+    position: absolute !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: block;
+}
+
+.n-slide,
+.n-slide .slick-list {
+    width: 1260px;
+    height: 3000px;
+}
+
+.n-slide-thumbs .swiper-slide {
+    margin: 0px 0 120px 0;
+}
+
+@media (max-width: 1080px) {
+    .new_wrap {
+        width: 1080px;
+        height: 1920px;
+    }
+
+    .bg_slide {
+        width: 1080px;
+        height: 1920px;
+    }
+
+    .bg_slide img {
+        width: 1080px;
+        height: 1920px !important;
+    }
+
+    .bwg {
+        width: 1080px;
+        height: 1920px;
+    }
+
+    .newbook_section {
+        left: calc(50% - 436px);
+        top: 200px;
+        height: 1578px;
+    }
+
+    .n-slide-thumbs {
+        gap: 60px;
+        width: 125px;
+        left: 750px;
+        top: 44px;
+        height: 1477px;
+    }
+
+    .n-slide-thumbs img {
+        border-radius: 6px;
+        width: 125px;
+        height: 189px;
+    }
+
+    .book_explain {
+        gap: 30px;
+        width: 630px;
+        height: 459px;
+        top: 985px;
+    }
+
+    .book_int_wrap {
+        font-size: 30px;
+    }
+
+    .write-span {
+        font-size: 30px;
+        max-width: 350px;
+        margin-right: 4px;
+        width: auto;
+    }
+
+    .write-span2 {
+        font-size: 30px;
+        width: 200px;
+    }
+
+    .book_n_tit {
+        font-size: 60px;
+        width: 630px;
+    }
+
+    .book_story_learn {
+        font-size: 30px;
+        width: 630px;
+    }
+
+    .n-slide img {
+        border-radius: 20px;
+        width: 630px;
+        height: 932px;
+        left: 100px;
+        top: 220px;
+    }
+
+    .n-slide .swiper-slide {
+        border-radius: 20px;
+        width: 630px;
+        height: 1500px;
+        left: 100px;
+        top: 45px !important;
+    }
+
+    .n-slide .pic {
+        border-radius: 20px;
+        width: 630px;
+        height: 932px;
+    }
+
+    .n-slide,
+    .n-slide .slick-list {
+        width: 630px;
+        height: 1500px;
+    }
+
+    .n-slide-thumbs .swiper-slide {
+        margin: 0px 0 60px 0;
+    }
+}
