@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+		<title>AI 도서추천</title>
+		<meta content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=1" name="viewport" />
+		<link href="../../../../resources/ict/css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../resources/ict/css/font.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../resources/ict/css/book.css" rel="stylesheet" type="text/css" />
+		<script src="../../../../resources/ict/plugin/jquery-3.7.1.min.js" type="text/javascript"></script>
+		<script src="../../../../resources/ict/js/book.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="container mylib_wrap">
+			<div class="header">
+				<p class="sm_header_txt">my library</p>
+				<h1 class="header_txt">나의서재</h1>
+			</div>
+			<div class="myheader">
+				<div class="loan_book head_book">
+					<p>대출 중 권수</p>
+					<div class="book_num">1</div>
+				</div>
+				<div class="loan_book_ex head_book">
+					<p>대출 연체 권수</p>
+					<div class="book_num">3</div>
+				</div>
+				<div class="reserve_book head_book">
+					<p>예약 중 권수</p>
+					<div class="book_num">1</div>
+				</div>
+			</div>
+			<div class="my_tabs">
+				<!--탭메뉴-->
+				<div class="myheader_02">
+					<div class="my_tab">
+						<a href="javascript:void(0)" data-tab="mn_tab5" class="active">대출도서</a>
+						<a href="javascript:void(0)" data-tab="mn_tab6" class="">대출이력</a>
+						<a href="javascript:void(0)" data-tab="mn_tab7" class="">예약현황</a>
+					</div>
+				</div>
+				<div class="my_tab_cont">
+					<div class="tab_content active" id="mn_tab5">
+						<div class="mypage_section section_01">
+							<h3>도서 내역이 없습니다.</h3>
+							<div class="mylist mylist_01">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_02">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num my_yet">2024-03-14 예정</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_mid">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_mid_txt">대출중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_03">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num my_yet_ex">2024-03-14 예정</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_ex">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_ex_txt">연체중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_04">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_05 list_more">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_06 list_more">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_07 list_more">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_08 list_more">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="pagination">
+							<a href="#this" class="first"><img src="../../../../resources/ict/img/common/arr_double.svg" alt=""></a>
+							<a href="#this" class="prev"><img src="../../../../resources/ict/img/common/arr_single.svg" alt=""></a>
+							<a href="#this">1</a>
+							<a href="#this" class="active">2</a>
+							<a href="#this">3</a>
+							<a href="#this">4</a>
+							<a href="#this">5</a>
+							<span>...</span>
+							<a href="#this">71</a>
+							<a href="#this" class="next flip-horizontal"><img src="../../../../resources/ict/img/common/arr_single.svg" alt=""></a></a>
+							<a href="#this" class="last flip-horizontal"><img src="../../../../resources/ict/img/common/arr_double.svg" alt=""></a>
+						</div>
+					</div>
+
+					<!--탭메뉴-->
+					<div class="tab_content" id="mn_tab6">
+						<div class="mypage_section section_02">
+							<h3>도서 내역이 없습니다.</h3>
+							<div class="mylist mylist_01">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_02">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num my_yet">2024-03-14 예정</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_mid">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_mid_txt">대출중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_03">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num my_yet_ex">2024-03-14 예정</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_ex">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_ex_txt">연체중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_04">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_date">
+												<div class="loan_date">대출일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_back">
+												<div class="back_date">반납일자</div>
+												<div class="date_num">2024-03-14</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_end">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_end_txt">
+												반납
+												<br />
+												완료
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--탭메뉴-->
+					<div class="tab_content" id="mn_tab7">
+						<div class="mypage_section section_03">
+							<h3>도서 내역이 없습니다.</h3>
+							<div class="mylist mylist_01">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_reserdate">
+												<div class="mylist_reserdate_day">예약일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_reser">
+												<div class="mylist_rank">예약순위</div>
+												<div class="mylist_rank_num">0</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_reser">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_reser_txt">예약중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_02">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_reserdate">
+												<div class="mylist_reserdate_day">예약일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_reser">
+												<div class="mylist_rank">예약순위</div>
+												<div class="mylist_rank_num">0</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_reser">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_reser_txt">예약중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_03">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_reserdate">
+												<div class="mylist_reserdate_day">예약일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_reser">
+												<div class="mylist_rank">예약순위</div>
+												<div class="mylist_rank_num">0</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_reser">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_reser_txt">예약중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mylist mylist_04">
+								<div class="mylist_wrap">
+									<div class="mylist_txt">
+										<div class="title_info_0">오늘도, 처음 뵙겠습니다</div>
+										<div class="title_info_1">
+											<div class="loan_place">
+												<div class="place_name">자료실명</div>
+												<div class="place_where">일반자료실</div>
+											</div>
+
+											<div class="mylist_reserdate">
+												<div class="mylist_reserdate_day">예약일자</div>
+												<div class="date_num">2024-03-01</div>
+											</div>
+											<div class="book_search_tit">
+												<div class="book_search_num">청구기호</div>
+												<div class="book_search_mark">189.2--장19나</div>
+											</div>
+											<div class="mylist_reser">
+												<div class="mylist_rank">예약순위</div>
+												<div class="mylist_rank_num">0</div>
+											</div>
+										</div>
+									</div>
+									<img class="mybook_img" src="../../../../resources/ict/img/dummy.svg" alt="" />
+									<div class="mylib_circle circle_reser_cancle">
+										<div class="mylib_circle_wrap">
+											<div class="mylib_txt circle_cancle_txt">
+												예약
+												<br />
+												취소
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="component_leave">
+			<img alt="돌아가기" class="turn_to" src="../../../../resources/ict/img/common/left_leave.svg" />
+		</div>
+		<div class="nav">
+			<ul class="navbox tab5">
+				<li>
+					<a class="nav_01 on" href="#this"
+						><img alt="도서검색" src="../../../../resources/ict/img/common/search.svg" /><span class="kor-txt">도서검색</span><span class="eng-txt">Book search</span></a
+					>
+				</li>
+				<li>
+					<a class="nav_02" href="#this"
+						><img alt="AI추천도서" src="../../../../resources/ict/img/common/reader.svg" /><span class="kor-txt">AI추천도서</span><span class="eng-txt">AI Recommended book</span></a
+					>
+				</li>
+				<li>
+					<a class="nav_03" href="#this"><img alt="신착도서" src="../../../../resources/ict/img/common/open.svg" /><span class="kor-txt">신착도서</span><span class="eng-txt">new book</span></a>
+				</li>
+				<li>
+					<a class="nav_04" href="#this"><img alt="인기도서" src="../../../../resources/ict/img/common/trophy.svg" /><span class="kor-txt">인기도서</span><span class="eng-txt">best book</span></a>
+				</li>
+				<li>
+					<a class="nav_05" href="#this"><img alt="나의서재" src="../../../../resources/ict/img/common/books.svg" /><span class="kor-txt">나의서재</span><span class="eng-txt">my library</span></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
