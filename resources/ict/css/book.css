@@ -428,12 +428,12 @@ html {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/**************ìˆ«ìžíƒ­*****************/
+/**************pager*****************/
 .pagination {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 32px 0 0;
     font-family: 'Pretendard-Medium';
 }
 
@@ -1907,18 +1907,22 @@ html {
 @media (max-width: 1080px) {
 
     /**********************************************common1080px**********************************************/
-    .info .header {
+    .header {
+        padding: 70px 90px 55px 90px;
         width: 1080px;
-        padding: 70px 90px 55px;
-        gap: 8px;
+        left: calc(50% - 540px);
     }
 
-    .info .header h1 {
-        font-size: 46px;
+    .header h1 {
+        font-size: 44px;
     }
 
-    .info .header p {
-        font-size: 18px;
+    .new_wrap .header h1 {
+        color: #fff;
+    }
+
+    .header p {
+        font-size: 16px;
     }
 
     .nav {
@@ -2030,6 +2034,35 @@ html {
 
     .overflow-y::-webkit-scrollbar-thumb {
         border-radius: 25px;
+    }
+
+    /**************pager*****************/
+    .pagination {
+        padding: 16px 0 0;
+    }
+
+    .pagination a {
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    .pagination a.first,
+    .pagination a.prev,
+    .pagination a.last,
+    .pagination a.next {
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+    }
+
+    .pagination a.active {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .pagination span {
+        margin: 0 10px;
     }
 
     /************************************************main_1080******************************************************/
@@ -2479,5 +2512,242 @@ html {
         left: calc(50% - 20px);
         width: 40px;
         height: 40px;
+    }
+
+    /************************************************mylibrary_1080******************************************************/
+
+    .mylib_wrap .myheader {
+        border-radius: 20px;
+        width: 900px;
+        height: 140px;
+        top: 197px;
+        padding: 25px;
+        gap: 50px;
+    }
+
+
+    .mylib_wrap .head_book {
+        gap: 20px;
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .mylib_wrap .loan_book:after {
+        width: 2px;
+        height: 45px;
+    }
+
+    .mylib_wrap .head_book p {
+        line-height: 60px;
+    }
+
+
+    .mylib_wrap .head_book .book_num {
+        margin-top: -27px;
+    }
+
+    .mylib_wrap .loan_book_ex:after {
+        width: 2px;
+        background: #a2a2a2;
+        height: 45px;
+        right: -25px;
+    }
+
+    .mylib_wrap .book_num {
+        font-size: 40px;
+    }
+
+    .mylib_wrap .my_tab {
+        border-radius: 20px;
+        width: 900px;
+        height: 80px;
+        left: 90px;
+        top: 380px;
+    }
+
+    .mylib_wrap .my_tab a {
+        font-size: 25px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .mylib_wrap .my_tab a.active {
+        height: 80px;
+        font-size: 25px;
+        line-height: 80px;
+    }
+
+    .mylib_wrap .my_tab_cont {
+        height: 1126px;
+        top: 490px;
+        width: 900px;
+    }
+
+    .mylib_wrap .tab_content.active {
+        height: 1126px;
+    }
+
+
+    .mylib_wrap .myplace {
+        border-radius: 18px;
+        padding: 20px 25px 20px 25px;
+        width: 1559px;
+        height: 110px;
+        left: 261px;
+        top: 416px;
+    }
+
+    .mylib_wrap .mybook_img {
+        width: 65px;
+        height: 100px;
+        left: 25px;
+        top: 17px;
+        -webkit-box-shadow: 5px 7px 15px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 5px 7px 15px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .mylib_wrap .mylib_circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .mylib_wrap .circle_mid .mylib_circle_wrap {
+        border-radius: 45px;
+        height: 88px;
+        top: calc(50% - 44px);
+        border-radius: 45px;
+    }
+
+    .mylib_wrap .circle_ex .mylib_circle_wrap {
+        border-radius: 45px;
+        height: 88px;
+        top: calc(50% - 44px);
+        border-radius: 45px;
+    }
+
+    .mylib_wrap .circle_reser_cancle .mylib_circle_wrap,
+    .mylib_wrap .circle_end .mylib_circle_wrap {
+        border-radius: 45px;
+        height: 88px;
+        top: calc(50% - 44px);
+        border-radius: 45px;
+    }
+
+    .mylib_wrap .circle_reser .mylib_circle_wrap {
+        border-radius: 45px;
+        height: 88px;
+        top: calc(50% - 44px);
+        border-radius: 45px;
+    }
+
+    .mylib_wrap .mylib_txt {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .mylib_wrap .mylist {
+        border-radius: 20px;
+        width: 900px;
+        height: 128px;
+        margin-bottom: 10px;
+    }
+
+    .mylib_wrap .mylist_txt {
+        height: 128px;
+    }
+
+    .mylib_wrap .title_info_0 {
+        font-size: 23px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    .mylib_wrap .title_info_1 {
+        top: 14px;
+        margin-left: 120px;
+    }
+
+    .mylib_wrap .myplace {
+        border-radius: 16px;
+        padding: 20px 25px 20px 25px;
+        width: 1559px;
+        height: 110px;
+        left: 261px;
+        top: 416px;
+    }
+
+    .mylib_wrap .loan_place {
+        width: 190px;
+        height: 25px;
+        margin-right: 65px;
+    }
+
+    .mylib_wrap .place_name {
+        font-size: 18px;
+        line-height: 25px;
+        margin-right: 12px;
+    }
+
+    .mylib_wrap .place_where {
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 115px;
+    }
+
+    .mylib_wrap .book_search_tit {
+        width: 190px;
+        height: 25px;
+        margin-right: 65px;
+    }
+
+    .mylib_wrap .book_search_num {
+        font-size: 18px;
+        line-height: 25px;
+        margin-right: 12px;
+    }
+
+    .mylib_wrap .book_search_mark {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .mylib_wrap .mylist_date,
+    .mylib_wrap .mylist_reserdate {
+        height: 25px;
+    }
+
+    .mylib_wrap .loan_date,
+    .mylib_wrap .mylist_reserdate_day {
+        font-size: 18px;
+        line-height: 25px;
+        margin-right: 12px;
+    }
+
+    .mylib_wrap .mylist_date .date_num,
+    .mylib_wrap .mylist_reserdate .date_num {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .mylib_wrap .mylist_back,
+    .mylib_wrap .mylist_reser {
+        height: 25px;
+    }
+
+    .mylib_wrap .back_date,
+    .mylib_wrap .mylist_rank {
+        font-size: 18px;
+        line-height: 25px;
+        margin-right: 12px;
+    }
+
+    .mylib_wrap .mylist_back .date_num {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .mylib_wrap .mylist_rank_num {
+        font-size: 18px;
+        line-height: 25px;
     }
 }
