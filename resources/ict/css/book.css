@@ -438,6 +438,48 @@ html {
     background-size: cover;
 }
 
+.header.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1455px;
+    position: absolute;
+    left: 352px;
+    top: 200px;
+}
+
+.main_txt {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Medium", sans-serif;
+    font-size: 80px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sm_main_txt {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Medium", sans-serif;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .top_wrap {
     position: relative;
     top: 582px;
@@ -688,6 +730,57 @@ html {
     animation-delay: 0.6s;
 }
 
+.w_01 .bar:nth-child(28) {
+    height: 50px;
+    animation-delay: 0s;
+}
+
+.w_01 .bar:nth-child(29) {
+    height: 50px;
+    animation-delay: 0.1s;
+}
+
+.w_01 .bar:nth-child(30) {
+    height: 84px;
+    animation-delay: 0.2s;
+}
+
+.w_01 .bar:nth-child(31) {
+    height: 118px;
+    animation-delay: 0.3s;
+}
+
+.w_01 .bar:nth-child(32) {
+    height: 118px;
+    animation-delay: 0.4s;
+}
+
+.w_02 .bar:nth-child(32) {
+    height: 50px;
+    animation-delay: 0s;
+}
+
+.w_02 .bar:nth-child(31) {
+    height: 50px;
+    animation-delay: 0.1s;
+}
+
+.w_02 .bar:nth-child(30) {
+    height: 84px;
+    animation-delay: 0.2s;
+}
+
+.w_02 .bar:nth-child(29) {
+    height: 118px;
+    animation-delay: 0.3s;
+}
+
+.w_02 .bar:nth-child(28) {
+    height: 118px;
+    animation-delay: 0.4s;
+}
+
+
 .w_02 .bar:nth-child(27) {
     height: 50px;
     animation-delay: 0s;
@@ -843,6 +936,7 @@ html {
     display: inline-flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     transform: translateX(-50%);
     gap: 20px;
 }
