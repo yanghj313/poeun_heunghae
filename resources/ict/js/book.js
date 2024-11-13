@@ -31,6 +31,18 @@ $(document).ready(function () {
 	});
 });
 
+//도서검색 목록
+$(function () {
+	$('.info_fold').hide();
+
+	$('.list_btn').on('click', function () {
+		$('.info_fold')
+			.not($('.' + $(this).attr('id')))
+			.hide();
+		$('.' + $(this).attr('id')).slideToggle(1000);
+	});
+});
+
 //나의 서재
 $(document).ready(function () {
 	$('.mylib_wrap .my_tab a').click(function () {
