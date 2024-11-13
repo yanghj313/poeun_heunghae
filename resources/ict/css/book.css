@@ -1441,8 +1441,10 @@ html {
 }
 
 .search_wrap .info_fold table {
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .search_wrap .own_book_info thead {
@@ -1465,18 +1467,19 @@ html {
 
 .search_wrap .info_fold table thead th {
     width: 20%;
+    border: 6px solid #8B95A1;
 }
 
 .search_wrap .own_book_info thead {
     color: #ffffff;
     text-align: center;
-    font-family: "Pretendard-Medium", sans-serif;
+    font-family: "Pretendard-Regular", sans-serif;
     font-size: 36px;
     line-height: 60px;
-    font-weight: 500;
+    /* font-weight: 500; */
     text-transform: uppercase;
     bottom: 30.36%;
-    height: 12.76%;
+    height: 80px;
     display: -ms-flexbox;
     -ms-flex-align: center;
     -webkit-box-pack: center;
@@ -1493,7 +1496,7 @@ html {
     text-align: center;
     font-family: "Pretendard-Medium", sans-serif;
     font-size: 36px;
-    line-height: 60px;
+    line-height: 70px;
     font-weight: 500;
     text-transform: uppercase;
     -webkit-box-align: center;
@@ -1511,7 +1514,7 @@ html {
     height: 100%;
     display: block;
     position: absolute;
-    border-left: 1px solid #888;
+    border-left: 1px solid #6B7684;
 }
 
 .search_wrap .own_book_info tbody td:nth-child(1)::before {
@@ -1525,7 +1528,7 @@ html {
 }
 
 .search_wrap .own_book_info tbody td {
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #6B7684;
 }
 
 /************************************************mylibrary_2160******************************************************/
