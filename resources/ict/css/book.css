@@ -27,7 +27,7 @@
 }
 
 .nav ul.navbox.tab5 li {
-    width: 20%;
+    width: 16.66667%;
 }
 
 .nav ul.navbox.tab6 li {
@@ -221,7 +221,7 @@
     position: absolute;
     position: absolute;
     top: 3340px;
-    left: 1610px;
+    right: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -230,7 +230,7 @@
     -ms-flex-direction: row;
     flex-direction: row;
     justify-content: flex-start;
-    width: 450px;
+    max-width: 450px;
     height: 120px;
     padding: 12px 40px 12px 10px;
     border-radius: 200px;
@@ -244,6 +244,7 @@
     -ms-flex-align: center;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
+    width: auto;
 }
 
 .login {
@@ -256,7 +257,7 @@
     flex-direction: row;
     flex-shrink: 0;
     justify-content: space-between;
-    width: 400px;
+    max-width: 400px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-box-align: center;
@@ -264,6 +265,46 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     -ms-flex-negative: 0;
+    width: auto;
+}
+
+.user.login_on {
+    display: flex;
+    padding: 12px 80px 12px 10px;
+    align-items: center;
+
+}
+
+.user.login_on .login {
+    gap: 60px;
+}
+
+.gap_log {
+    display: flex;
+    gap: 6px;
+}
+
+.ellipse_log {
+    background: var(--gray400, #adb5bd);
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    position: relative;
+    top: calc(50% - 48px);
+}
+
+.login_user {
+    position: absolute;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -ms-flex-negative: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .login_women {
@@ -294,6 +335,7 @@
     -ms-flex-align: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+    padding: 0 30px;
 }
 
 .name_span {
@@ -2219,18 +2261,44 @@ html {
     .user {
         position: absolute;
         top: 1670px;
-        left: 805px;
-        width: 225px;
+        right: 50px;
+        max-width: 225px;
         height: 60px;
         padding: 6px 20px 6px 5px;
         border-radius: 100px;
         -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.1);
         box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.1);
         gap: 5px;
+        width: auto;
     }
 
     .login {
-        width: 200px;
+        max-width: 200px;
+        width: auto;
+    }
+
+    .user.login_on {
+        padding: 6px 40px 6px 5px;
+
+    }
+
+    .user.login_on .login {
+        gap: 30px;
+    }
+
+    .gap_log {
+        gap: 3px;
+    }
+
+    .ellipse_log {
+        width: 48px;
+        height: 48px;
+        top: calc(50% - 24px);
+    }
+
+    .login_user {
+        width: 25px;
+        height: 25px;
     }
 
     .login_women {
@@ -2240,6 +2308,7 @@ html {
 
     .name_div {
         font-size: 18px;
+        padding: 0 15px;
     }
 
     .name_span {
