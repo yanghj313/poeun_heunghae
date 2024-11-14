@@ -1375,7 +1375,7 @@ html {
 
 .search_wrap .title_info_0 {
     color: var(--gray900, #191F28);
-    font-family: Pretendard;
+    font-family: 'Pretendard-Semibold';
     font-size: 46px;
     font-style: normal;
     font-weight: 700;
@@ -2289,6 +2289,11 @@ html {
         padding: 16px 0 0;
     }
 
+    .pager_wrap .pagination {
+        padding: 50px 0 0;
+
+    }
+
     .pagination a {
         margin: 0 20px;
         font-size: 18px;
@@ -2760,6 +2765,100 @@ html {
         left: calc(50% - 20px);
         width: 40px;
         height: 40px;
+    }
+
+    /**********************************************searchList_1080px**********************************************/
+    .search_wrap .search_ment {
+        font-size: 25px;
+        padding: 198px 90px 0;
+    }
+
+    .search_wrap .search_ment .bold {
+        font-size: 25px;
+    }
+
+    .search_wrap .pager_wrap {
+        margin-top: 40px;
+        width: 925px;
+        margin: 40px auto 0;
+    }
+
+    .search_wrap .search_wrapper {
+        gap: 16px;
+        height: 1280px;
+    }
+
+    .search_wrap .list_01 {
+        width: 900px;
+        padding: 22px 25px;
+        gap: 25px;
+        border-radius: 20px;
+    }
+
+    .search_wrap .list_01 img {
+        width: 100px;
+        height: 145px;
+        border-radius: 8px;
+        box-shadow: 5px 8px 15px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .search_wrap .list_01 .list_wrapper {
+        gap: 30px;
+        height: 156px;
+    }
+
+    .search_wrap .list_01 .mylist_txt {
+        width: 448px;
+        gap: 14px;
+    }
+
+    .search_wrap .title_info_1 .list_large {
+        width: 300px;
+        gap: 16px;
+    }
+
+    .search_wrap .title_info_0 {
+        font-size: 23px;
+    }
+
+    .search_wrap .list_sm_tit {
+        width: 63px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .search_wrap .list_sm_inner {
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 220px;
+        width: 220px;
+    }
+
+    .search_wrap .list_btn {
+        width: 180px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .search_wrap .info_fold {
+        margin: 20px auto 0;
+    }
+
+    .search_wrap .info_fold table thead th {
+        border: 3px solid #8B95A1;
+    }
+
+    .search_wrap .own_book_info thead {
+        font-size: 18px;
+        line-height: 30px;
+        height: 40px;
+    }
+
+    .search_wrap .own_book_info tbody td {
+        font-size: 18px;
+        line-height: 35px;
     }
 
     /************************************************mylibrary_1080******************************************************/
