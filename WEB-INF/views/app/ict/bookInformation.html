@@ -178,4 +178,23 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.bookinfo_wrap').on('click', '.book_mapping', function () {
+				$('#popup').css('display', 'block');
+			});
+
+			// 닫기 버튼 클릭 이벤트 처리
+			$('#closeButton, .close_btn').click(function () {
+				$('#popup').css('display', 'none');
+			});
+
+			// 모달 영역 바깥 클릭 시 모달 닫기
+			$(window).click(function (event) {
+				if (event.target.id === 'popup') {
+					$('#popup').css('display', 'none');
+				}
+			});
+		});
+	</script>
 </html>

@@ -1720,7 +1720,6 @@ html {
 }
 
 .bookinfo_wrap .info_table_wrap table td {
-    /* display: flex; */
     width: 400px;
     padding: 32px 40px;
     justify-content: center;
@@ -1729,7 +1728,6 @@ html {
     align-self: stretch;
     border-bottom: 2px solid var(--border2, #E5E8EB);
     background: var(--white, #FFF);
-    /* text-align: center; */
     color: var(--gray900, #191F28);
     text-align: center;
     font-family: Pretendard;
@@ -1773,6 +1771,116 @@ html {
     width: 40px;
     height: 40px;
     object-fit: cover;
+}
+
+.popup-overlay {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1800px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 60px;
+    background-color: white;
+}
+
+.popup-wrapper {
+    padding: 108px 90px 54px 90px;
+}
+
+.popup-title {
+    font-size: 72px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 39px;
+    text-align: center;
+    color: #242424;
+}
+
+.map {
+    width: 1620px;
+    height: 980px;
+}
+
+.action_btn {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #a2a2a2;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+}
+
+.action_btn::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 70px;
+    content: '';
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #a2a2a2;
+}
+
+.close_btn,
+.print_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 60px;
+    cursor: pointer;
+    gap: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+.close_btn div,
+.print_btn div {
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    color: #242424;
+}
+
+.close_btn img {
+    width: 45px;
+    height: 45px;
+}
+
+.print_btn img {
+    width: 54px;
+    height: 68px;
 }
 
 /************************************************mylibrary_2160******************************************************/
@@ -3130,6 +3238,160 @@ html {
     .search_wrap .own_book_info tbody td {
         font-size: 18px;
         line-height: 35px;
+    }
+
+    /**********************************************bookInformation_1080px**********************************************/
+    .bookinfo_wrap .book_main_img {
+        padding-top: 198px;
+        width: 460px;
+    }
+
+    .bookinfo_wrap .book_main_img img {
+        width: 460px;
+        height: 700px;
+        border-radius: 20px;
+        box-shadow: 10px 15px 35px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .bookinfo_wrap .info_txt_wrap {
+        margin: 60px auto 0;
+        width: 900px;
+    }
+
+    .bookinfo_wrap .book_info_tit {
+        width: 750px;
+        gap: 20px;
+    }
+
+
+    .bookinfo_wrap .book_info_tit h1 {
+        font-size: 50px;
+    }
+
+    .bookinfo_wrap .book_info_tit .info_detail {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .bookinfo_wrap .book_info_tit .info_detail span {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .bookinfo_wrap .info_story {
+        margin-top: 40px;
+        width: 900px;
+        height: 165px;
+        font-size: 26px;
+    }
+
+    .bookinfo_wrap .info_table_wrap {
+        margin: 50px auto 0;
+        width: 900px;
+        height: 280px;
+    }
+
+
+    .bookinfo_wrap .info_table_wrap table th {
+        width: 200px;
+        padding: 16px 20px;
+        gap: 4px;
+        font-size: 22px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table th:nth-child(1) {
+        border-radius: 12px 0px 0px 0px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table th:nth-child(2) {
+        border-right: 3px solid #6B7684;
+    }
+
+    .bookinfo_wrap .info_table_wrap table th:nth-child(3) {
+        border-right: 3px solid #6B7684;
+    }
+
+    .bookinfo_wrap .info_table_wrap table th:nth-child(4) {
+        border-radius: 0px 10px 0px 0px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table td {
+        width: 200px;
+        padding: 16px 20px;
+        gap: 4px;
+        font-size: 24px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table td .icon_wrap {
+        gap: 10px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table td .icon_wrap a {
+        width: 42px;
+        height: 42px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table td .icon_wrap a .yes_wrap {
+        width: 42px;
+        height: 42px;
+        border-radius: 70px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table td .icon_wrap a .no_wrap {
+        width: 42px;
+        height: 42px;
+        border-radius: 70px;
+    }
+
+    .bookinfo_wrap .info_table_wrap table td .icon_wrap a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .popup-content {
+        width: 900px;
+        border-radius: 30px;
+    }
+
+    .popup-wrapper {
+        padding: 54px 45px 27px 45px;
+    }
+
+    .popup-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .map {
+        width: 810px;
+        height: 490px;
+    }
+
+    .action_btn::after {
+        height: 35px;
+    }
+
+    .close_btn,
+    .print_btn {
+        width: 50%;
+        padding: 30px;
+        gap: 10px;
+    }
+
+    .close_btn div,
+    .print_btn div {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .close_btn img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .print_btn img {
+        width: 27px;
+        height: 34px;
     }
 
     /************************************************mylibrary_1080******************************************************/
